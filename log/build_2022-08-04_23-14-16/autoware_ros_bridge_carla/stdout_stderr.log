@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o[0m
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:3[m[K:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(autoware_control_msgs::msg::Control_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:25:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ConstSharedPtr = class std::shared_ptr<const autoware_control_msgs::msg::Control_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<const autoware_control_msgs::msg::Control_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   25 |       RCLCPP_INFO(this->get_logger(), "I heard: '%f'", *msg.[01;31m[Kdata[m[K.lateral.steering_tire_angle);
+      |                                                             [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/testControlCommand.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

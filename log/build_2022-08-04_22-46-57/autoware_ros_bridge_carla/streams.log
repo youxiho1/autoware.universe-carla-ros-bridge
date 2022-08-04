@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.039s] [35m[1mScanning dependencies of target listener[0m
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o[0m
+[0.142s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kautoware_control_msgs/msg/control.hpp: No such file or directory
+[0.143s]     5 | #include [01;31m[K"autoware_control_msgs/msg/control.hpp"[m[K
+[0.143s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.143s] compilation terminated.
+[0.144s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/testControlCommand.cpp.o] Error 1
+[0.144s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+[0.145s] make: *** [Makefile:141: all] Error 2
+[0.146s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

@@ -1,0 +1,16 @@
+[0.021s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs -- -j16 -l16
+[0.056s] [  1%] Built target autoware_control_msgs__cpp
+[0.057s] [ 12%] Built target autoware_control_msgs__rosidl_generator_c
+[0.072s] [ 45%] Built target autoware_control_msgs__rosidl_typesupport_cpp
+[0.072s] [ 45%] Built target autoware_control_msgs__rosidl_typesupport_introspection_cpp
+[0.072s] [ 45%] Built target autoware_control_msgs__rosidl_typesupport_c
+[0.072s] [ 56%] Built target autoware_control_msgs__rosidl_typesupport_introspection_c
+[0.074s] [ 67%] Built target autoware_control_msgs__rosidl_typesupport_fastrtps_cpp
+[0.091s] [ 78%] Built target autoware_control_msgs__rosidl_typesupport_fastrtps_c
+[0.103s] [ 78%] Built target autoware_control_msgs
+[0.116s] [ 80%] Built target autoware_control_msgs__py
+[0.134s] [ 89%] Built target autoware_control_msgs__python
+[0.151s] [100%] Built target autoware_control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.152s] [100%] Built target autoware_control_msgs__rosidl_typesupport_introspection_c__pyext
+[0.152s] [100%] Built target autoware_control_msgs__rosidl_typesupport_c__pyext
+[0.163s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs -- -j16 -l16

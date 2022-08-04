@@ -1,1 +1,1 @@
-ament_lint_auto;ament_lint_common
+autoware_control_msgs;autoware_auto_control_msgs;ament_lint_auto;ament_lint_common

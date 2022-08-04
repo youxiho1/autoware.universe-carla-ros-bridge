@@ -1,0 +1,66 @@
+[0.010s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': AMENT_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic LD_LIBRARY_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.035s] [35m[1mScanning dependencies of target listener[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o[0m
+[1.186s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:9:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kautoware_control_msgs::msg::AckermannControlCommand[m[K’ has not been declared
+[1.187s]     9 | using autoware_control_msgs::msg::[01;31m[KAckermannControlCommand[m[K;
+[1.187s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.187s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:23:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol[m[K’ in namespace ‘[01m[Kautoware_control_msgs::msg[m[K’ does not name a type; did you mean ‘[01m[KControl[m[K’?
+[1.187s]    23 |     void topic_callback(const autoware_control_msgs::msg::[01;31m[Kcontrol[m[K::SharedPtr msg) const
+[1.187s]       |                                                           [01;31m[K^~~~~~~[m[K
+[1.187s]       |                                                           [32m[KControl[m[K
+[1.187s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:23:78:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[1.187s]    23 |     void topic_callback(const autoware_control_msgs::msg::control::SharedPtr [01;31m[Kmsg[m[K) const
+[1.187s]       |                                                                              [01;31m[K^~~[m[K
+[1.187s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:23:77:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[1.187s]    23 |     void topic_callback[34m[K([m[Kconst autoware_control_msgs::msg::control::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) const
+[1.187s]       |                        [34m[K~[m[K                                                    [01;31m[K^[m[K[32m[K~~~[m[K
+[1.187s]       |                                                                             [32m[K)[m[K
+[1.187s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:23:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.188s]    23 |     void topic_callback(const autoware_control_msgs::msg::control::[01;31m[KSharedPtr[m[K msg) const
+[1.188s]       |                                                                    [01;31m[K^~~~~~~~~[m[K
+[1.188s]       |                                                                             [32m[K;[m[K
+[1.188s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:23:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[1.188s]    23 |     void topic_callback(const autoware_control_msgs::msg::control::SharedPtr [01;31m[Kmsg[m[K) const
+[1.188s]       |                                                                              [01;31m[K^~~[m[K
+[1.189s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:27:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol[m[K’ was not declared in this scope
+[1.189s]    27 |     rclcpp::Subscription<[01;31m[Kcontrol[m[K>::SharedPtr subscription_;
+[1.189s]       |                          [01;31m[K^~~~~~~[m[K
+[1.189s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:27:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.189s]    27 |     rclcpp::Subscription<control[01;31m[K>[m[K::SharedPtr subscription_;
+[1.189s]       |                                 [01;31m[K^[m[K
+[1.189s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:27:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.189s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:27:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.189s]    27 |     rclcpp::Subscription<control>::[01;31m[KSharedPtr[m[K subscription_;
+[1.189s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[1.189s]       |                                             [32m[K;[m[K
+[1.190s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:27:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[1.190s]    27 |     rclcpp::Subscription<control>::SharedPtr [01;31m[Ksubscription_[m[K;
+[1.190s]       |                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[1.190s]       |                                              [32m[Krcl_subscription_t[m[K
+[1.192s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[1.192s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:17:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[1.192s]    17 |       [01;31m[Ksubscription_[m[K = this->create_subscription<autoware_control_msgs::msg::control>(
+[1.192s]       |       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.192s]       |       [32m[Krcl_subscription_t[m[K
+[1.192s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:17:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol[m[K’ is not a member of ‘[01m[Kautoware_control_msgs::msg[m[K’; did you mean ‘[01m[KControl[m[K’?
+[1.192s]    17 |       subscription_ = this->create_subscription<autoware_control_msgs::msg::[01;31m[Kcontrol[m[K>(
+[1.192s]       |                                                                             [01;31m[K^~~~~~~[m[K
+[1.192s]       |                                                                             [32m[KControl[m[K
+[1.197s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:18:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::create_subscription<<expression error> >(const char [8], int, std::_Bind_helper<false, void (MinimalSubscriber::*)(...), MinimalSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+[1.197s]    18 |       "chatter", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1)[01;31m[K)[m[K;
+[1.197s]       |                                                                             [01;31m[K^[m[K
+[1.197s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.197s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[1.197s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.197s]                  from [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:3[m[K:
+[1.197s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:229:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[1.198s]   229 |   [01;36m[Kcreate_subscription[m[K(
+[1.198s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.198s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:229:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.198s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:18:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.198s]    18 |       "chatter", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1)[01;31m[K)[m[K;
+[1.198s]       |                                                                             [01;31m[K^[m[K
+[1.610s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/testControlCommand.cpp.o] Error 1
+[1.611s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+[1.611s] make: *** [Makefile:141: all] Error 2
+[1.612s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '2': AMENT_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic LD_LIBRARY_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

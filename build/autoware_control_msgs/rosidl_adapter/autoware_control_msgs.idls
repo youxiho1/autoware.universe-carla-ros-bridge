@@ -1,0 +1,4 @@
+/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/Control.idl
+/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/ControlHorizon.idl
+/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/Lateral.idl
+/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/Longitudinal.idl

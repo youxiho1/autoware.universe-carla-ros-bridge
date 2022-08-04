@@ -1,0 +1,14 @@
+[0.015s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.041s] [35m[1mScanning dependencies of target listener[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o[0m
+[1.142s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:23:25:[m[K [01;31m[Kerror: [m[K‘[01m[KAckermannControlCommand[m[K’ has not been declared
+[1.142s]    23 |     void topic_callback([01;31m[KAckermannControlCommand[m[K::ConstSharedPtr msg)
+[1.142s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.143s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(int)[m[K’:
+[1.143s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:23:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.143s]    23 |     void topic_callback([01;35m[KAckermannControlCommand::ConstSharedPtr msg[m[K)
+[1.143s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.552s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/testControlCommand.cpp.o] Error 1
+[1.553s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+[1.553s] make: *** [Makefile:141: all] Error 2
+[1.556s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

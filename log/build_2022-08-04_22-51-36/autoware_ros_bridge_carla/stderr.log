@@ -1,0 +1,58 @@
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:23:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol[m[K’ has not been declared
+   23 |     void topic_callback([01;31m[Kcontrol[m[K::ConstSharedPtr msg)
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:27:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol[m[K’ was not declared in this scope
+   27 |     rclcpp::Subscription<[01;31m[Kcontrol[m[K>::SharedPtr subscription_;
+      |                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:27:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |     rclcpp::Subscription<control[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                 [01;31m[K^[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:27:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:27:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   27 |     rclcpp::Subscription<control>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                    [01;31m[K^~~~~~~~~[m[K
+      |                                             [32m[K;[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:27:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   27 |     rclcpp::Subscription<control>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                              [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                              [32m[Krcl_subscription_t[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:17:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   17 |       [01;31m[Ksubscription_[m[K = this->create_subscription<control>(
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krcl_subscription_t[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:17:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol[m[K’ was not declared in this scope
+   17 |       subscription_ = this->create_subscription<[01;31m[Kcontrol[m[K>(
+      |                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:18:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::create_subscription<<expression error> >(const char [8], int, std::_Bind_helper<false, void (MinimalSubscriber::*)(int), MinimalSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+   18 |       "chatter", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1)[01;31m[K)[m[K;
+      |                                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:3[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:229:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  229 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:229:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:18:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |       "chatter", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1)[01;31m[K)[m[K;
+      |                                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:3[m[K:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(int)[m[K’:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:25:61:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Klateral[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   25 |       RCLCPP_INFO(this->get_logger(), "I heard: '%f'", *msg.[01;31m[Klateral[m[K.steering_tire_angle);
+      |                                                             [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/testControlCommand.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

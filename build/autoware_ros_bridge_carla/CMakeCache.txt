@@ -275,7 +275,10 @@ SITE:STRING=tasl-Lenovo-Legion-Y9000K2020H
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/galactic/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib/libautoware_auto_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+
+//The directory containing a CMake configuration file for action_msgs.
+action_msgs_DIR:PATH=/opt/ros/galactic/share/action_msgs/cmake
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/galactic/share/ament_cmake/cmake
@@ -373,6 +376,12 @@ ament_uncrustify_BIN:FILEPATH=/opt/ros/galactic/bin/ament_uncrustify
 //Path to a program.
 ament_xmllint_BIN:FILEPATH=/opt/ros/galactic/bin/ament_xmllint
 
+//The directory containing a CMake configuration file for autoware_auto_control_msgs.
+autoware_auto_control_msgs_DIR:PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/cmake
+
+//The directory containing a CMake configuration file for autoware_control_msgs.
+autoware_control_msgs_DIR:PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake
+
 //Value Computed by CMake
 autoware_ros_bridge_carla_BINARY_DIR:STATIC=/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla
 
@@ -409,6 +418,9 @@ pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 //The directory containing a CMake configuration file for rcl.
 rcl_DIR:PATH=/opt/ros/galactic/share/rcl/cmake
 
+//The directory containing a CMake configuration file for rcl_action.
+rcl_action_DIR:PATH=/opt/ros/galactic/share/rcl_action/cmake
+
 //The directory containing a CMake configuration file for rcl_interfaces.
 rcl_interfaces_DIR:PATH=/opt/ros/galactic/share/rcl_interfaces/cmake
 
@@ -423,6 +435,9 @@ rcl_yaml_param_parser_DIR:PATH=/opt/ros/galactic/share/rcl_yaml_param_parser/cma
 
 //The directory containing a CMake configuration file for rclcpp.
 rclcpp_DIR:PATH=/opt/ros/galactic/share/rclcpp/cmake
+
+//The directory containing a CMake configuration file for rclcpp_action.
+rclcpp_action_DIR:PATH=/opt/ros/galactic/share/rclcpp_action/cmake
 
 //The directory containing a CMake configuration file for rcpputils.
 rcpputils_DIR:PATH=/opt/ros/galactic/share/rcpputils/cmake
@@ -498,6 +513,9 @@ std_msgs_DIR:PATH=/opt/ros/galactic/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/galactic/share/tracetools/cmake
+
+//The directory containing a CMake configuration file for unique_identifier_msgs.
+unique_identifier_msgs_DIR:PATH=/opt/ros/galactic/share/unique_identifier_msgs/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint

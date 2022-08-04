@@ -1,0 +1,9 @@
+{
+  "package_name": "autoware_control_msgs",
+  "non_idl_tuples": [
+    "/home/tasl/autoware.auto-ros-bridge/autoware_control_msgs:msg/Control.msg",
+    "/home/tasl/autoware.auto-ros-bridge/autoware_control_msgs:msg/ControlHorizon.msg",
+    "/home/tasl/autoware.auto-ros-bridge/autoware_control_msgs:msg/Lateral.msg",
+    "/home/tasl/autoware.auto-ros-bridge/autoware_control_msgs:msg/Longitudinal.msg"
+  ]
+}

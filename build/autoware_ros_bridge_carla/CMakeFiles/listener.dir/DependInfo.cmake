@@ -16,6 +16,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/include"
+  "/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/include"
+  "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include"
   "/opt/ros/galactic/include"
   )
 

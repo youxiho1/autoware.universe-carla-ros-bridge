@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/control__type_support.c.o"
+  "CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/control_horizon__type_support.c.o"
+  "CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/lateral__type_support.c.o"
+  "CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/longitudinal__type_support.c.o"
+  "libautoware_control_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libautoware_control_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/control__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/control__type_support.c"
+  "rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/control_horizon__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/control_horizon__type_support.c"
+  "rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/lateral__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/lateral__type_support.c"
+  "rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/longitudinal__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/longitudinal__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
