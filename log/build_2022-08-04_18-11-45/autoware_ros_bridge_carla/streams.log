@@ -1,0 +1,63 @@
+[0.026s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla -DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla
+[0.065s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.093s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.093s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.203s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.284s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.295s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.401s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.435s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.625s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.631s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.665s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.667s] -- Looking for pthread.h
+[0.762s] -- Looking for pthread.h - found
+[0.763s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.848s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.848s] -- Looking for pthread_create in pthreads
+[0.915s] -- Looking for pthread_create in pthreads - not found
+[0.915s] -- Looking for pthread_create in pthread
+[0.998s] -- Looking for pthread_create in pthread - found
+[0.999s] -- Found Threads: TRUE  
+[1.210s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.318s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.319s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.320s] -- Configured cppcheck include dirs: 
+[1.320s] -- Configured cppcheck exclude dirs and/or files: 
+[1.320s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.320s] -- Configured cpplint exclude dirs and/or files: 
+[1.321s] -- Added test 'lint_cmake' to check CMake code style
+[1.322s] -- Added test 'uncrustify' to check C / C++ code style
+[1.322s] -- Configured uncrustify additional arguments: 
+[1.323s] -- Added test 'xmllint' to check XML markup files
+[1.328s] -- Configuring done
+[1.339s] -- Generating done
+[1.341s] -- Build files have been written to: /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla
+[1.361s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla -DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla
+[1.363s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[1.409s] [35m[1mScanning dependencies of target listener[0m
+[1.511s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o[0m
+[10.728s] [100%] [32m[1mLinking CXX executable listener[0m
+[11.135s] [100%] Built target listener
+[11.153s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[11.202s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla
+[11.214s] -- Install configuration: ""
+[11.214s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/listener
+[11.217s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/listener" to ""
+[11.217s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/package_run_dependencies/autoware_ros_bridge_carla
+[11.217s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/parent_prefix_path/autoware_ros_bridge_carla
+[11.217s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/ament_prefix_path.sh
+[11.218s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/ament_prefix_path.dsv
+[11.218s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/path.sh
+[11.218s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/path.dsv
+[11.218s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.bash
+[11.218s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.sh
+[11.218s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.zsh
+[11.218s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.dsv
+[11.219s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.dsv
+[11.219s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/packages/autoware_ros_bridge_carla
+[11.219s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/cmake/autoware_ros_bridge_carlaConfig.cmake
+[11.219s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/cmake/autoware_ros_bridge_carlaConfig-version.cmake
+[11.219s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.xml
+[11.223s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla

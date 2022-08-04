@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000344] (autoware_ros_bridge_carla) JobQueued: {'identifier': 'autoware_ros_bridge_carla', 'dependencies': OrderedDict()}
+[0.000605] (autoware_ros_bridge_carla) JobStarted: {'identifier': 'autoware_ros_bridge_carla'}
+[0.019657] (autoware_ros_bridge_carla) JobProgress: {'identifier': 'autoware_ros_bridge_carla', 'progress': 'cmake'}
+[0.020204] (autoware_ros_bridge_carla) Command: {'cmd': ['/usr/bin/cmake', '/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla', '-DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla'], 'cwd': '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'tasl'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('SSH_AGENT_PID', '2337'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/tasl'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2117'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=86e589d4ba0b3d33fb7ae07162eb575c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'tasl'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:55489'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tasl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/tasl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tasl-Lenovo-Legion-Y9000K2020H:@/tmp/.ICE-unix/2375,unix/tasl-Lenovo-Legion-Y9000K2020H:/tmp/.ICE-unix/2375'), ('INVOCATION_ID', 'aa59ab9d5d80414ab0604be15bde24e7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb2b3667_a901_4612_9de1_6fbcb588f5b3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=86e589d4ba0b3d33fb7ae07162eb575c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.065919] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.093949] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.094159] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099668] (-) TimerEvent: {}
+[0.199964] (-) TimerEvent: {}
+[0.203675] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.284635] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.295548] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.300150] (-) TimerEvent: {}
+[0.400492] (-) TimerEvent: {}
+[0.401756] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.435337] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[0.500595] (-) TimerEvent: {}
+[0.539258] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600660] (-) TimerEvent: {}
+[0.626041] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.631253] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.665647] (autoware_ros_bridge_carla) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.667428] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700738] (-) TimerEvent: {}
+[0.762856] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.763179] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800831] (-) TimerEvent: {}
+[0.848533] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.848892] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.900915] (-) TimerEvent: {}
+[0.915595] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.915982] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.998866] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.999966] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000990] (-) TimerEvent: {}
+[1.101249] (-) TimerEvent: {}
+[1.201745] (-) TimerEvent: {}
+[1.210257] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.301843] (-) TimerEvent: {}
+[1.319055] (autoware_ros_bridge_carla) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.320088] (autoware_ros_bridge_carla) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.320271] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.320368] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.321096] (autoware_ros_bridge_carla) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.321196] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.321908] (autoware_ros_bridge_carla) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.322892] (autoware_ros_bridge_carla) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.323031] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.323989] (autoware_ros_bridge_carla) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.328237] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.339369] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Generating done\n'}
+[1.341727] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Build files have been written to: /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla\n'}
+[1.360991] (autoware_ros_bridge_carla) CommandEnded: {'returncode': 0}
+[1.362643] (autoware_ros_bridge_carla) JobProgress: {'identifier': 'autoware_ros_bridge_carla', 'progress': 'build'}
+[1.362743] (autoware_ros_bridge_carla) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla', '--', '-j16', '-l16'], 'cwd': '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'tasl'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('SSH_AGENT_PID', '2337'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/tasl'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2117'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=86e589d4ba0b3d33fb7ae07162eb575c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'tasl'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:55489'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tasl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/tasl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tasl-Lenovo-Legion-Y9000K2020H:@/tmp/.ICE-unix/2375,unix/tasl-Lenovo-Legion-Y9000K2020H:/tmp/.ICE-unix/2375'), ('INVOCATION_ID', 'aa59ab9d5d80414ab0604be15bde24e7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb2b3667_a901_4612_9de1_6fbcb588f5b3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=86e589d4ba0b3d33fb7ae07162eb575c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.401952] (-) TimerEvent: {}
+[1.409947] (autoware_ros_bridge_carla) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[1.502042] (-) TimerEvent: {}
+[1.511719] (autoware_ros_bridge_carla) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o\x1b[0m\n'}
+[1.602123] (-) TimerEvent: {}
+[1.702401] (-) TimerEvent: {}
+[1.802696] (-) TimerEvent: {}
+[1.902959] (-) TimerEvent: {}
+[2.003224] (-) TimerEvent: {}
+[2.103473] (-) TimerEvent: {}
+[2.203731] (-) TimerEvent: {}
+[2.304065] (-) TimerEvent: {}
+[2.404421] (-) TimerEvent: {}
+[2.504744] (-) TimerEvent: {}
+[2.605089] (-) TimerEvent: {}
+[2.705411] (-) TimerEvent: {}
+[2.805934] (-) TimerEvent: {}
+[2.906305] (-) TimerEvent: {}
+[3.006537] (-) TimerEvent: {}
+[3.106788] (-) TimerEvent: {}
+[3.207123] (-) TimerEvent: {}
+[3.307446] (-) TimerEvent: {}
+[3.407823] (-) TimerEvent: {}
+[3.508166] (-) TimerEvent: {}
+[3.608813] (-) TimerEvent: {}
+[3.709203] (-) TimerEvent: {}
+[3.809529] (-) TimerEvent: {}
+[3.909823] (-) TimerEvent: {}
+[4.010079] (-) TimerEvent: {}
+[4.110349] (-) TimerEvent: {}
+[4.210630] (-) TimerEvent: {}
+[4.310941] (-) TimerEvent: {}
+[4.411227] (-) TimerEvent: {}
+[4.512880] (-) TimerEvent: {}
+[4.614012] (-) TimerEvent: {}
+[4.714281] (-) TimerEvent: {}
+[4.814594] (-) TimerEvent: {}
+[4.914982] (-) TimerEvent: {}
+[5.015223] (-) TimerEvent: {}
+[5.115625] (-) TimerEvent: {}
+[5.215950] (-) TimerEvent: {}
+[5.316270] (-) TimerEvent: {}
+[5.416708] (-) TimerEvent: {}
+[5.517390] (-) TimerEvent: {}
+[5.617691] (-) TimerEvent: {}
+[5.717971] (-) TimerEvent: {}
+[5.818282] (-) TimerEvent: {}
+[5.918604] (-) TimerEvent: {}
+[6.018945] (-) TimerEvent: {}
+[6.119338] (-) TimerEvent: {}
+[6.219585] (-) TimerEvent: {}
+[6.319906] (-) TimerEvent: {}
+[6.420228] (-) TimerEvent: {}
+[6.520549] (-) TimerEvent: {}
+[6.621399] (-) TimerEvent: {}
+[6.722077] (-) TimerEvent: {}
+[6.822405] (-) TimerEvent: {}
+[6.922700] (-) TimerEvent: {}
+[7.023141] (-) TimerEvent: {}
+[7.123457] (-) TimerEvent: {}
+[7.223840] (-) TimerEvent: {}
+[7.324161] (-) TimerEvent: {}
+[7.424458] (-) TimerEvent: {}
+[7.524807] (-) TimerEvent: {}
+[7.625124] (-) TimerEvent: {}
+[7.725441] (-) TimerEvent: {}
+[7.825728] (-) TimerEvent: {}
+[7.926008] (-) TimerEvent: {}
+[8.026349] (-) TimerEvent: {}
+[8.126695] (-) TimerEvent: {}
+[8.227036] (-) TimerEvent: {}
+[8.327332] (-) TimerEvent: {}
+[8.427597] (-) TimerEvent: {}
+[8.528042] (-) TimerEvent: {}
+[8.628397] (-) TimerEvent: {}
+[8.728665] (-) TimerEvent: {}
+[8.829011] (-) TimerEvent: {}
+[8.929592] (-) TimerEvent: {}
+[9.029940] (-) TimerEvent: {}
+[9.130257] (-) TimerEvent: {}
+[9.230567] (-) TimerEvent: {}
+[9.330918] (-) TimerEvent: {}
+[9.431341] (-) TimerEvent: {}
+[9.531615] (-) TimerEvent: {}
+[9.631911] (-) TimerEvent: {}
+[9.732938] (-) TimerEvent: {}
+[9.833242] (-) TimerEvent: {}
+[9.933568] (-) TimerEvent: {}
+[10.033902] (-) TimerEvent: {}
+[10.134315] (-) TimerEvent: {}
+[10.234870] (-) TimerEvent: {}
+[10.335162] (-) TimerEvent: {}
+[10.435439] (-) TimerEvent: {}
+[10.535698] (-) TimerEvent: {}
+[10.636075] (-) TimerEvent: {}
+[10.728765] (autoware_ros_bridge_carla) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[10.736204] (-) TimerEvent: {}
+[10.836615] (-) TimerEvent: {}
+[10.937030] (-) TimerEvent: {}
+[11.037449] (-) TimerEvent: {}
+[11.135608] (autoware_ros_bridge_carla) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[11.137533] (-) TimerEvent: {}
+[11.152396] (autoware_ros_bridge_carla) CommandEnded: {'returncode': 0}
+[11.186382] (autoware_ros_bridge_carla) JobProgress: {'identifier': 'autoware_ros_bridge_carla', 'progress': 'install'}
+[11.201869] (autoware_ros_bridge_carla) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla'], 'cwd': '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'tasl'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('SSH_AGENT_PID', '2337'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/tasl'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2117'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=86e589d4ba0b3d33fb7ae07162eb575c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'tasl'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:55489'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tasl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/tasl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tasl-Lenovo-Legion-Y9000K2020H:@/tmp/.ICE-unix/2375,unix/tasl-Lenovo-Legion-Y9000K2020H:/tmp/.ICE-unix/2375'), ('INVOCATION_ID', 'aa59ab9d5d80414ab0604be15bde24e7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb2b3667_a901_4612_9de1_6fbcb588f5b3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=86e589d4ba0b3d33fb7ae07162eb575c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[11.214399] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.214845] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/listener\n'}
+[11.217261] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/listener" to ""\n'}
+[11.217621] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/package_run_dependencies/autoware_ros_bridge_carla\n'}
+[11.217874] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/parent_prefix_path/autoware_ros_bridge_carla\n'}
+[11.218008] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/ament_prefix_path.sh\n'}
+[11.218250] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/ament_prefix_path.dsv\n'}
+[11.218345] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/path.sh\n'}
+[11.218462] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/path.dsv\n'}
+[11.218574] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.bash\n'}
+[11.218680] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.sh\n'}
+[11.218845] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.zsh\n'}
+[11.219013] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.dsv\n'}
+[11.219181] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.dsv\n'}
+[11.219311] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/packages/autoware_ros_bridge_carla\n'}
+[11.219442] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/cmake/autoware_ros_bridge_carlaConfig.cmake\n'}
+[11.219566] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/cmake/autoware_ros_bridge_carlaConfig-version.cmake\n'}
+[11.219687] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.xml\n'}
+[11.221553] (autoware_ros_bridge_carla) CommandEnded: {'returncode': 0}
+[11.237726] (-) TimerEvent: {}
+[11.300559] (autoware_ros_bridge_carla) JobEnded: {'identifier': 'autoware_ros_bridge_carla', 'rc': 0}
+[11.301472] (-) EventReactorShutdown: {}

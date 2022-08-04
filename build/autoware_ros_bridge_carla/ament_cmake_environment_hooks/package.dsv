@@ -1,0 +1,4 @@
+source;share/autoware_ros_bridge_carla/local_setup.bash
+source;share/autoware_ros_bridge_carla/local_setup.dsv
+source;share/autoware_ros_bridge_carla/local_setup.sh
+source;share/autoware_ros_bridge_carla/local_setup.zsh
