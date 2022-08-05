@@ -1,0 +1,24 @@
+[0.011s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic LD_LIBRARY_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.028s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.087s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.115s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.234s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.235s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.249s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.348s] -- Found autoware_control_msgs: 1.0.0 (/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake)
+[0.359s] -- Found autoware_auto_control_msgs: 1.0.0 (/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/cmake)
+[0.373s] CMake Error at /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.373s]   ament_target_dependencies() the passed package name 'jsontest' was not
+[0.373s]   found before
+[0.373s] Call Stack (most recent call first):
+[0.373s]   CMakeLists.txt:25 (ament_target_dependencies)
+[0.373s] 
+[0.373s] 
+[0.374s] -- Configuring incomplete, errors occurred!
+[0.374s] See also "/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles/CMakeOutput.log".
+[0.374s] See also "/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles/CMakeError.log".
+[0.378s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.381s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '2': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic LD_LIBRARY_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

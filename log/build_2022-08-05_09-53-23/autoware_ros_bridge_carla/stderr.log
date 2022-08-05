@@ -1,0 +1,69 @@
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(autoware_auto_control_msgs::msg::AckermannControlCommand_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:40:7:[m[K [01;31m[Kerror: [m[K‘[01m[KDocument[m[K’ was not declared in this scope; did you mean ‘[01m[Krapidjson::Document[m[K’?
+   40 |       [01;31m[KDocument[m[K json_content;
+      |       [01;31m[K^~~~~~~~[m[K
+      |       [32m[Krapidjson::Document[m[K
+In file included from [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:6[m[K:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/include/rapidjson/document.h:2889:34:[m[K [01;36m[Knote: [m[K‘[01m[Krapidjson::Document[m[K’ declared here
+ 2889 | typedef GenericDocument<UTF8<> > [01;36m[KDocument[m[K;
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:41:7:[m[K [01;31m[Kerror: [m[K‘[01m[KDocument[m[K’ is not a class, namespace, or enumeration
+   41 |       [01;31m[KDocument[m[K::AllocatorType& allocator = json_content.GetAllocator();
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:41:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kallocator[m[K’ was not declared in this scope
+   41 |       Document::AllocatorType& [01;31m[Kallocator[m[K = json_content.GetAllocator();
+      |                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:41:32:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/9/bits/allocator.h:47[m[K,
+                 from [01m[K/usr/include/c++/9/memory:63[m[K,
+                 from [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/memoryfwd.h:64:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::allocator[m[K’
+   64 |     class [01;36m[Kallocator[m[K;
+      |           [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/allocator/allocator_common.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_subscription_callback.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/subscription_base.hpp:29[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:3[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/allocator/allocator_deleter.hpp:23:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::allocator[m[K’
+   23 | namespace [01;36m[Kallocator[m[K
+      |           [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:41:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kjson_content[m[K’ was not declared in this scope
+   41 |       Document::AllocatorType& allocator = [01;31m[Kjson_content[m[K.GetAllocator();
+      |                                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:51:7:[m[K [01;31m[Kerror: [m[K‘[01m[KStringBuffer[m[K’ was not declared in this scope; did you mean ‘[01m[Krapidjson::StringBuffer[m[K’?
+   51 |       [01;31m[KStringBuffer[m[K buffer;
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+      |       [32m[Krapidjson::StringBuffer[m[K
+In file included from [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/include/rapidjson/writer.h:25[m[K,
+                 from [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:7[m[K:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/include/rapidjson/stringbuffer.h:97:38:[m[K [01;36m[Knote: [m[K‘[01m[Krapidjson::StringBuffer[m[K’ declared here
+   97 | typedef GenericStringBuffer<UTF8<> > [01;36m[KStringBuffer[m[K;
+      |                                      [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:52:7:[m[K [01;31m[Kerror: [m[K‘[01m[KWriter[m[K’ was not declared in this scope; did you mean ‘[01m[Krapidjson::Writer[m[K’?
+   52 |       [01;31m[KWriter[m[K<StringBuffer> writer(buffer);
+      |       [01;31m[K^~~~~~[m[K
+      |       [32m[Krapidjson::Writer[m[K
+In file included from [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:7[m[K:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/include/rapidjson/writer.h:90:7:[m[K [01;36m[Knote: [m[K‘[01m[Krapidjson::Writer[m[K’ declared here
+   90 | class [01;36m[KWriter[m[K {
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:52:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetbuffer[m[K’?
+   52 |       Writer<StringBuffer> writer([01;31m[Kbuffer[m[K);
+      |                                   [01;31m[K^~~~~~[m[K
+      |                                   [32m[Ksetbuffer[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:52:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kwriter[m[K’ was not declared in this scope; did you mean ‘[01m[Kfwrite[m[K’?
+   52 |       Writer<StringBuffer> [01;31m[Kwriter[m[K(buffer);
+      |                            [01;31m[K^~~~~~[m[K
+      |                            [32m[Kfwrite[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/testControlCommand.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

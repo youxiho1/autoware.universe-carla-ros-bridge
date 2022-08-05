@@ -181,6 +181,19 @@ listener/fast:
 .PHONY : listener/fast
 
 #=============================================================================
+# Target rules for targets named jsontest
+
+# Build rule for target.
+jsontest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 jsontest
+.PHONY : jsontest
+
+# fast build rule for target.
+jsontest/fast:
+	$(MAKE) -f CMakeFiles/jsontest.dir/build.make CMakeFiles/jsontest.dir/build
+.PHONY : jsontest/fast
+
+#=============================================================================
 # Target rules for targets named autoware_ros_bridge_carla_uninstall
 
 # Build rule for target.
@@ -205,6 +218,33 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+src/simpledom.o: src/simpledom.cpp.o
+
+.PHONY : src/simpledom.o
+
+# target to build an object file
+src/simpledom.cpp.o:
+	$(MAKE) -f CMakeFiles/jsontest.dir/build.make CMakeFiles/jsontest.dir/src/simpledom.cpp.o
+.PHONY : src/simpledom.cpp.o
+
+src/simpledom.i: src/simpledom.cpp.i
+
+.PHONY : src/simpledom.i
+
+# target to preprocess a source file
+src/simpledom.cpp.i:
+	$(MAKE) -f CMakeFiles/jsontest.dir/build.make CMakeFiles/jsontest.dir/src/simpledom.cpp.i
+.PHONY : src/simpledom.cpp.i
+
+src/simpledom.s: src/simpledom.cpp.s
+
+.PHONY : src/simpledom.s
+
+# target to generate assembly for a file
+src/simpledom.cpp.s:
+	$(MAKE) -f CMakeFiles/jsontest.dir/build.make CMakeFiles/jsontest.dir/src/simpledom.cpp.s
+.PHONY : src/simpledom.cpp.s
 
 src/testControlCommand.o: src/testControlCommand.cpp.o
 
@@ -247,8 +287,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... listener"
+	@echo "... jsontest"
 	@echo "... autoware_ros_bridge_carla_uninstall"
 	@echo "... uninstall"
+	@echo "... src/simpledom.o"
+	@echo "... src/simpledom.i"
+	@echo "... src/simpledom.s"
 	@echo "... src/testControlCommand.o"
 	@echo "... src/testControlCommand.i"
 	@echo "... src/testControlCommand.s"

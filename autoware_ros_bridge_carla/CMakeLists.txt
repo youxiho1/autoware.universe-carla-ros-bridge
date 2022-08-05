@@ -21,11 +21,13 @@ find_package(autoware_auto_control_msgs REQUIRED)
 
 
 add_executable(listener src/testControlCommand.cpp)
+add_executable(jsontest src/simpledom.cpp)
 ament_target_dependencies(
   listener rclcpp std_msgs autoware_control_msgs autoware_auto_control_msgs)
 
 install(TARGETS
   listener
+  jsontest
   DESTINATION lib/${PROJECT_NAME})
 
 

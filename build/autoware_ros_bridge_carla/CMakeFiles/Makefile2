@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge
 
 # The main recursive "all" target.
 all: CMakeFiles/listener.dir/all
+all: CMakeFiles/jsontest.dir/all
 
 .PHONY : all
 
@@ -64,6 +65,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/listener.dir/clean
+clean: CMakeFiles/jsontest.dir/clean
 clean: CMakeFiles/autoware_ros_bridge_carla_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
@@ -76,7 +78,7 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/listener.dir/all:
 	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/depend
 	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles --progress-num=1,2 "Built target listener"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles --progress-num=3,4 "Built target listener"
 .PHONY : CMakeFiles/listener.dir/all
 
 # Build rule for subdir invocation for target.
@@ -95,6 +97,33 @@ listener: CMakeFiles/listener.dir/rule
 CMakeFiles/listener.dir/clean:
 	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/clean
 .PHONY : CMakeFiles/listener.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/jsontest.dir
+
+# All Build rule for target.
+CMakeFiles/jsontest.dir/all:
+	$(MAKE) -f CMakeFiles/jsontest.dir/build.make CMakeFiles/jsontest.dir/depend
+	$(MAKE) -f CMakeFiles/jsontest.dir/build.make CMakeFiles/jsontest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles --progress-num=1,2 "Built target jsontest"
+.PHONY : CMakeFiles/jsontest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/jsontest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/jsontest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles 0
+.PHONY : CMakeFiles/jsontest.dir/rule
+
+# Convenience name for target.
+jsontest: CMakeFiles/jsontest.dir/rule
+
+.PHONY : jsontest
+
+# clean rule for target.
+CMakeFiles/jsontest.dir/clean:
+	$(MAKE) -f CMakeFiles/jsontest.dir/build.make CMakeFiles/jsontest.dir/clean
+.PHONY : CMakeFiles/jsontest.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/autoware_ros_bridge_carla_uninstall.dir
