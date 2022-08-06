@@ -40,7 +40,7 @@ int main()
   int recv_num;
   int send_num;
   char send_buf[20] = "i am server!";
-  char recv_buf[20];
+  char recv_buf[200];
   struct sockaddr_in addr_client;
 
   while(1)

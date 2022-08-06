@@ -24,14 +24,12 @@
 #include <memory>
 #include <string>
 
-
-
 #define SERV_PORT 8000
 
 using namespace rapidjson;
 using ackermann_msgs::msg::AckermannDrive;
 
-rclcpp::Publisher<ackermann_msgs::msg::AckermannDrive>::SharedPtr publisher_;
+
 
 class MinimalPublisher : public rclcpp::Node
 {
@@ -42,8 +40,11 @@ class MinimalPublisher : public rclcpp::Node
       publisher_ = this->create_publisher<AckermannDrive>("/carla/ego_vehicle/ackermann_cmd", 10);
     }
 
+    void publish(AckermannDrive msg) {
+      publisher_->publish(msg);
+    }
   private:
-    
+    rclcpp::Publisher<ackermann_msgs::msg::AckermannDrive>::SharedPtr publisher_;
 };
 
 
@@ -52,9 +53,9 @@ int main(int argc, char * argv[])
 
 
   rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<MinimalPublisher>());
+  // rclcpp::spin(std::make_shared<MinimalPublisher>());
   
-
+  MinimalPublisher mini_pub;
 
   /* sock_fd --- socket文件描述符 创建udp套接字*/
   int sock_fd = socket(AF_INET, SOCK_DGRAM, 0);
@@ -83,7 +84,7 @@ int main(int argc, char * argv[])
 
 
   int recv_num;
-  char recv_buf[100];
+  char recv_buf[200];
   struct sockaddr_in addr_client;
 
   while(1)
@@ -113,7 +114,7 @@ int main(int argc, char * argv[])
     message.acceleration = d["acceleration"].GetFloat();
     message.jerk = d["jerk"].GetFloat();
     
-    publisher_->publish(message);
+    mini_pub.publish(message);
     
     /* we don't need to reply
     send_num = sendto(sock_fd, send_buf, recv_num, 0, (struct sockaddr *)&addr_client, len);

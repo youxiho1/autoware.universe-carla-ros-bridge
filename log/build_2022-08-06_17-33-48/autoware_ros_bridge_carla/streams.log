@@ -1,0 +1,37 @@
+[0.010s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/foxy /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.037s] [35m[1mScanning dependencies of target sender[0m
+[0.043s] [ 33%] Built target jsontest
+[0.050s] [ 66%] Built target listener
+[0.057s] [ 83%] [32mBuilding CXX object CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o[0m
+[1.000s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.000s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:51:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.000s]    51 | int main([01;35m[Kint argc[m[K, char * argv[])
+[1.000s]       |          [01;35m[K~~~~^~~~[m[K
+[1.001s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:51:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.001s]    51 | int main(int argc, [01;35m[Kchar * argv[][m[K)
+[1.001s]       |                    [01;35m[K~~~~~~~^~~~~~[m[K
+[2.153s] [100%] [32m[1mLinking CXX executable sender[0m
+[2.254s] [100%] Built target sender
+[2.265s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '0': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/foxy /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[2.283s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/foxy /usr/bin/cmake --install /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla
+[2.289s] -- Install configuration: ""
+[2.289s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/listener
+[2.289s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/jsontest
+[2.290s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/sender
+[2.291s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/sender" to ""
+[2.291s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/package_run_dependencies/autoware_ros_bridge_carla
+[2.291s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/parent_prefix_path/autoware_ros_bridge_carla
+[2.291s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/ament_prefix_path.sh
+[2.291s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/ament_prefix_path.dsv
+[2.291s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/path.sh
+[2.291s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/path.dsv
+[2.291s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.bash
+[2.292s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.sh
+[2.292s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.zsh
+[2.292s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.dsv
+[2.292s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.dsv
+[2.292s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/packages/autoware_ros_bridge_carla
+[2.292s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/cmake/autoware_ros_bridge_carlaConfig.cmake
+[2.292s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/cmake/autoware_ros_bridge_carlaConfig-version.cmake
+[2.292s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.xml
+[2.294s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '0': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/foxy /usr/bin/cmake --install /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla
