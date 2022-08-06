@@ -1,0 +1,13 @@
+[0.010s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/foxy /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.037s] [35m[1mScanning dependencies of target sender[0m
+[0.044s] [ 33%] Built target jsontest
+[0.045s] [ 50%] [32mBuilding CXX object CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o[0m
+[0.051s] [ 83%] Built target listener
+[0.087s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.087s]    23 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.087s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.087s] compilation terminated.
+[0.088s] make[2]: *** [CMakeFiles/sender.dir/build.make:63: CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o] Error 1
+[0.088s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/sender.dir/all] Error 2
+[0.088s] make: *** [Makefile:141: all] Error 2
+[0.090s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '2': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/foxy /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

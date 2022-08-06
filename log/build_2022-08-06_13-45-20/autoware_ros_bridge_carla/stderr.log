@@ -1,0 +1,11 @@
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(autoware_auto_control_msgs::msg::AckermannControlCommand_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:83:18:[m[K [01;31m[Kerror: [m[Kincompatible types in assignment of ‘[01m[Krapidjson::StringBuffer[m[K’ {aka ‘[01m[Krapidjson::GenericStringBuffer<rapidjson::UTF8<> >[m[K’} to ‘[01m[Kchar [100][m[K’
+   83 |       send_buf = [01;31m[Kbuffer[m[K;
+      |                  [01;31m[K^~~~~~[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:121:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_fd[m[K’ was not declared in this scope
+  121 |   close([01;31m[Ksock_fd[m[K);
+      |         [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/testControlCommand.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

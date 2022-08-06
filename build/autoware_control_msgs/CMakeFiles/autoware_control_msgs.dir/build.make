@@ -57,8 +57,8 @@ CMakeFiles/autoware_control_msgs: /home/tasl/autoware.auto-ros-bridge/autoware_c
 CMakeFiles/autoware_control_msgs: /home/tasl/autoware.auto-ros-bridge/autoware_control_msgs/msg/ControlHorizon.msg
 CMakeFiles/autoware_control_msgs: /home/tasl/autoware.auto-ros-bridge/autoware_control_msgs/msg/Lateral.msg
 CMakeFiles/autoware_control_msgs: /home/tasl/autoware.auto-ros-bridge/autoware_control_msgs/msg/Longitudinal.msg
-CMakeFiles/autoware_control_msgs: /opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl
-CMakeFiles/autoware_control_msgs: /opt/ros/galactic/share/builtin_interfaces/msg/Time.idl
+CMakeFiles/autoware_control_msgs: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
+CMakeFiles/autoware_control_msgs: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 
 
 autoware_control_msgs: CMakeFiles/autoware_control_msgs

@@ -1,0 +1,24 @@
+[0.010s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/foxy /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.027s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.184s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.209s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.320s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.321s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.426s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[0.451s] -- Found autoware_control_msgs: 1.0.0 (/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake)
+[0.462s] -- Found autoware_auto_control_msgs: 1.0.0 (/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/cmake)
+[0.476s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.476s]   ament_target_dependencies() the passed package name 'sender' was not found
+[0.476s]   before
+[0.476s] Call Stack (most recent call first):
+[0.476s]   CMakeLists.txt:28 (ament_target_dependencies)
+[0.476s] 
+[0.476s] 
+[0.477s] -- Configuring incomplete, errors occurred!
+[0.477s] See also "/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles/CMakeOutput.log".
+[0.477s] See also "/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles/CMakeError.log".
+[0.480s] make: *** [Makefile:354: cmake_check_build_system] Error 1
+[0.481s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '2': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/foxy /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

@@ -46,7 +46,7 @@ autoware_auto_control_msgs/msg/detail/longitudinal_command__struct.h
 autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
 /home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_py/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
 
-/opt/ros/galactic/include/builtin_interfaces/msg/detail/time__struct.h
+/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.h
 stdbool.h
 -
 stddef.h
@@ -54,31 +54,31 @@ stddef.h
 stdint.h
 -
 
-/opt/ros/galactic/include/rosidl_runtime_c/action_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/action_type_support_struct.h
 rosidl_runtime_c/message_type_support_struct.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/service_type_support_struct.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/service_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 
-/opt/ros/galactic/include/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 
 /usr/include/python3.8/Python.h
 patchlevel.h

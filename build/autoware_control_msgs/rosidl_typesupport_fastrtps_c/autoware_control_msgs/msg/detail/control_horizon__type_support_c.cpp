@@ -185,8 +185,7 @@ static bool _ControlHorizon__cdr_deserialize(
       autoware_control_msgs__msg__Control__Sequence__fini(&ros_message->controls);
     }
     if (!autoware_control_msgs__msg__Control__Sequence__init(&ros_message->controls, size)) {
-      fprintf(stderr, "failed to create array for field 'controls'");
-      return false;
+      return "failed to create array for field 'controls'";
     }
     auto array_ptr = ros_message->controls.data;
     for (size_t i = 0; i < size; ++i) {
@@ -199,7 +198,7 @@ static bool _ControlHorizon__cdr_deserialize(
   }
 
   return true;
-}  // NOLINT(readability/fn_size)
+}
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_autoware_control_msgs
 size_t get_serialized_size_autoware_control_msgs__msg__ControlHorizon(

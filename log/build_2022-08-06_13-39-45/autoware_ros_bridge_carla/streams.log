@@ -1,0 +1,48 @@
+[0.009s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': AMENT_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.026s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.184s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.210s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.286s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.321s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.322s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.432s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[0.456s] -- Found autoware_control_msgs: 1.0.0 (/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake)
+[0.467s] -- Found autoware_auto_control_msgs: 1.0.0 (/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/cmake)
+[0.483s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.540s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.543s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.543s] -- Configured cppcheck include dirs: /home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/include
+[0.543s] -- Configured cppcheck exclude dirs and/or files: 
+[0.546s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.546s] -- Configured cpplint exclude dirs and/or files: 
+[0.547s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.548s] -- Added test 'lint_cmake' to check CMake code style
+[0.549s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.552s] -- Added test 'uncrustify' to check C / C++ code style
+[0.552s] -- Configured uncrustify additional arguments: 
+[0.552s] -- Added test 'xmllint' to check XML markup files
+[0.554s] -- Configuring done
+[0.561s] -- Generating done
+[0.562s] -- Build files have been written to: /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla
+[0.580s] [35m[1mScanning dependencies of target listener[0m
+[0.586s] [ 25%] [32mBuilding CXX object CMakeFiles/jsontest.dir/src/simpledom.cpp.o[0m
+[0.642s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o[0m
+[1.081s] [ 75%] [32m[1mLinking CXX executable jsontest[0m
+[1.131s] [ 75%] Built target jsontest
+[1.589s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(autoware_auto_control_msgs::msg::AckermannControlCommand_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[1.589s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:81:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_buf[m[K’ was not declared in this scope
+[1.589s]    81 |       [01;31m[Ksend_buf[m[K = buffer.GetString();
+[1.589s]       |       [01;31m[K^~~~~~~~[m[K
+[1.591s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:85:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_num[m[K’ was not declared in this scope
+[1.591s]    85 |       [01;31m[Ksend_num[m[K = sendto(sock_fd, send_buf, strlen(send_buf), 0, (struct sockaddr *)&addr_serv, len);
+[1.591s]       |       [01;31m[K^~~~~~~~[m[K
+[1.594s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.595s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:119:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_fd[m[K’ was not declared in this scope
+[1.595s]   119 |   close([01;31m[Ksock_fd[m[K);
+[1.595s]       |         [01;31m[K^~~~~~~[m[K
+[2.566s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/testControlCommand.cpp.o] Error 1
+[2.566s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[2.566s] make: *** [Makefile:141: all] Error 2
+[2.568s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '2': AMENT_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

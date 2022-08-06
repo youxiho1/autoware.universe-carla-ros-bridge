@@ -68,7 +68,7 @@ autoware_control_msgs/msg/detail/longitudinal__struct.h
 autoware_control_msgs/msg/detail/longitudinal__functions.h
 /home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_generator_py/autoware_control_msgs/msg/autoware_control_msgs/msg/detail/longitudinal__functions.h
 
-/opt/ros/galactic/include/builtin_interfaces/msg/detail/time__struct.h
+/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.h
 stdbool.h
 -
 stddef.h
@@ -76,7 +76,7 @@ stddef.h
 stdint.h
 -
 
-/opt/ros/galactic/include/rosidl_runtime_c/primitives_sequence.h
+/opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
 stdbool.h
 -
 stddef.h
@@ -84,17 +84,17 @@ stddef.h
 stdint.h
 -
 
-/opt/ros/galactic/include/rosidl_runtime_c/primitives_sequence_functions.h
+/opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence_functions.h
 stdbool.h
 -
 stddef.h
 -
 rosidl_runtime_c/primitives_sequence.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 
 /usr/include/python3.8/Python.h
 patchlevel.h

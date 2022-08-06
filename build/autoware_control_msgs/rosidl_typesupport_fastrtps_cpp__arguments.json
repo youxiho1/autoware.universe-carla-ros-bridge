@@ -1,7 +1,7 @@
 {
   "package_name": "autoware_control_msgs",
   "output_dir": "/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_typesupport_fastrtps_cpp/autoware_control_msgs",
-  "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
     "/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/Control.idl",
     "/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/ControlHorizon.idl",
@@ -9,23 +9,23 @@
     "/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/Longitudinal.idl"
   ],
   "ros_interface_dependencies": [
-    "builtin_interfaces:/opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl",
-    "builtin_interfaces:/opt/ros/galactic/share/builtin_interfaces/msg/Time.idl"
+    "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl"
   ],
   "target_dependencies": [
-    "/opt/ros/galactic/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
-    "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
-    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
-    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
-    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
-    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
-    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
-    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/opt/ros/foxy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
     "/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs/msg/Control.idl",
     "/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs/msg/ControlHorizon.idl",
     "/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs/msg/Lateral.idl",
     "/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs/msg/Longitudinal.idl",
-    "/opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl",
-    "/opt/ros/galactic/share/builtin_interfaces/msg/Time.idl"
+    "/opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/foxy/share/builtin_interfaces/msg/Time.idl"
   ]
 }

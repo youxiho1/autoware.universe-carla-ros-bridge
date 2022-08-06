@@ -1,0 +1,44 @@
+[0.009s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': AMENT_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.026s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.183s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.318s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.319s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.423s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[0.447s] -- Found autoware_control_msgs: 1.0.0 (/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake)
+[0.458s] -- Found autoware_auto_control_msgs: 1.0.0 (/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/cmake)
+[0.472s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.525s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.528s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.528s] -- Configured cppcheck include dirs: /home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/include
+[0.528s] -- Configured cppcheck exclude dirs and/or files: 
+[0.531s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.531s] -- Configured cpplint exclude dirs and/or files: 
+[0.532s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.532s] -- Added test 'lint_cmake' to check CMake code style
+[0.533s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.536s] -- Added test 'uncrustify' to check C / C++ code style
+[0.536s] -- Configured uncrustify additional arguments: 
+[0.536s] -- Added test 'xmllint' to check XML markup files
+[0.538s] -- Configuring done
+[0.545s] -- Generating done
+[0.547s] -- Build files have been written to: /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla
+[0.564s] [35m[1mScanning dependencies of target sender[0m
+[0.565s] [35m[1mScanning dependencies of target listener[0m
+[0.571s] [ 33%] Built target jsontest
+[0.573s] [ 50%] [32mBuilding CXX object CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o[0m
+[0.585s] [ 66%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o[0m
+[0.615s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.615s]    23 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.615s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.615s] compilation terminated.
+[0.616s] make[2]: *** [CMakeFiles/sender.dir/build.make:63: CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o] Error 1
+[0.616s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/sender.dir/all] Error 2
+[0.616s] make[1]: *** Waiting for unfinished jobs....
+[3.908s] [ 83%] [32m[1mLinking CXX executable listener[0m
+[4.055s] [ 83%] Built target listener
+[4.056s] make: *** [Makefile:141: all] Error 2
+[4.058s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '2': AMENT_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

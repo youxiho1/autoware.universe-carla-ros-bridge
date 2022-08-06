@@ -1,0 +1,247 @@
+[0.015s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs --clean-first -- -j16 -l16
+[0.146s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.154s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.629s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_generator_c[0m
+[0.638s] [  9%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_control_msgs/msg/detail/lateral__functions.c.o[0m
+[0.638s] [  9%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_control_msgs/msg/detail/longitudinal__functions.c.o[0m
+[0.639s] [  9%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_control_msgs/msg/detail/control__functions.c.o[0m
+[0.641s] [ 10%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_control_msgs/msg/detail/control_horizon__functions.c.o[0m
+[0.674s] [ 10%] Built target autoware_control_msgs__cpp
+[0.679s] [ 12%] [32m[1mLinking C shared library libautoware_control_msgs__rosidl_generator_c.so[0m
+[0.681s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.681s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.681s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.705s] [ 18%] Built target autoware_control_msgs__rosidl_generator_c
+[0.713s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.716s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.205s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_cpp[0m
+[1.220s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.226s] [ 27%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_control_msgs/msg/control_horizon__type_support.cpp.o[0m
+[1.227s] [ 27%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_control_msgs/msg/control__type_support.cpp.o[0m
+[1.232s] [ 27%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_control_msgs/msg/lateral__type_support.cpp.o[0m
+[1.235s] [ 29%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_control_msgs/msg/longitudinal__type_support.cpp.o[0m
+[1.236s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.244s] [ 30%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_control_msgs/msg/detail/dds_fastrtps/control_horizon__type_support.cpp.o[0m
+[1.259s] [ 32%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_control_msgs/msg/detail/dds_fastrtps/lateral__type_support.cpp.o[0m
+[1.260s] [ 34%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_control_msgs/msg/detail/dds_fastrtps/control__type_support.cpp.o[0m
+[1.264s] [ 36%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_control_msgs/msg/detail/dds_fastrtps/longitudinal__type_support.cpp.o[0m
+[1.283s] [ 38%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_control_msgs/msg/detail/control__type_support.cpp.o[0m
+[1.295s] [ 40%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_control_msgs/msg/detail/control_horizon__type_support.cpp.o[0m
+[1.303s] [ 41%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_control_msgs/msg/detail/lateral__type_support.cpp.o[0m
+[1.313s] [ 43%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_control_msgs/msg/detail/longitudinal__type_support.cpp.o[0m
+[1.511s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_c[0m
+[1.526s] [ 45%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_control_msgs/msg/control__type_support.cpp.o[0m
+[1.559s] [ 47%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_control_msgs/msg/control_horizon__type_support.cpp.o[0m
+[1.559s] [ 49%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_control_msgs/msg/lateral__type_support.cpp.o[0m
+[1.559s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_introspection_c[0m
+[1.625s] [ 50%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_control_msgs/msg/longitudinal__type_support.cpp.o[0m
+[1.646s] [ 52%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/control__type_support.c.o[0m
+[1.672s] [ 54%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/longitudinal__type_support.c.o[0m
+[1.674s] [ 56%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/control_horizon__type_support.c.o[0m
+[1.705s] [ 58%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_control_msgs/msg/detail/lateral__type_support.c.o[0m
+[1.706s] [ 60%] [32m[1mLinking CXX shared library libautoware_control_msgs__rosidl_typesupport_c.so[0m
+[1.741s] [ 61%] [32m[1mLinking CXX shared library libautoware_control_msgs__rosidl_typesupport_cpp.so[0m
+[1.749s] [ 63%] [32m[1mLinking C shared library libautoware_control_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.761s] [ 63%] Built target autoware_control_msgs__rosidl_typesupport_c
+[1.776s] [ 63%] Built target autoware_control_msgs__rosidl_typesupport_introspection_c
+[1.777s] [ 63%] Built target autoware_control_msgs__rosidl_typesupport_cpp
+[1.809s] [ 65%] [32m[1mLinking CXX shared library libautoware_control_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.864s] [ 65%] Built target autoware_control_msgs__rosidl_typesupport_introspection_cpp
+[1.928s] [ 67%] [32m[1mLinking CXX shared library libautoware_control_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.983s] [ 67%] Built target autoware_control_msgs__rosidl_typesupport_fastrtps_cpp
+[1.990s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.432s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.450s] [ 70%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_control_msgs/msg/detail/control__type_support_c.cpp.o[0m
+[2.450s] [ 72%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_control_msgs/msg/detail/longitudinal__type_support_c.cpp.o[0m
+[2.452s] [ 74%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_control_msgs/msg/detail/control_horizon__type_support_c.cpp.o[0m
+[2.452s] [ 76%] [32mBuilding CXX object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_control_msgs/msg/detail/lateral__type_support_c.cpp.o[0m
+[2.791s] [ 78%] [32m[1mLinking CXX shared library libautoware_control_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.850s] [ 78%] Built target autoware_control_msgs__rosidl_typesupport_fastrtps_c
+[2.863s] [ 78%] Built target autoware_control_msgs
+[2.877s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.816s] [ 80%] Built target autoware_control_msgs__py
+[3.825s] [35m[1mScanning dependencies of target autoware_control_msgs__python[0m
+[3.839s] [ 87%] [32mBuilding C object CMakeFiles/autoware_control_msgs__python.dir/rosidl_generator_py/autoware_control_msgs/msg/_lateral_s.c.o[0m
+[3.839s] [ 87%] [32mBuilding C object CMakeFiles/autoware_control_msgs__python.dir/rosidl_generator_py/autoware_control_msgs/msg/_control_s.c.o[0m
+[3.839s] [ 87%] [32mBuilding C object CMakeFiles/autoware_control_msgs__python.dir/rosidl_generator_py/autoware_control_msgs/msg/_control_horizon_s.c.o[0m
+[3.839s] [ 87%] [32mBuilding C object CMakeFiles/autoware_control_msgs__python.dir/rosidl_generator_py/autoware_control_msgs/msg/_longitudinal_s.c.o[0m
+[3.906s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/autoware_control_msgs/libautoware_control_msgs__python.so[0m
+[3.937s] [ 89%] Built target autoware_control_msgs__python
+[3.945s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[3.945s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_c__pyext[0m
+[3.945s] [35m[1mScanning dependencies of target autoware_control_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.956s] [ 94%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autoware_control_msgs/_autoware_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.956s] [ 94%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autoware_control_msgs/_autoware_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.956s] [ 94%] [32mBuilding C object CMakeFiles/autoware_control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autoware_control_msgs/_autoware_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.017s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.018s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.020s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.043s] [100%] Built target autoware_control_msgs__rosidl_typesupport_introspection_c__pyext
+[4.043s] [100%] Built target autoware_control_msgs__rosidl_typesupport_c__pyext
+[4.065s] [100%] Built target autoware_control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.072s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs --clean-first -- -j16 -l16
+[4.123s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs
+[4.129s] -- Install configuration: ""
+[4.129s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/ament_index/resource_index/rosidl_interfaces/autoware_control_msgs
+[4.129s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs
+[4.129s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg
+[4.129s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.129s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/control_horizon.h
+[4.129s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/longitudinal.h
+[4.130s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/control.h
+[4.130s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/lateral.h
+[4.130s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail
+[4.130s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__struct.h
+[4.130s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__type_support.h
+[4.130s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__functions.c
+[4.130s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__type_support.h
+[4.130s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__struct.h
+[4.131s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__struct.h
+[4.131s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__functions.h
+[4.131s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__functions.h
+[4.131s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__functions.h
+[4.131s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__type_support.h
+[4.131s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__struct.h
+[4.131s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__type_support.h
+[4.131s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__functions.c
+[4.131s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__functions.c
+[4.132s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__functions.h
+[4.132s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__functions.c
+[4.132s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/environment/library_path.sh
+[4.132s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/environment/library_path.dsv
+[4.132s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_generator_c.so
+[4.132s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_generator_c.so" to ""
+[4.132s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs
+[4.132s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg
+[4.132s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.133s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail
+[4.133s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__rosidl_typesupport_fastrtps_c.h
+[4.133s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__rosidl_typesupport_fastrtps_c.h
+[4.133s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__rosidl_typesupport_fastrtps_c.h
+[4.133s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__rosidl_typesupport_fastrtps_c.h
+[4.133s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_fastrtps_c.so
+[4.133s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.133s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs
+[4.134s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg
+[4.134s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.134s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail
+[4.134s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__rosidl_typesupport_fastrtps_cpp.hpp
+[4.134s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/dds_fastrtps
+[4.134s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp
+[4.134s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__rosidl_typesupport_fastrtps_cpp.hpp
+[4.134s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__rosidl_typesupport_fastrtps_cpp.hpp
+[4.134s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.135s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.135s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs
+[4.135s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg
+[4.135s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.135s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail
+[4.135s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__rosidl_typesupport_introspection_c.h
+[4.135s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__type_support.c
+[4.135s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__rosidl_typesupport_introspection_c.h
+[4.136s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__type_support.c
+[4.136s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__rosidl_typesupport_introspection_c.h
+[4.136s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__type_support.c
+[4.136s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__rosidl_typesupport_introspection_c.h
+[4.136s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__type_support.c
+[4.136s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_introspection_c.so
+[4.136s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.136s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_c.so
+[4.136s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_c.so" to ""
+[4.136s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs
+[4.137s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg
+[4.137s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/longitudinal.hpp
+[4.137s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/lateral.hpp
+[4.137s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/control.hpp
+[4.137s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/control_horizon.hpp
+[4.137s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail
+[4.137s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__struct.hpp
+[4.137s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__struct.hpp
+[4.137s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__builder.hpp
+[4.137s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__traits.hpp
+[4.138s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__traits.hpp
+[4.138s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__builder.hpp
+[4.138s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__traits.hpp
+[4.138s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__traits.hpp
+[4.138s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__builder.hpp
+[4.138s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__struct.hpp
+[4.138s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__builder.hpp
+[4.138s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__struct.hpp
+[4.138s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs
+[4.139s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg
+[4.139s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail
+[4.139s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__type_support.cpp
+[4.139s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__type_support.cpp
+[4.139s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp
+[4.139s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__rosidl_typesupport_introspection_cpp.hpp
+[4.139s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__type_support.cpp
+[4.139s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/control_horizon__rosidl_typesupport_introspection_cpp.hpp
+[4.139s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/lateral__rosidl_typesupport_introspection_cpp.hpp
+[4.139s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include/autoware_control_msgs/msg/detail/longitudinal__type_support.cpp
+[4.140s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_introspection_cpp.so
+[4.140s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.140s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_cpp.so
+[4.140s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_cpp.so" to ""
+[4.140s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/environment/pythonpath.sh
+[4.140s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/environment/pythonpath.dsv
+[4.140s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/__init__.py
+[4.161s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg
+[4.161s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/__init__.py
+[4.161s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/_control_horizon_s.c
+[4.161s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/_longitudinal_s.c
+[4.161s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/_control_s.c
+[4.161s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/_lateral_s.c
+[4.162s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/_control.py
+[4.162s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/_lateral.py
+[4.162s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/_control_horizon.py
+[4.162s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/msg/_longitudinal.py
+[4.162s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.163s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.163s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.163s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.164s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.164s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages/autoware_control_msgs/autoware_control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.164s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__python.so
+[4.165s] -- Set runtime path of "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__python.so" to ""
+[4.165s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/msg/Control.idl
+[4.165s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/msg/ControlHorizon.idl
+[4.165s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/msg/Lateral.idl
+[4.165s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/msg/Longitudinal.idl
+[4.165s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/msg/Control.msg
+[4.165s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/msg/ControlHorizon.msg
+[4.165s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/msg/Lateral.msg
+[4.166s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/msg/Longitudinal.msg
+[4.166s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_control_msgs
+[4.166s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_control_msgs
+[4.166s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/environment/ament_prefix_path.sh
+[4.166s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/environment/ament_prefix_path.dsv
+[4.166s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/environment/path.sh
+[4.166s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/environment/path.dsv
+[4.166s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/local_setup.bash
+[4.167s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/local_setup.sh
+[4.167s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/local_setup.zsh
+[4.167s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/local_setup.dsv
+[4.167s] -- Installing: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/package.dsv
+[4.167s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/ament_index/resource_index/packages/autoware_control_msgs
+[4.167s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_generator_cExport.cmake
+[4.167s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.167s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.167s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.167s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_cExport.cmake
+[4.167s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.167s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_generator_cppExport.cmake
+[4.168s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.168s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.168s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_cppExport.cmake
+[4.168s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.168s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/rosidl_cmake-extras.cmake
+[4.168s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.168s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.168s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.169s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.171s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.171s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.171s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgsConfig.cmake
+[4.171s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake/autoware_control_msgsConfig-version.cmake
+[4.172s] -- Up-to-date: /home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/package.xml
+[4.172s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs

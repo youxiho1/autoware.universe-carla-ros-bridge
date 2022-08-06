@@ -53,8 +53,8 @@ CMAKE_BINARY_DIR = /home/tasl/autoware.auto-ros-bridge/build/autoware_auto_contr
 # Include the progress variables for this target.
 include CMakeFiles/autoware_auto_control_msgs.dir/progress.make
 
-CMakeFiles/autoware_auto_control_msgs: /opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl
-CMakeFiles/autoware_auto_control_msgs: /opt/ros/galactic/share/builtin_interfaces/msg/Time.idl
+CMakeFiles/autoware_auto_control_msgs: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
+CMakeFiles/autoware_auto_control_msgs: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 
 
 autoware_auto_control_msgs: CMakeFiles/autoware_auto_control_msgs

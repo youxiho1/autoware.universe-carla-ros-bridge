@@ -1,0 +1,90 @@
+[0.010s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/foxy /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.028s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.182s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.286s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.321s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.322s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.423s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[0.446s] -- Found autoware_control_msgs: 1.0.0 (/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake)
+[0.456s] -- Found autoware_auto_control_msgs: 1.0.0 (/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/cmake)
+[0.472s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.524s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.527s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.527s] -- Configured cppcheck include dirs: /home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/include
+[0.528s] -- Configured cppcheck exclude dirs and/or files: 
+[0.530s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.530s] -- Configured cpplint exclude dirs and/or files: 
+[0.531s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.532s] -- Added test 'lint_cmake' to check CMake code style
+[0.532s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.535s] -- Added test 'uncrustify' to check C / C++ code style
+[0.535s] -- Configured uncrustify additional arguments: 
+[0.535s] -- Added test 'xmllint' to check XML markup files
+[0.537s] -- Configuring done
+[0.546s] -- Generating done
+[0.547s] -- Build files have been written to: /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla
+[0.564s] [35m[1mScanning dependencies of target sender[0m
+[0.572s] [ 33%] Built target jsontest
+[0.572s] [ 50%] [32mBuilding CXX object CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o[0m
+[0.578s] [ 83%] Built target listener
+[1.470s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:43:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[1.470s]    43 |     rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+[1.470s]       |                       [01;31m[K^~~~~~~~[m[K
+[1.470s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:43:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.471s]    43 |     rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+[1.471s]       |                                            [01;31m[K^[m[K
+[1.471s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:43:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.471s]    43 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+[1.471s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[1.471s]       |                                                        [32m[K;[m[K
+[1.472s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:43:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.472s]    43 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[1.472s]       |                                                         [01;31m[K^~~~~~~~~~[m[K
+[1.472s]       |                                                         [32m[Krcl_publisher_t[m[K
+[1.472s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[1.472s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:37:34:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[1.472s]    37 |     : Node("minimal_publisher"), [01;31m[Kcount_[m[K(0)
+[1.472s]       |                                  [01;31m[K^~~~~~[m[K
+[1.474s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:39:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.474s]    39 |       [01;31m[Kpublisher_[m[K = this->create_publisher<AckermannDrive>("/carla/ego_vehicle/ackermann_cmd", 10);
+[1.474s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.474s]       |       [32m[Krcl_publisher_t[m[K
+[1.477s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[1.477s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:51:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+[1.477s]    51 |   rclcpp::init([01;31m[Kargc[m[K, argv);
+[1.477s]       |                [01;31m[K^~~~[m[K
+[1.478s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:51:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+[1.478s]    51 |   rclcpp::init(argc, [01;31m[Kargv[m[K);
+[1.478s]       |                      [01;31m[K^~~~[m[K
+[1.483s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:109:48:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krapidjson::GenericValue<rapidjson::UTF8<> >[m[K’ to ‘[01m[Kackermann_msgs::msg::AckermannDrive_<std::allocator<void> >::_steering_angle_type[m[K’ {aka ‘[01m[Kfloat[m[K’} in assignment
+[1.483s]   109 |     message.steering_angle = d["steering_angle"[01;31m[K][m[K;
+[1.483s]       |                                                [01;31m[K^[m[K
+[1.483s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:110:66:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krapidjson::GenericValue<rapidjson::UTF8<> >[m[K’ to ‘[01m[Kackermann_msgs::msg::AckermannDrive_<std::allocator<void> >::_steering_angle_velocity_type[m[K’ {aka ‘[01m[Kfloat[m[K’} in assignment
+[1.483s]   110 |     message.steering_angle_velocity = d["steering_angle_velocity"[01;31m[K][m[K;
+[1.483s]       |                                                                  [01;31m[K^[m[K
+[1.484s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:111:30:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krapidjson::GenericValue<rapidjson::UTF8<> >[m[K’ to ‘[01m[Kackermann_msgs::msg::AckermannDrive_<std::allocator<void> >::_speed_type[m[K’ {aka ‘[01m[Kfloat[m[K’} in assignment
+[1.484s]   111 |     message.speed = d["speed"[01;31m[K][m[K;
+[1.484s]       |                              [01;31m[K^[m[K
+[1.484s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:112:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krapidjson::GenericValue<rapidjson::UTF8<> >[m[K’ to ‘[01m[Kackermann_msgs::msg::AckermannDrive_<std::allocator<void> >::_acceleration_type[m[K’ {aka ‘[01m[Kfloat[m[K’} in assignment
+[1.484s]   112 |     message.acceleration = d["acceleration"[01;31m[K][m[K;
+[1.484s]       |                                            [01;31m[K^[m[K
+[1.484s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:113:28:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krapidjson::GenericValue<rapidjson::UTF8<> >[m[K’ to ‘[01m[Kackermann_msgs::msg::AckermannDrive_<std::allocator<void> >::_jerk_type[m[K’ {aka ‘[01m[Kfloat[m[K’} in assignment
+[1.484s]   113 |     message.jerk = d["jerk"[01;31m[K][m[K;
+[1.484s]       |                            [01;31m[K^[m[K
+[1.485s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:115:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.485s]   115 |     [01;31m[Kpublisher_[m[K->publish(message);
+[1.485s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.485s]       |     [32m[Krcl_publisher_t[m[K
+[1.485s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:83:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksend_num[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.485s]    83 |   int [01;35m[Ksend_num[m[K;
+[1.485s]       |       [01;35m[K^~~~~~~~[m[K
+[1.485s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:84:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksend_buf[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.485s]    84 |   char [01;35m[Ksend_buf[m[K[20] = "i am server!";
+[1.485s]       |        [01;35m[K^~~~~~~~[m[K
+[2.033s] make[2]: *** [CMakeFiles/sender.dir/build.make:63: CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o] Error 1
+[2.033s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/sender.dir/all] Error 2
+[2.033s] make: *** [Makefile:141: all] Error 2
+[2.035s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '2': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/foxy /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

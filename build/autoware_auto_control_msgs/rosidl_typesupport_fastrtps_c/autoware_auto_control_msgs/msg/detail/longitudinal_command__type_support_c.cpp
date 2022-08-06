@@ -134,7 +134,7 @@ static bool _LongitudinalCommand__cdr_deserialize(
   }
 
   return true;
-}  // NOLINT(readability/fn_size)
+}
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_autoware_auto_control_msgs
 size_t get_serialized_size_autoware_auto_control_msgs__msg__LongitudinalCommand(

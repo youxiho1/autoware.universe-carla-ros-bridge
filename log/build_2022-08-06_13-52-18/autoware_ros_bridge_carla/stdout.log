@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 50%] Built target jsontest
+[ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o[0m

@@ -43,50 +43,6 @@ autoware_auto_control_msgs__msg__AckermannLateralCommand__fini(autoware_auto_con
   // steering_tire_rotation_rate
 }
 
-bool
-autoware_auto_control_msgs__msg__AckermannLateralCommand__are_equal(const autoware_auto_control_msgs__msg__AckermannLateralCommand * lhs, const autoware_auto_control_msgs__msg__AckermannLateralCommand * rhs)
-{
-  if (!lhs || !rhs) {
-    return false;
-  }
-  // stamp
-  if (!builtin_interfaces__msg__Time__are_equal(
-      &(lhs->stamp), &(rhs->stamp)))
-  {
-    return false;
-  }
-  // steering_tire_angle
-  if (lhs->steering_tire_angle != rhs->steering_tire_angle) {
-    return false;
-  }
-  // steering_tire_rotation_rate
-  if (lhs->steering_tire_rotation_rate != rhs->steering_tire_rotation_rate) {
-    return false;
-  }
-  return true;
-}
-
-bool
-autoware_auto_control_msgs__msg__AckermannLateralCommand__copy(
-  const autoware_auto_control_msgs__msg__AckermannLateralCommand * input,
-  autoware_auto_control_msgs__msg__AckermannLateralCommand * output)
-{
-  if (!input || !output) {
-    return false;
-  }
-  // stamp
-  if (!builtin_interfaces__msg__Time__copy(
-      &(input->stamp), &(output->stamp)))
-  {
-    return false;
-  }
-  // steering_tire_angle
-  output->steering_tire_angle = input->steering_tire_angle;
-  // steering_tire_rotation_rate
-  output->steering_tire_rotation_rate = input->steering_tire_rotation_rate;
-  return true;
-}
-
 autoware_auto_control_msgs__msg__AckermannLateralCommand *
 autoware_auto_control_msgs__msg__AckermannLateralCommand__create()
 {
@@ -194,61 +150,4 @@ autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence__destroy(auto
     autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence__fini(array);
   }
   free(array);
-}
-
-bool
-autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence__are_equal(const autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence * lhs, const autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence * rhs)
-{
-  if (!lhs || !rhs) {
-    return false;
-  }
-  if (lhs->size != rhs->size) {
-    return false;
-  }
-  for (size_t i = 0; i < lhs->size; ++i) {
-    if (!autoware_auto_control_msgs__msg__AckermannLateralCommand__are_equal(&(lhs->data[i]), &(rhs->data[i]))) {
-      return false;
-    }
-  }
-  return true;
-}
-
-bool
-autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence__copy(
-  const autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence * input,
-  autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence * output)
-{
-  if (!input || !output) {
-    return false;
-  }
-  if (output->capacity < input->size) {
-    const size_t allocation_size =
-      input->size * sizeof(autoware_auto_control_msgs__msg__AckermannLateralCommand);
-    autoware_auto_control_msgs__msg__AckermannLateralCommand * data =
-      (autoware_auto_control_msgs__msg__AckermannLateralCommand *)realloc(output->data, allocation_size);
-    if (!data) {
-      return false;
-    }
-    for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!autoware_auto_control_msgs__msg__AckermannLateralCommand__init(&data[i])) {
-        /* free currently allocated and return false */
-        for (; i-- > output->capacity; ) {
-          autoware_auto_control_msgs__msg__AckermannLateralCommand__fini(&data[i]);
-        }
-        free(data);
-        return false;
-      }
-    }
-    output->data = data;
-    output->capacity = input->size;
-  }
-  output->size = input->size;
-  for (size_t i = 0; i < input->size; ++i) {
-    if (!autoware_auto_control_msgs__msg__AckermannLateralCommand__copy(
-        &(input->data[i]), &(output->data[i])))
-    {
-      return false;
-    }
-  }
-  return true;
 }

@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"autoware_control_msgs\" -Dautoware_control_msgs__rosidl_typesupport_c_EXPORTS
 
-CXX_INCLUDES = -I/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_generator_c -I/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_typesupport_c -isystem /opt/ros/galactic/include 
+CXX_INCLUDES = -I/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_generator_c -I/home/tasl/autoware.auto-ros-bridge/build/autoware_control_msgs/rosidl_typesupport_c -isystem /opt/ros/foxy/include 
 

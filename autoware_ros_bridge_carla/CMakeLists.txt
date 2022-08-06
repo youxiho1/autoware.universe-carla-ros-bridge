@@ -16,18 +16,24 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(ackermann_msgs REQUIRED)
 find_package(autoware_control_msgs REQUIRED)
 find_package(autoware_auto_control_msgs REQUIRED)
 
 
 add_executable(listener src/testControlCommand.cpp)
 add_executable(jsontest src/simpledom.cpp)
+add_executable(sender src/controlCommandForwarding.cpp)
+
 ament_target_dependencies(
   listener rclcpp std_msgs autoware_control_msgs autoware_auto_control_msgs)
+ament_target_dependencies(
+  sender rclcpp ackermann_msgs autoware_control_msgs autoware_auto_control_msgs)
 
 install(TARGETS
   listener
   jsontest
+  sender
   DESTINATION lib/${PROJECT_NAME})
 
 

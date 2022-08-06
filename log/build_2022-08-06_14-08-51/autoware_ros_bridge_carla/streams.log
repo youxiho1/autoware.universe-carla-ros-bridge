@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/foxy /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.037s] [35m[1mScanning dependencies of target sender[0m
+[0.043s] [ 33%] Built target jsontest
+[0.050s] [ 66%] Built target listener
+[0.056s] [ 83%] [32mBuilding CXX object CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o[0m
+[0.999s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.999s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:85:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksend_num[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.999s]    85 |   int [01;35m[Ksend_num[m[K;
+[0.999s]       |       [01;35m[K^~~~~~~~[m[K
+[0.999s] [01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp:86:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksend_buf[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.999s]    86 |   char [01;35m[Ksend_buf[m[K[20] = "i am server!";
+[1.000s]       |        [01;35m[K^~~~~~~~[m[K
+[2.163s] [100%] [32m[1mLinking CXX executable sender[0m
+[2.254s] /usr/bin/ld: CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o: in function `rclcpp::Publisher<ackermann_msgs::msg::AckermannDrive_<std::allocator<void> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+[2.254s] controlCommandForwarding.cpp:(.text._ZN6rclcpp9PublisherIN14ackermann_msgs3msg15AckermannDrive_ISaIvEEES4_EC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE[_ZN6rclcpp9PublisherIN14ackermann_msgs3msg15AckermannDrive_ISaIvEEES4_EC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE]+0x6e): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<ackermann_msgs::msg::AckermannDrive_<std::allocator<void> > >()'
+[2.263s] collect2: error: ld returned 1 exit status
+[2.264s] make[2]: *** [CMakeFiles/sender.dir/build.make:141: sender] Error 1
+[2.264s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/sender.dir/all] Error 2
+[2.265s] make: *** [Makefile:141: all] Error 2
+[2.266s] Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '2': CMAKE_PREFIX_PATH=/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/foxy /usr/bin/cmake --build /home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

@@ -1,1 +1,1 @@
-autoware_auto_control_msgs:autoware_control_msgs
+ackermann_msgs:autoware_auto_control_msgs:autoware_control_msgs

@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 50%] Built target jsontest
+[ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o[0m
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(autoware_auto_control_msgs::msg::AckermannControlCommand_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:87:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_buf[m[K’ was not declared in this scope; did you mean ‘[01m[Ksend_num[m[K’?
+   87 |       int send_num = sendto(sock_fd, buffer.GetString(), strlen([01;31m[Ksend_buf[m[K), 0, (struct sockaddr *)&addr_serv, len);
+      |                                                                 [01;31m[K^~~~~~~~[m[K
+      |                                                                 [32m[Ksend_num[m[K
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:121:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksock_fd[m[K’ was not declared in this scope
+  121 |   close([01;31m[Ksock_fd[m[K);
+      |         [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/testControlCommand.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000184] (autoware_ros_bridge_carla) JobQueued: {'identifier': 'autoware_ros_bridge_carla', 'dependencies': OrderedDict()}
+[0.000236] (autoware_ros_bridge_carla) JobStarted: {'identifier': 'autoware_ros_bridge_carla'}
+[0.007842] (autoware_ros_bridge_carla) JobProgress: {'identifier': 'autoware_ros_bridge_carla', 'progress': 'cmake'}
+[0.008045] (autoware_ros_bridge_carla) Command: {'cmd': ['/usr/bin/cmake', '/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla', '-DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/install/autoware_ros_bridge_carla'], 'cwd': '/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/build/autoware_ros_bridge_carla', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'tasl'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('SSH_AGENT_PID', '1783'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tasl'), ('OLDPWD', '/home/tasl/autoware.auto-ros-bridge'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1557'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b1f8b1b157b9a6f88b73be8a62eca8ca'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tasl'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:48522'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tasl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tasl-Lenovo-Legion-Y9000K2020H:@/tmp/.ICE-unix/1821,unix/tasl-Lenovo-Legion-Y9000K2020H:/tmp/.ICE-unix/1821'), ('INVOCATION_ID', '28533b51bf614147971969aab1cb4abc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a45e5d54_627b_4aa2_9bbb_6d0ad47fc7be'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/build/autoware_ros_bridge_carla'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b1f8b1b157b9a6f88b73be8a62eca8ca'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.045070] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.079974] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.083044] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.098612] (-) TimerEvent: {}
+[0.129504] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.130268] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.178631] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.191030] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.191428] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.194010] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.198723] (-) TimerEvent: {}
+[0.258831] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.259540] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.298851] (-) TimerEvent: {}
+[0.309698] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.318653] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.319013] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.320202] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.336584] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.336707] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.398950] (-) TimerEvent: {}
+[0.496810] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.499057] (-) TimerEvent: {}
+[0.527032] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.531138] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.580854] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.598459] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.599114] (-) TimerEvent: {}
+[0.647744] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.686741] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.687732] (autoware_ros_bridge_carla) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.699249] (-) TimerEvent: {}
+[0.699647] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.745767] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.745931] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.799343] (-) TimerEvent: {}
+[0.801146] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.801357] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.840566] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.840860] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.884748] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.885505] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.899439] (-) TimerEvent: {}
+[0.999644] (-) TimerEvent: {}
+[1.005620] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[1.036971] (autoware_ros_bridge_carla) StderrLine: {'line': b'CMake Error at CMakeLists.txt:20 (find_package):\n'}
+[1.037078] (autoware_ros_bridge_carla) StderrLine: {'line': b'  By not providing "Findautoware_control_msgs.cmake" in CMAKE_MODULE_PATH\n'}
+[1.037130] (autoware_ros_bridge_carla) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[1.037176] (autoware_ros_bridge_carla) StderrLine: {'line': b'  by "autoware_control_msgs", but CMake did not find one.\n'}
+[1.037221] (autoware_ros_bridge_carla) StderrLine: {'line': b'\n'}
+[1.037265] (autoware_ros_bridge_carla) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.037308] (autoware_ros_bridge_carla) StderrLine: {'line': b'  "autoware_control_msgs" with any of the following names:\n'}
+[1.037350] (autoware_ros_bridge_carla) StderrLine: {'line': b'\n'}
+[1.037391] (autoware_ros_bridge_carla) StderrLine: {'line': b'    autoware_control_msgsConfig.cmake\n'}
+[1.037433] (autoware_ros_bridge_carla) StderrLine: {'line': b'    autoware_control_msgs-config.cmake\n'}
+[1.037475] (autoware_ros_bridge_carla) StderrLine: {'line': b'\n'}
+[1.037516] (autoware_ros_bridge_carla) StderrLine: {'line': b'  Add the installation prefix of "autoware_control_msgs" to CMAKE_PREFIX_PATH\n'}
+[1.037558] (autoware_ros_bridge_carla) StderrLine: {'line': b'  or set "autoware_control_msgs_DIR" to a directory containing one of the\n'}
+[1.037600] (autoware_ros_bridge_carla) StderrLine: {'line': b'  above files.  If "autoware_control_msgs" provides a separate development\n'}
+[1.037642] (autoware_ros_bridge_carla) StderrLine: {'line': b'  package or SDK, be sure it has been installed.\n'}
+[1.037684] (autoware_ros_bridge_carla) StderrLine: {'line': b'\n'}
+[1.037726] (autoware_ros_bridge_carla) StderrLine: {'line': b'\n'}
+[1.037924] (autoware_ros_bridge_carla) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.037996] (autoware_ros_bridge_carla) StdoutLine: {'line': b'See also "/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/build/autoware_ros_bridge_carla/CMakeFiles/CMakeOutput.log".\n'}
+[1.038047] (autoware_ros_bridge_carla) StdoutLine: {'line': b'See also "/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/build/autoware_ros_bridge_carla/CMakeFiles/CMakeError.log".\n'}
+[1.042269] (autoware_ros_bridge_carla) CommandEnded: {'returncode': 1}
+[1.059384] (autoware_ros_bridge_carla) JobEnded: {'identifier': 'autoware_ros_bridge_carla', 'rc': 1}
+[1.069948] (-) EventReactorShutdown: {}
