@@ -1,5 +1,5 @@
-# autoware.auto-ros-bridge
-autoware.auto ros bridge for carla simulator
+# autoware.universe-ros-bridge
+autoware.universe ros bridge for carla simulator
 
 License:
 Autoware.universe
