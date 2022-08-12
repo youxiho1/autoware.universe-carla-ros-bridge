@@ -1,0 +1,28 @@
+[0.011s] Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla': AMENT_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.048s] [35m[1mScanning dependencies of target control_command_converter[0m
+[0.056s] [ 25%] Built target jsontest
+[0.061s] [ 75%] Built target listener
+[0.061s] [ 75%] Built target sender
+[0.072s] [ 87%] [32mBuilding CXX object CMakeFiles/control_command_converter.dir/src/control_command_converter.cpp.o[0m
+[1.866s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/control_command_converter.cpp:[m[K In member function ‘[01m[Kvoid ControlCommandConverter::topic_callback(autoware_auto_control_msgs::msg::AckermannControlCommand_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[1.866s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/control_command_converter.cpp:44:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpublisher_[m[K’ in ‘[01m[K(ControlCommandConverter*)this[m[K’, which is of pointer type ‘[01m[KControlCommandConverter*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[1.866s]    44 |       this.[01;31m[Kpublisher_[m[K.publish(message);
+[1.867s]       |            [01;31m[K^~~~~~~~~~[m[K
+[1.867s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/control_command_converter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.867s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/control_command_converter.cpp:58:16:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin()[m[K’
+[1.867s]    58 |   rclcpp::spin([01;31m[K)[m[K;
+[1.867s]       |                [01;31m[K^[m[K
+[1.867s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.867s]                  from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/control_command_converter.cpp:4[m[K:
+[1.867s] [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[1.867s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[1.867s]       | [01;36m[K^~~~[m[K
+[1.868s] [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.868s] [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[1.868s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[1.868s]       | [01;36m[K^~~~[m[K
+[1.868s] [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[3.863s] make[2]: *** [CMakeFiles/control_command_converter.dir/build.make:63: CMakeFiles/control_command_converter.dir/src/control_command_converter.cpp.o] Error 1
+[3.863s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/control_command_converter.dir/all] Error 2
+[3.863s] make: *** [Makefile:141: all] Error 2
+[3.868s] Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla' returned '2': AMENT_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

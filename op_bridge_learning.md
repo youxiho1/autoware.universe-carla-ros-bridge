@@ -1,4 +1,4 @@
-## Let's learn op_bridge_ros2.py first
+# Let's learn op_bridge_ros2.py first
 
 ## WorldHandler
 ### init()
@@ -13,6 +13,7 @@ set spawn point: x, y, z, roll, pitch, yaw
 
 ## AgentHandler
 ### Construction()
+Create an agent, I guess it creates an op_ros2_agent
 Use BridgeHelpers to find the ego_vehicle
 Use AgentWrapper to setup sensors
 
@@ -85,3 +86,18 @@ new AgentHandler
 agentHandler.run_agent()
 
 cleanup()
+
+
+# Then Let's learn op_ros2_agent
+To tell you the truth, I feel so excited now
+I feel really, really excited and a little upset
+Hope it can teach me a lot
+If it can teach me a lesson, I'll go implement all the ros bridge in one day and use another day to test the utility of my ros bridge
+
+Now, let's see
+
+# 1. initialize ros2 node
+rclpy.init(args=None)
+self.ros2_node = rclpy.create_node("op_ros2_agent")
+
+

@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target listener[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o[0m
-[01m[K/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/testControlCommand.cpp:24:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
-   24 |     [01;31m[K{[m[K
-      |     [01;31m[K^[m[K
-make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/testControlCommand.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

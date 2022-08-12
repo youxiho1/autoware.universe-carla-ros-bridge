@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla")
+  set(install_space "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla/install_manifest.txt")
+set(install_manifest "/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

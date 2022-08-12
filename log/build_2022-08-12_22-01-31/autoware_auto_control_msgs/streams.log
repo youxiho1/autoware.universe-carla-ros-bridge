@@ -1,0 +1,35 @@
+[0.022s] Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs': /usr/bin/cmake /home/tasl/autoware.universe-carla-ros-bridge/autoware_auto_control_msgs -DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs
+[0.067s] -- The C compiler identification is GNU 7.5.0
+[0.109s] -- The CXX compiler identification is GNU 9.4.0
+[0.112s] -- Check for working C compiler: /usr/bin/cc
+[0.167s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.168s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.307s] -- Detecting CXX compiler ABI info
+[0.393s] -- Detecting CXX compiler ABI info - done
+[0.405s] -- Detecting CXX compile features
+[0.405s] -- Detecting CXX compile features - done
+[0.413s] CMake Error at CMakeLists.txt:8 (find_package):
+[0.413s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[0.413s]   project has asked CMake to find a package configuration file provided by
+[0.413s]   "ament_cmake_auto", but CMake did not find one.
+[0.414s] 
+[0.414s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[0.414s]   with any of the following names:
+[0.414s] 
+[0.414s]     ament_cmake_autoConfig.cmake
+[0.414s]     ament_cmake_auto-config.cmake
+[0.414s] 
+[0.414s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[0.414s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[0.414s]   files.  If "ament_cmake_auto" provides a separate development package or
+[0.414s]   SDK, be sure it has been installed.
+[0.414s] 
+[0.414s] 
+[0.414s] -- Configuring incomplete, errors occurred!
+[0.415s] See also "/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/CMakeFiles/CMakeOutput.log".
+[0.417s] Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs' returned '1': /usr/bin/cmake /home/tasl/autoware.universe-carla-ros-bridge/autoware_auto_control_msgs -DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs

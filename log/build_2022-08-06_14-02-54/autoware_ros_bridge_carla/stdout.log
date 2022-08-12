@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target sender[0m
-[ 33%] Built target jsontest
-[ 50%] [32mBuilding CXX object CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o[0m
-[ 83%] Built target listener

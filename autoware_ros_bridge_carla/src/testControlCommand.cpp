@@ -74,7 +74,8 @@ class MinimalSubscriber : public rclcpp::Node
       json_content.AddMember("steering_angle", msg->lateral.steering_tire_angle, allocator);
       json_content.AddMember("steering_angle_velocity", msg->lateral.steering_tire_rotation_rate, allocator);
       json_content.AddMember("speed", msg->longitudinal.speed, allocator);
-      json_content.AddMember("acceleration", msg->longitudinal.acceleration, allocator);
+      // json_content.AddMember("acceleration", msg->longitudinal.acceleration, allocator);
+      json_content.AddMember("acceleration", 0, allocator);
       json_content.AddMember("jerk", msg->longitudinal.jerk, allocator);
 
       StringBuffer buffer;

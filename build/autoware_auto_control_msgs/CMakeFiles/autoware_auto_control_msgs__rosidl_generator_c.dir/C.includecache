@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.c
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.c
 autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.h
 assert.h
 -
 stdbool.h
@@ -18,15 +18,15 @@ stdlib.h
 string.h
 -
 builtin_interfaces/msg/detail/time__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
 autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h
 autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
 
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.c
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.c
 autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h
 assert.h
 -
 stdbool.h
@@ -36,11 +36,11 @@ stdlib.h
 string.h
 -
 builtin_interfaces/msg/detail/time__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
 
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/high_level_control_command__functions.c
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/high_level_control_command__functions.c
 autoware_auto_control_msgs/msg/detail/high_level_control_command__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/high_level_control_command__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/high_level_control_command__functions.h
 assert.h
 -
 stdbool.h
@@ -50,11 +50,11 @@ stdlib.h
 string.h
 -
 builtin_interfaces/msg/detail/time__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
 
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.c
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.c
 autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
 assert.h
 -
 stdbool.h
@@ -64,21 +64,21 @@ stdlib.h
 string.h
 -
 builtin_interfaces/msg/detail/time__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
 
-/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__functions.h
+/opt/ros/galactic/include/builtin_interfaces/msg/detail/time__functions.h
 stdbool.h
 -
 stdlib.h
 -
 rosidl_runtime_c/visibility_control.h
-/opt/ros/foxy/include/builtin_interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
+/opt/ros/galactic/include/builtin_interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
 builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
-/opt/ros/foxy/include/builtin_interfaces/msg/detail/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+/opt/ros/galactic/include/builtin_interfaces/msg/detail/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
 builtin_interfaces/msg/detail/time__struct.h
-/opt/ros/foxy/include/builtin_interfaces/msg/detail/builtin_interfaces/msg/detail/time__struct.h
+/opt/ros/galactic/include/builtin_interfaces/msg/detail/builtin_interfaces/msg/detail/time__struct.h
 
-/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.h
+/opt/ros/galactic/include/builtin_interfaces/msg/detail/time__struct.h
 stdbool.h
 -
 stddef.h
@@ -86,9 +86,9 @@ stddef.h
 stdint.h
 -
 
-/opt/ros/foxy/include/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+/opt/ros/galactic/include/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
 
-/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
 
 rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.h
 stdbool.h

@@ -55,6 +55,80 @@ autoware_control_msgs__msg__Longitudinal__fini(autoware_control_msgs__msg__Longi
   // is_defined_jerk
 }
 
+bool
+autoware_control_msgs__msg__Longitudinal__are_equal(const autoware_control_msgs__msg__Longitudinal * lhs, const autoware_control_msgs__msg__Longitudinal * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  // stamp
+  if (!builtin_interfaces__msg__Time__are_equal(
+      &(lhs->stamp), &(rhs->stamp)))
+  {
+    return false;
+  }
+  // control_time
+  if (!builtin_interfaces__msg__Time__are_equal(
+      &(lhs->control_time), &(rhs->control_time)))
+  {
+    return false;
+  }
+  // velocity
+  if (lhs->velocity != rhs->velocity) {
+    return false;
+  }
+  // acceleration
+  if (lhs->acceleration != rhs->acceleration) {
+    return false;
+  }
+  // jerk
+  if (lhs->jerk != rhs->jerk) {
+    return false;
+  }
+  // is_defined_acceleration
+  if (lhs->is_defined_acceleration != rhs->is_defined_acceleration) {
+    return false;
+  }
+  // is_defined_jerk
+  if (lhs->is_defined_jerk != rhs->is_defined_jerk) {
+    return false;
+  }
+  return true;
+}
+
+bool
+autoware_control_msgs__msg__Longitudinal__copy(
+  const autoware_control_msgs__msg__Longitudinal * input,
+  autoware_control_msgs__msg__Longitudinal * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  // stamp
+  if (!builtin_interfaces__msg__Time__copy(
+      &(input->stamp), &(output->stamp)))
+  {
+    return false;
+  }
+  // control_time
+  if (!builtin_interfaces__msg__Time__copy(
+      &(input->control_time), &(output->control_time)))
+  {
+    return false;
+  }
+  // velocity
+  output->velocity = input->velocity;
+  // acceleration
+  output->acceleration = input->acceleration;
+  // jerk
+  output->jerk = input->jerk;
+  // is_defined_acceleration
+  output->is_defined_acceleration = input->is_defined_acceleration;
+  // is_defined_jerk
+  output->is_defined_jerk = input->is_defined_jerk;
+  return true;
+}
+
 autoware_control_msgs__msg__Longitudinal *
 autoware_control_msgs__msg__Longitudinal__create()
 {
@@ -162,4 +236,61 @@ autoware_control_msgs__msg__Longitudinal__Sequence__destroy(autoware_control_msg
     autoware_control_msgs__msg__Longitudinal__Sequence__fini(array);
   }
   free(array);
+}
+
+bool
+autoware_control_msgs__msg__Longitudinal__Sequence__are_equal(const autoware_control_msgs__msg__Longitudinal__Sequence * lhs, const autoware_control_msgs__msg__Longitudinal__Sequence * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  if (lhs->size != rhs->size) {
+    return false;
+  }
+  for (size_t i = 0; i < lhs->size; ++i) {
+    if (!autoware_control_msgs__msg__Longitudinal__are_equal(&(lhs->data[i]), &(rhs->data[i]))) {
+      return false;
+    }
+  }
+  return true;
+}
+
+bool
+autoware_control_msgs__msg__Longitudinal__Sequence__copy(
+  const autoware_control_msgs__msg__Longitudinal__Sequence * input,
+  autoware_control_msgs__msg__Longitudinal__Sequence * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  if (output->capacity < input->size) {
+    const size_t allocation_size =
+      input->size * sizeof(autoware_control_msgs__msg__Longitudinal);
+    autoware_control_msgs__msg__Longitudinal * data =
+      (autoware_control_msgs__msg__Longitudinal *)realloc(output->data, allocation_size);
+    if (!data) {
+      return false;
+    }
+    for (size_t i = output->capacity; i < input->size; ++i) {
+      if (!autoware_control_msgs__msg__Longitudinal__init(&data[i])) {
+        /* free currently allocated and return false */
+        for (; i-- > output->capacity; ) {
+          autoware_control_msgs__msg__Longitudinal__fini(&data[i]);
+        }
+        free(data);
+        return false;
+      }
+    }
+    output->data = data;
+    output->capacity = input->size;
+  }
+  output->size = input->size;
+  for (size_t i = 0; i < input->size; ++i) {
+    if (!autoware_control_msgs__msg__Longitudinal__copy(
+        &(input->data[i]), &(output->data[i])))
+    {
+      return false;
+    }
+  }
+  return true;
 }

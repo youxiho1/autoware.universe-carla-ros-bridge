@@ -4,23 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp" "/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o"
+  "/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/controlCommandForwarding.cpp" "/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
+  "DEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp"
   "RCUTILS_ENABLE_FAULT_INJECTION"
-  "SPDLOG_COMPILED_LIB"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla/include"
-  "/home/tasl/autoware.auto-ros-bridge/install/autoware_control_msgs/include"
-  "/home/tasl/autoware.auto-ros-bridge/install/autoware_auto_control_msgs/include"
-  "/opt/ros/foxy/include"
+  "/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/include"
+  "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/include"
+  "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/include"
+  "/opt/ros/galactic/include"
   )
 
 # Targets to which this target links.

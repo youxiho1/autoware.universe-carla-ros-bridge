@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__type_support_c.cpp
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__type_support_c.cpp
 autoware_auto_control_msgs/msg/detail/ackermann_control_command__rosidl_typesupport_fastrtps_c.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_control_command__rosidl_typesupport_fastrtps_c.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_control_command__rosidl_typesupport_fastrtps_c.h
 cassert
 -
 limits
@@ -16,29 +16,29 @@ limits
 string
 -
 rosidl_typesupport_fastrtps_c/identifier.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
 rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
 rosidl_typesupport_fastrtps_cpp/message_type_support.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
 autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
 autoware_auto_control_msgs/msg/detail/ackermann_control_command__struct.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_control_command__struct.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_control_command__struct.h
 autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.h
 fastcdr/Cdr.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/fastcdr/Cdr.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/fastcdr/Cdr.h
 autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h
 autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
 builtin_interfaces/msg/detail/time__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
 
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__type_support_c.cpp
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__type_support_c.cpp
 autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__rosidl_typesupport_fastrtps_c.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__rosidl_typesupport_fastrtps_c.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__rosidl_typesupport_fastrtps_c.h
 cassert
 -
 limits
@@ -46,25 +46,25 @@ limits
 string
 -
 rosidl_typesupport_fastrtps_c/identifier.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
 rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
 rosidl_typesupport_fastrtps_cpp/message_type_support.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
 autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
 autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__struct.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__struct.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__struct.h
 autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h
 fastcdr/Cdr.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/fastcdr/Cdr.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/fastcdr/Cdr.h
 builtin_interfaces/msg/detail/time__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
 
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/high_level_control_command__type_support_c.cpp
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/high_level_control_command__type_support_c.cpp
 autoware_auto_control_msgs/msg/detail/high_level_control_command__rosidl_typesupport_fastrtps_c.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/high_level_control_command__rosidl_typesupport_fastrtps_c.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/high_level_control_command__rosidl_typesupport_fastrtps_c.h
 cassert
 -
 limits
@@ -72,25 +72,25 @@ limits
 string
 -
 rosidl_typesupport_fastrtps_c/identifier.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
 rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
 rosidl_typesupport_fastrtps_cpp/message_type_support.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
 autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
 autoware_auto_control_msgs/msg/detail/high_level_control_command__struct.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/high_level_control_command__struct.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/high_level_control_command__struct.h
 autoware_auto_control_msgs/msg/detail/high_level_control_command__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/high_level_control_command__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/high_level_control_command__functions.h
 fastcdr/Cdr.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/fastcdr/Cdr.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/fastcdr/Cdr.h
 builtin_interfaces/msg/detail/time__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
 
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/longitudinal_command__type_support_c.cpp
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/longitudinal_command__type_support_c.cpp
 autoware_auto_control_msgs/msg/detail/longitudinal_command__rosidl_typesupport_fastrtps_c.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/longitudinal_command__rosidl_typesupport_fastrtps_c.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/longitudinal_command__rosidl_typesupport_fastrtps_c.h
 cassert
 -
 limits
@@ -98,35 +98,35 @@ limits
 string
 -
 rosidl_typesupport_fastrtps_c/identifier.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
 rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
 rosidl_typesupport_fastrtps_cpp/message_type_support.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
 autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
 autoware_auto_control_msgs/msg/detail/longitudinal_command__struct.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/longitudinal_command__struct.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/longitudinal_command__struct.h
 autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h
 fastcdr/Cdr.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/fastcdr/Cdr.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/fastcdr/Cdr.h
 builtin_interfaces/msg/detail/time__functions.h
-/home/tasl/autoware.auto-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
+/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/builtin_interfaces/msg/detail/time__functions.h
 
-/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__functions.h
+/opt/ros/galactic/include/builtin_interfaces/msg/detail/time__functions.h
 stdbool.h
 -
 stdlib.h
 -
 rosidl_runtime_c/visibility_control.h
-/opt/ros/foxy/include/builtin_interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
+/opt/ros/galactic/include/builtin_interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
 builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
-/opt/ros/foxy/include/builtin_interfaces/msg/detail/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+/opt/ros/galactic/include/builtin_interfaces/msg/detail/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
 builtin_interfaces/msg/detail/time__struct.h
-/opt/ros/foxy/include/builtin_interfaces/msg/detail/builtin_interfaces/msg/detail/time__struct.h
+/opt/ros/galactic/include/builtin_interfaces/msg/detail/builtin_interfaces/msg/detail/time__struct.h
 
-/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.h
+/opt/ros/galactic/include/builtin_interfaces/msg/detail/time__struct.h
 stdbool.h
 -
 stddef.h
@@ -134,15 +134,15 @@ stddef.h
 stdint.h
 -
 
-/opt/ros/foxy/include/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+/opt/ros/galactic/include/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
 
-/opt/ros/foxy/include/fastcdr/Cdr.h
+/opt/ros/galactic/include/fastcdr/Cdr.h
 fastcdr_dll.h
-/opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+/opt/ros/galactic/include/fastcdr/fastcdr_dll.h
 FastBuffer.h
-/opt/ros/foxy/include/fastcdr/FastBuffer.h
+/opt/ros/galactic/include/fastcdr/FastBuffer.h
 exceptions/NotEnoughMemoryException.h
-/opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
+/opt/ros/galactic/include/fastcdr/exceptions/NotEnoughMemoryException.h
 stdint.h
 -
 string
@@ -160,9 +160,9 @@ stdlib.h
 array
 -
 
-/opt/ros/foxy/include/fastcdr/FastBuffer.h
+/opt/ros/galactic/include/fastcdr/FastBuffer.h
 fastcdr_dll.h
-/opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+/opt/ros/galactic/include/fastcdr/fastcdr_dll.h
 stdint.h
 -
 cstdio
@@ -174,35 +174,35 @@ cstddef
 utility
 -
 
-/opt/ros/foxy/include/fastcdr/config.h
+/opt/ros/galactic/include/fastcdr/config.h
 
-/opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
+/opt/ros/galactic/include/fastcdr/eProsima_auto_link.h
 
-/opt/ros/foxy/include/fastcdr/exceptions/Exception.h
+/opt/ros/galactic/include/fastcdr/exceptions/Exception.h
 ../fastcdr_dll.h
-/opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+/opt/ros/galactic/include/fastcdr/fastcdr_dll.h
 string
 -
 exception
 -
 
-/opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
+/opt/ros/galactic/include/fastcdr/exceptions/NotEnoughMemoryException.h
 Exception.h
-/opt/ros/foxy/include/fastcdr/exceptions/Exception.h
+/opt/ros/galactic/include/fastcdr/exceptions/Exception.h
 
-/opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+/opt/ros/galactic/include/fastcdr/fastcdr_dll.h
 fastcdr/config.h
 -
 eProsima_auto_link.h
-/opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
+/opt/ros/galactic/include/fastcdr/eProsima_auto_link.h
 
-/opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/galactic/include/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/galactic/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
+/opt/ros/galactic/include/rosidl_runtime_c/primitives_sequence.h
 stdbool.h
 -
 stddef.h
@@ -210,35 +210,35 @@ stddef.h
 stdint.h
 -
 
-/opt/ros/foxy/include/rosidl_runtime_c/u16string.h
+/opt/ros/galactic/include/rosidl_runtime_c/u16string.h
 stddef.h
 -
 rosidl_runtime_c/primitives_sequence.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
 
-/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
 
-/opt/ros/foxy/include/rosidl_typesupport_fastrtps_c/identifier.h
+/opt/ros/galactic/include/rosidl_typesupport_fastrtps_c/identifier.h
 rosidl_typesupport_fastrtps_c/visibility_control.h
-/opt/ros/foxy/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/visibility_control.h
+/opt/ros/galactic/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/visibility_control.h
 
-/opt/ros/foxy/include/rosidl_typesupport_fastrtps_c/visibility_control.h
+/opt/ros/galactic/include/rosidl_typesupport_fastrtps_c/visibility_control.h
 
-/opt/ros/foxy/include/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+/opt/ros/galactic/include/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
 string
 -
 rosidl_runtime_c/u16string.h
-/opt/ros/foxy/include/rosidl_typesupport_fastrtps_c/rosidl_runtime_c/u16string.h
+/opt/ros/galactic/include/rosidl_typesupport_fastrtps_c/rosidl_runtime_c/u16string.h
 rosidl_typesupport_fastrtps_c/visibility_control.h
-/opt/ros/foxy/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/visibility_control.h
+/opt/ros/galactic/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/visibility_control.h
 
-/opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+/opt/ros/galactic/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
 rosidl_runtime_c/message_type_support_struct.h
-/opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/galactic/include/rosidl_typesupport_fastrtps_cpp/rosidl_runtime_c/message_type_support_struct.h
 fastcdr/Cdr.h
 -
 
-/opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+/opt/ros/galactic/include/rosidl_typesupport_interface/macros.h
 
 rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.h
 stdbool.h

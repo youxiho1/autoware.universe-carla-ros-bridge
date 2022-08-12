@@ -66,6 +66,32 @@ ROSIDL_GENERATOR_C_PUBLIC_autoware_auto_control_msgs
 void
 autoware_auto_control_msgs__msg__HighLevelControlCommand__destroy(autoware_auto_control_msgs__msg__HighLevelControlCommand * msg);
 
+/// Check for msg/HighLevelControlCommand message equality.
+/**
+ * \param[in] lhs The message on the left hand size of the equality operator.
+ * \param[in] rhs The message on the right hand size of the equality operator.
+ * \return true if messages are equal, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_autoware_auto_control_msgs
+bool
+autoware_auto_control_msgs__msg__HighLevelControlCommand__are_equal(const autoware_auto_control_msgs__msg__HighLevelControlCommand * lhs, const autoware_auto_control_msgs__msg__HighLevelControlCommand * rhs);
+
+/// Copy a msg/HighLevelControlCommand message.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source message pointer.
+ * \param[out] output The target message pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer is null
+ *   or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_autoware_auto_control_msgs
+bool
+autoware_auto_control_msgs__msg__HighLevelControlCommand__copy(
+  const autoware_auto_control_msgs__msg__HighLevelControlCommand * input,
+  autoware_auto_control_msgs__msg__HighLevelControlCommand * output);
 
 /// Initialize array of msg/HighLevelControlCommand messages.
 /**
@@ -116,6 +142,33 @@ autoware_auto_control_msgs__msg__HighLevelControlCommand__Sequence__create(size_
 ROSIDL_GENERATOR_C_PUBLIC_autoware_auto_control_msgs
 void
 autoware_auto_control_msgs__msg__HighLevelControlCommand__Sequence__destroy(autoware_auto_control_msgs__msg__HighLevelControlCommand__Sequence * array);
+
+/// Check for msg/HighLevelControlCommand message array equality.
+/**
+ * \param[in] lhs The message array on the left hand size of the equality operator.
+ * \param[in] rhs The message array on the right hand size of the equality operator.
+ * \return true if message arrays are equal in size and content, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_autoware_auto_control_msgs
+bool
+autoware_auto_control_msgs__msg__HighLevelControlCommand__Sequence__are_equal(const autoware_auto_control_msgs__msg__HighLevelControlCommand__Sequence * lhs, const autoware_auto_control_msgs__msg__HighLevelControlCommand__Sequence * rhs);
+
+/// Copy an array of msg/HighLevelControlCommand messages.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source array pointer.
+ * \param[out] output The target array pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer
+ *   is null or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_autoware_auto_control_msgs
+bool
+autoware_auto_control_msgs__msg__HighLevelControlCommand__Sequence__copy(
+  const autoware_auto_control_msgs__msg__HighLevelControlCommand__Sequence * input,
+  autoware_auto_control_msgs__msg__HighLevelControlCommand__Sequence * output);
 
 #ifdef __cplusplus
 }

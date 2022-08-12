@@ -66,6 +66,32 @@ ROSIDL_GENERATOR_C_PUBLIC_autoware_auto_control_msgs
 void
 autoware_auto_control_msgs__msg__AckermannLateralCommand__destroy(autoware_auto_control_msgs__msg__AckermannLateralCommand * msg);
 
+/// Check for msg/AckermannLateralCommand message equality.
+/**
+ * \param[in] lhs The message on the left hand size of the equality operator.
+ * \param[in] rhs The message on the right hand size of the equality operator.
+ * \return true if messages are equal, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_autoware_auto_control_msgs
+bool
+autoware_auto_control_msgs__msg__AckermannLateralCommand__are_equal(const autoware_auto_control_msgs__msg__AckermannLateralCommand * lhs, const autoware_auto_control_msgs__msg__AckermannLateralCommand * rhs);
+
+/// Copy a msg/AckermannLateralCommand message.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source message pointer.
+ * \param[out] output The target message pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer is null
+ *   or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_autoware_auto_control_msgs
+bool
+autoware_auto_control_msgs__msg__AckermannLateralCommand__copy(
+  const autoware_auto_control_msgs__msg__AckermannLateralCommand * input,
+  autoware_auto_control_msgs__msg__AckermannLateralCommand * output);
 
 /// Initialize array of msg/AckermannLateralCommand messages.
 /**
@@ -116,6 +142,33 @@ autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence__create(size_
 ROSIDL_GENERATOR_C_PUBLIC_autoware_auto_control_msgs
 void
 autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence__destroy(autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence * array);
+
+/// Check for msg/AckermannLateralCommand message array equality.
+/**
+ * \param[in] lhs The message array on the left hand size of the equality operator.
+ * \param[in] rhs The message array on the right hand size of the equality operator.
+ * \return true if message arrays are equal in size and content, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_autoware_auto_control_msgs
+bool
+autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence__are_equal(const autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence * lhs, const autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence * rhs);
+
+/// Copy an array of msg/AckermannLateralCommand messages.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source array pointer.
+ * \param[out] output The target array pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer
+ *   is null or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_autoware_auto_control_msgs
+bool
+autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence__copy(
+  const autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence * input,
+  autoware_auto_control_msgs__msg__AckermannLateralCommand__Sequence * output);
 
 #ifdef __cplusplus
 }

@@ -72,7 +72,7 @@ struct ControlHorizon_
     float;
   _time_step_ms_type time_step_ms;
   using _controls_type =
-    std::vector<autoware_control_msgs::msg::Control_<ContainerAllocator>, typename ContainerAllocator::template rebind<autoware_control_msgs::msg::Control_<ContainerAllocator>>::other>;
+    std::vector<autoware_control_msgs::msg::Control_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<autoware_control_msgs::msg::Control_<ContainerAllocator>>>;
   _controls_type controls;
 
   // setters for named parameter idiom
@@ -95,7 +95,7 @@ struct ControlHorizon_
     return *this;
   }
   Type & set__controls(
-    const std::vector<autoware_control_msgs::msg::Control_<ContainerAllocator>, typename ContainerAllocator::template rebind<autoware_control_msgs::msg::Control_<ContainerAllocator>>::other> & _arg)
+    const std::vector<autoware_control_msgs::msg::Control_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<autoware_control_msgs::msg::Control_<ContainerAllocator>>> & _arg)
   {
     this->controls = _arg;
     return *this;

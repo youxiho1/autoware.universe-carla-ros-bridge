@@ -1,0 +1,98 @@
+[0.010s] Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla': AMENT_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla -DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla
+[0.052s] -- The C compiler identification is GNU 7.5.0
+[0.099s] -- The CXX compiler identification is GNU 9.4.0
+[0.102s] -- Check for working C compiler: /usr/bin/cc
+[0.154s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.155s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.218s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++
+[0.287s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.288s] -- Detecting CXX compiler ABI info
+[0.368s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Detecting CXX compile features
+[0.379s] -- Detecting CXX compile features - done
+[0.382s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.408s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.408s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.495s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.550s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.615s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.639s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.780s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.783s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.802s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.803s] -- Looking for pthread.h
+[0.860s] -- Looking for pthread.h - found
+[0.860s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.916s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.916s] -- Looking for pthread_create in pthreads
+[0.962s] -- Looking for pthread_create in pthreads - not found
+[0.962s] -- Looking for pthread_create in pthread
+[1.017s] -- Looking for pthread_create in pthread - found
+[1.018s] -- Found Threads: TRUE  
+[1.149s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/galactic/share/ackermann_msgs/cmake)
+[1.178s] -- Found autoware_control_msgs: 1.0.0 (/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake)
+[1.191s] -- Found autoware_auto_control_msgs: 1.0.0 (/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/cmake)
+[1.212s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.274s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.278s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.279s] -- Configured cppcheck include dirs: /home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/include
+[1.279s] -- Configured cppcheck exclude dirs and/or files: 
+[1.283s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.283s] -- Configured cpplint exclude dirs and/or files: 
+[1.284s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.285s] -- Added test 'lint_cmake' to check CMake code style
+[1.285s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.289s] -- Added test 'uncrustify' to check C / C++ code style
+[1.289s] -- Configured uncrustify additional arguments: 
+[1.290s] -- Added test 'xmllint' to check XML markup files
+[1.292s] -- Configuring done
+[1.311s] -- Generating done
+[1.312s] -- Build files have been written to: /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla
+[1.322s] Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla' returned '0': AMENT_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla -DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla
+[1.325s] Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla': AMENT_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[1.373s] [35m[1mScanning dependencies of target control_command_converter[0m
+[1.373s] [35m[1mScanning dependencies of target sender[0m
+[1.373s] [35m[1mScanning dependencies of target listener[0m
+[1.373s] [35m[1mScanning dependencies of target jsontest[0m
+[1.394s] [ 12%] [32mBuilding CXX object CMakeFiles/jsontest.dir/src/simpledom.cpp.o[0m
+[1.456s] [ 50%] [32mBuilding CXX object CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o[0m
+[1.456s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o[0m
+[1.456s] [ 50%] [32mBuilding CXX object CMakeFiles/control_command_converter.dir/src/control_command_converter.cpp.o[0m
+[2.021s] [ 62%] [32m[1mLinking CXX executable jsontest[0m
+[2.103s] [ 62%] Built target jsontest
+[3.122s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/control_command_converter.cpp:[m[K In constructor ‘[01m[KControlCommandConverter::ControlCommandConverter()[m[K’:
+[3.122s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/control_command_converter.cpp:21:54:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+[3.122s]    21 |       "/control/command/control_cmd", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, _1));
+[3.122s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.303s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/control_command_converter.cpp:[m[K In member function ‘[01m[Kvoid ControlCommandConverter::topic_callback(autoware_auto_control_msgs::msg::AckermannControlCommand_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[3.303s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/control_command_converter.cpp:44:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<ackermann_msgs::msg::AckermannDrive_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<ackermann_msgs::msg::AckermannDrive_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+[3.303s]    44 |       publisher_.[01;31m[Kpublish[m[K(message);
+[3.303s]       |                  [01;31m[K^~~~~~~[m[K
+[3.303s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/control_command_converter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.303s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/control_command_converter.cpp:58:16:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin()[m[K’
+[3.303s]    58 |   rclcpp::spin([01;31m[K)[m[K;
+[3.304s]       |                [01;31m[K^[m[K
+[3.304s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.304s]                  from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/control_command_converter.cpp:4[m[K:
+[3.304s] [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[3.304s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[3.304s]       | [01;36m[K^~~~[m[K
+[3.304s] [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[3.304s] [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[3.304s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[3.304s]       | [01;36m[K^~~~[m[K
+[3.304s] [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[4.080s] make[2]: *** [CMakeFiles/control_command_converter.dir/build.make:63: CMakeFiles/control_command_converter.dir/src/control_command_converter.cpp.o] Error 1
+[4.080s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/control_command_converter.dir/all] Error 2
+[4.080s] make[1]: *** Waiting for unfinished jobs....
+[5.172s] [ 75%] [32m[1mLinking CXX executable sender[0m
+[5.413s] [ 75%] Built target sender
+[7.853s] [ 87%] [32m[1mLinking CXX executable listener[0m
+[8.118s] [ 87%] Built target listener
+[8.119s] make: *** [Makefile:141: all] Error 2
+[8.120s] Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla' returned '2': AMENT_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib/python3.8/site-packages:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

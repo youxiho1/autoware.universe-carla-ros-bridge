@@ -24,16 +24,20 @@ find_package(autoware_auto_control_msgs REQUIRED)
 add_executable(listener src/testControlCommand.cpp)
 add_executable(jsontest src/simpledom.cpp)
 add_executable(sender src/controlCommandForwarding.cpp)
+add_executable(control_command_converter src/control_command_converter.cpp)
 
 ament_target_dependencies(
   listener rclcpp std_msgs autoware_control_msgs autoware_auto_control_msgs)
 ament_target_dependencies(
   sender rclcpp ackermann_msgs autoware_control_msgs autoware_auto_control_msgs)
+ament_target_dependencies(
+  control_command_converter rclcpp ackermann_msgs autoware_auto_control_msgs)
 
 install(TARGETS
   listener
   jsontest
   sender
+  control_command_converter
   DESTINATION lib/${PROJECT_NAME})
 
 

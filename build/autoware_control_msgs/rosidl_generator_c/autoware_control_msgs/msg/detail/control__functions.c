@@ -63,6 +63,74 @@ autoware_control_msgs__msg__Control__fini(autoware_control_msgs__msg__Control * 
   autoware_control_msgs__msg__Longitudinal__fini(&msg->longitudinal);
 }
 
+bool
+autoware_control_msgs__msg__Control__are_equal(const autoware_control_msgs__msg__Control * lhs, const autoware_control_msgs__msg__Control * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  // stamp
+  if (!builtin_interfaces__msg__Time__are_equal(
+      &(lhs->stamp), &(rhs->stamp)))
+  {
+    return false;
+  }
+  // control_time
+  if (!builtin_interfaces__msg__Time__are_equal(
+      &(lhs->control_time), &(rhs->control_time)))
+  {
+    return false;
+  }
+  // lateral
+  if (!autoware_control_msgs__msg__Lateral__are_equal(
+      &(lhs->lateral), &(rhs->lateral)))
+  {
+    return false;
+  }
+  // longitudinal
+  if (!autoware_control_msgs__msg__Longitudinal__are_equal(
+      &(lhs->longitudinal), &(rhs->longitudinal)))
+  {
+    return false;
+  }
+  return true;
+}
+
+bool
+autoware_control_msgs__msg__Control__copy(
+  const autoware_control_msgs__msg__Control * input,
+  autoware_control_msgs__msg__Control * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  // stamp
+  if (!builtin_interfaces__msg__Time__copy(
+      &(input->stamp), &(output->stamp)))
+  {
+    return false;
+  }
+  // control_time
+  if (!builtin_interfaces__msg__Time__copy(
+      &(input->control_time), &(output->control_time)))
+  {
+    return false;
+  }
+  // lateral
+  if (!autoware_control_msgs__msg__Lateral__copy(
+      &(input->lateral), &(output->lateral)))
+  {
+    return false;
+  }
+  // longitudinal
+  if (!autoware_control_msgs__msg__Longitudinal__copy(
+      &(input->longitudinal), &(output->longitudinal)))
+  {
+    return false;
+  }
+  return true;
+}
+
 autoware_control_msgs__msg__Control *
 autoware_control_msgs__msg__Control__create()
 {
@@ -170,4 +238,61 @@ autoware_control_msgs__msg__Control__Sequence__destroy(autoware_control_msgs__ms
     autoware_control_msgs__msg__Control__Sequence__fini(array);
   }
   free(array);
+}
+
+bool
+autoware_control_msgs__msg__Control__Sequence__are_equal(const autoware_control_msgs__msg__Control__Sequence * lhs, const autoware_control_msgs__msg__Control__Sequence * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  if (lhs->size != rhs->size) {
+    return false;
+  }
+  for (size_t i = 0; i < lhs->size; ++i) {
+    if (!autoware_control_msgs__msg__Control__are_equal(&(lhs->data[i]), &(rhs->data[i]))) {
+      return false;
+    }
+  }
+  return true;
+}
+
+bool
+autoware_control_msgs__msg__Control__Sequence__copy(
+  const autoware_control_msgs__msg__Control__Sequence * input,
+  autoware_control_msgs__msg__Control__Sequence * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  if (output->capacity < input->size) {
+    const size_t allocation_size =
+      input->size * sizeof(autoware_control_msgs__msg__Control);
+    autoware_control_msgs__msg__Control * data =
+      (autoware_control_msgs__msg__Control *)realloc(output->data, allocation_size);
+    if (!data) {
+      return false;
+    }
+    for (size_t i = output->capacity; i < input->size; ++i) {
+      if (!autoware_control_msgs__msg__Control__init(&data[i])) {
+        /* free currently allocated and return false */
+        for (; i-- > output->capacity; ) {
+          autoware_control_msgs__msg__Control__fini(&data[i]);
+        }
+        free(data);
+        return false;
+      }
+    }
+    output->data = data;
+    output->capacity = input->size;
+  }
+  output->size = input->size;
+  for (size_t i = 0; i < input->size; ++i) {
+    if (!autoware_control_msgs__msg__Control__copy(
+        &(input->data[i]), &(output->data[i])))
+    {
+      return false;
+    }
+  }
+  return true;
 }

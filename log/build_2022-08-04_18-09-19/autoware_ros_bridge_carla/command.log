@@ -1,2 +1,0 @@
-Invoking command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla': /usr/bin/cmake /home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla -DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla
-Invoked command in '/home/tasl/autoware.auto-ros-bridge/build/autoware_ros_bridge_carla' returned '1': /usr/bin/cmake /home/tasl/autoware.auto-ros-bridge/autoware_ros_bridge_carla -DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.auto-ros-bridge/install/autoware_ros_bridge_carla
