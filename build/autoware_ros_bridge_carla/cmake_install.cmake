@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/listener")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/listener"
-         OLD_RPATH "/opt/ros/galactic/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib:"
+         OLD_RPATH "/opt/ros/galactic/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/listener")
@@ -85,7 +85,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/sender")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/sender"
-         OLD_RPATH "/opt/ros/galactic/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib:"
+         OLD_RPATH "/opt/ros/galactic/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/sender")
@@ -109,6 +109,26 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/control_command_converter")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/odometry_remapper" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/odometry_remapper")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/odometry_remapper"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla" TYPE EXECUTABLE FILES "/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla/odometry_remapper")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/odometry_remapper" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/odometry_remapper")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/odometry_remapper"
+         OLD_RPATH "/opt/ros/galactic/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/autoware_ros_bridge_carla/odometry_remapper")
     endif()
   endif()
 endif()

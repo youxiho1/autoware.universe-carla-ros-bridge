@@ -280,6 +280,9 @@ _lib:FILEPATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_aut
 //The directory containing a CMake configuration file for ackermann_msgs.
 ackermann_msgs_DIR:PATH=/opt/ros/galactic/share/ackermann_msgs/cmake
 
+//The directory containing a CMake configuration file for action_msgs.
+action_msgs_DIR:PATH=/opt/ros/galactic/share/action_msgs/cmake
+
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/galactic/share/ament_cmake/cmake
 
@@ -385,9 +388,6 @@ ament_xmllint_BIN:FILEPATH=/opt/ros/galactic/bin/ament_xmllint
 //The directory containing a CMake configuration file for autoware_auto_control_msgs.
 autoware_auto_control_msgs_DIR:PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/cmake
 
-//The directory containing a CMake configuration file for autoware_control_msgs.
-autoware_control_msgs_DIR:PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/share/autoware_control_msgs/cmake
-
 //Value Computed by CMake
 autoware_ros_bridge_carla_BINARY_DIR:STATIC=/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla
 
@@ -409,11 +409,17 @@ fastrtps_cmake_module_DIR:PATH=/opt/ros/galactic/share/fastrtps_cmake_module/cma
 //The directory containing a CMake configuration file for foonathan_memory.
 foonathan_memory_DIR:PATH=/opt/ros/galactic/lib/foonathan_memory/cmake
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/galactic/share/geometry_msgs/cmake
+
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/galactic/share/libstatistics_collector/cmake
 
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/galactic/share/libyaml_vendor/cmake
+
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/opt/ros/galactic/share/nav_msgs/cmake
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
@@ -511,8 +517,14 @@ statistics_msgs_DIR:PATH=/opt/ros/galactic/share/statistics_msgs/cmake
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/galactic/share/std_msgs/cmake
 
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/galactic/share/tf2_msgs/cmake
+
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/galactic/share/tracetools/cmake
+
+//The directory containing a CMake configuration file for unique_identifier_msgs.
+unique_identifier_msgs_DIR:PATH=/opt/ros/galactic/share/unique_identifier_msgs/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint

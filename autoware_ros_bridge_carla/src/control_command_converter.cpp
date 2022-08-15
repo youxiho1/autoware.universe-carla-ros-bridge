@@ -40,7 +40,7 @@ class ControlCommandConverter : public rclcpp::Node
       message.speed = msg->longitudinal.speed;
       message.acceleration = msg->longitudinal.acceleration;
       message.jerk = msg->longitudinal.jerk;
-
+      printf("speed=%lf, acceleration=%lf\n", msg->longitudinal.speed, msg->longitudinal.acceleration);
       publisher_->publish(message);
     }
   

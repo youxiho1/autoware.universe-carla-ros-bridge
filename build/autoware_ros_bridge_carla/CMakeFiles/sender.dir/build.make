@@ -84,10 +84,6 @@ sender: /opt/ros/galactic/lib/libackermann_msgs__rosidl_typesupport_introspectio
 sender: /opt/ros/galactic/lib/libackermann_msgs__rosidl_typesupport_c.so
 sender: /opt/ros/galactic/lib/libackermann_msgs__rosidl_typesupport_introspection_cpp.so
 sender: /opt/ros/galactic/lib/libackermann_msgs__rosidl_typesupport_cpp.so
-sender: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_introspection_c.so
-sender: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_c.so
-sender: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_introspection_cpp.so
-sender: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_typesupport_cpp.so
 sender: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/libautoware_auto_control_msgs__rosidl_typesupport_introspection_c.so
 sender: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/libautoware_auto_control_msgs__rosidl_typesupport_c.so
 sender: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/libautoware_auto_control_msgs__rosidl_typesupport_introspection_cpp.so
@@ -128,7 +124,6 @@ sender: /opt/ros/galactic/lib/libstd_msgs__rosidl_generator_c.so
 sender: /opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_c.so
 sender: /opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 sender: /opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_cpp.so
-sender: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_control_msgs/lib/libautoware_control_msgs__rosidl_generator_c.so
 sender: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/libautoware_auto_control_msgs__rosidl_generator_c.so
 sender: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 sender: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_generator_c.so

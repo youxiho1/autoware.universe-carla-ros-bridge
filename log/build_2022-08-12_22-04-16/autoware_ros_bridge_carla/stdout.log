@@ -1,5 +1,0 @@
-[35m[1mScanning dependencies of target control_command_converter[0m
-[ 25%] Built target jsontest
-[ 75%] Built target listener
-[ 75%] Built target sender
-[ 87%] [32mBuilding CXX object CMakeFiles/control_command_converter.dir/src/control_command_converter.cpp.o[0m

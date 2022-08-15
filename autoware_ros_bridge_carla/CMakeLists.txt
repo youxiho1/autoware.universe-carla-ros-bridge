@@ -16,8 +16,9 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(tf2_msgs REQUIRED)
 find_package(ackermann_msgs REQUIRED)
-find_package(autoware_control_msgs REQUIRED)
 find_package(autoware_auto_control_msgs REQUIRED)
 
 
@@ -25,19 +26,23 @@ add_executable(listener src/testControlCommand.cpp)
 add_executable(jsontest src/simpledom.cpp)
 add_executable(sender src/controlCommandForwarding.cpp)
 add_executable(control_command_converter src/control_command_converter.cpp)
+add_executable(odometry_remapper src/odometry_remapper.cpp)
 
 ament_target_dependencies(
-  listener rclcpp std_msgs autoware_control_msgs autoware_auto_control_msgs)
+  listener rclcpp std_msgs autoware_auto_control_msgs)
 ament_target_dependencies(
-  sender rclcpp ackermann_msgs autoware_control_msgs autoware_auto_control_msgs)
+  sender rclcpp ackermann_msgs autoware_auto_control_msgs)
 ament_target_dependencies(
   control_command_converter rclcpp ackermann_msgs autoware_auto_control_msgs)
+ament_target_dependencies(
+  odometry_remapper rclcpp nav_msgs geometry_msgs tf2_msgs)
 
 install(TARGETS
   listener
   jsontest
   sender
   control_command_converter
+  odometry_remapper
   DESTINATION lib/${PROJECT_NAME})
 
 
