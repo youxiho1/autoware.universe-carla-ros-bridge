@@ -20,13 +20,14 @@ find_package(nav_msgs REQUIRED)
 find_package(tf2_msgs REQUIRED)
 find_package(ackermann_msgs REQUIRED)
 find_package(autoware_auto_control_msgs REQUIRED)
-
+find_package(autoware_auto_vehicle_msgs REQUIRED)
 
 add_executable(listener src/testControlCommand.cpp)
 add_executable(jsontest src/simpledom.cpp)
 add_executable(sender src/controlCommandForwarding.cpp)
 add_executable(control_command_converter src/control_command_converter.cpp)
 add_executable(odometry_remapper src/odometry_remapper.cpp)
+add_executable(velocity_reporter src/velocity_reporter.cpp)
 
 ament_target_dependencies(
   listener rclcpp std_msgs autoware_auto_control_msgs)
@@ -36,6 +37,8 @@ ament_target_dependencies(
   control_command_converter rclcpp ackermann_msgs autoware_auto_control_msgs)
 ament_target_dependencies(
   odometry_remapper rclcpp nav_msgs geometry_msgs tf2_msgs)
+ament_target_dependencies(
+  velocity_reporter rclcpp std_msgs autoware_auto_vehicle_msgs)
 
 install(TARGETS
   listener
@@ -43,6 +46,7 @@ install(TARGETS
   sender
   control_command_converter
   odometry_remapper
+  velocity_reporter
   DESTINATION lib/${PROJECT_NAME})
 
 
