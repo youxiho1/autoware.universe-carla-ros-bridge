@@ -1,0 +1,4 @@
+Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs': /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs -- -j16 -l16
+Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs' returned '0': /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs -- -j16 -l16
+Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs': /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs
+Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs' returned '0': /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs

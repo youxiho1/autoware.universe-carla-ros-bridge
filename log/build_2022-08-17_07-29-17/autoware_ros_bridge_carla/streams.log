@@ -1,0 +1,32 @@
+[0.015s] Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.055s] [35m[1mScanning dependencies of target steering_reporter[0m
+[0.061s] [ 14%] Built target jsontest
+[0.067s] [ 28%] Built target control_command_converter
+[0.068s] [ 42%] Built target velocity_reporter
+[0.068s] [ 57%] Built target sender
+[0.074s] [ 71%] Built target listener
+[0.075s] [ 85%] Built target odometry_remapper
+[0.087s] [ 92%] [32mBuilding CXX object CMakeFiles/steering_reporter.dir/src/steering_reporter.cpp.o[0m
+[1.852s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:[m[K In member function ‘[01m[Kvoid SteeringReporter::vehicle_status_callback(carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[1.852s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:45:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kwheels[m[K’ in ‘[01m[K((SteeringReporter*)this)->SteeringReporter::vehicleInfo[m[K’, which is of pointer type ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo*[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >*[m[K’} (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[1.852s]    45 |             arr[0] = vehicleInfo.[01;31m[Kwheels[m[K[0];
+[1.852s]       |                                  [01;31m[K^~~~~~[m[K
+[1.852s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:46:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kwheels[m[K’ in ‘[01m[K((SteeringReporter*)this)->SteeringReporter::vehicleInfo[m[K’, which is of pointer type ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo*[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >*[m[K’} (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[1.852s]    46 |             arr[1] = vehicleInfo.[01;31m[Kwheels[m[K[1];
+[1.852s]       |                                  [01;31m[K^~~~~~[m[K
+[1.852s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:47:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kwheels[m[K’ in ‘[01m[K((SteeringReporter*)this)->SteeringReporter::vehicleInfo[m[K’, which is of pointer type ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo*[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >*[m[K’} (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[1.853s]    47 |             arr[2] = vehicleInfo.[01;31m[Kwheels[m[K[2];
+[1.853s]       |                                  [01;31m[K^~~~~~[m[K
+[1.853s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:48:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kwheels[m[K’ in ‘[01m[K((SteeringReporter*)this)->SteeringReporter::vehicleInfo[m[K’, which is of pointer type ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo*[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >*[m[K’} (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[1.853s]    48 |             arr[3] = vehicleInfo.[01;31m[Kwheels[m[K[3];
+[1.853s]       |                                  [01;31m[K^~~~~~[m[K
+[1.859s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:[m[K In member function ‘[01m[Kvoid SteeringReporter::vehicle_info_callback(carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[1.859s] [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:68:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >::ConstSharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<const carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> > >[m[K’} to ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo*[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >*[m[K’} in assignment
+[1.859s]    68 |             vehicleInfo = [01;31m[Kmsg[m[K;
+[1.859s]       |                           [01;31m[K^~~[m[K
+[1.859s]       |                           [01;31m[K|[m[K
+[1.859s]       |                           [01;31m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >::ConstSharedPtr {aka std::shared_ptr<const carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> > >}[m[K
+[4.233s] make[2]: *** [CMakeFiles/steering_reporter.dir/build.make:63: CMakeFiles/steering_reporter.dir/src/steering_reporter.cpp.o] Error 1
+[4.233s] make[1]: *** [CMakeFiles/Makefile2:252: CMakeFiles/steering_reporter.dir/all] Error 2
+[4.233s] make: *** [Makefile:141: all] Error 2
+[4.235s] Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

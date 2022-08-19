@@ -1,0 +1,367 @@
+[0.441s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.442s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f414ee44910>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f414ee44910>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f414ed58c40>)
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.485s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tasl/autoware.universe-carla-ros-bridge'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_control_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_control_msgs) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_control_msgs) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_control_msgs) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_control_msgs) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_control_msgs) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_control_msgs) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_control_msgs) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_control_msgs) by extension 'ros'
+[0.501s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_auto_control_msgs' with type 'ros.ament_cmake' and name 'autoware_auto_control_msgs'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_vehicle_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_vehicle_msgs) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_vehicle_msgs) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_vehicle_msgs) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_vehicle_msgs) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_vehicle_msgs) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_vehicle_msgs) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_vehicle_msgs) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_auto_vehicle_msgs) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_auto_vehicle_msgs' with type 'ros.ament_cmake' and name 'autoware_auto_vehicle_msgs'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_ros_bridge_carla) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_ros_bridge_carla) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_ros_bridge_carla) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_ros_bridge_carla) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_ros_bridge_carla) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_ros_bridge_carla) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_ros_bridge_carla) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_ros_bridge_carla) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_ros_bridge_carla) by extension 'ros'
+[0.504s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_ros_bridge_carla' with type 'ros.ament_cmake' and name 'autoware_ros_bridge_carla'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(carla_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(carla_msgs) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(carla_msgs) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(carla_msgs) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(carla_msgs) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(carla_msgs) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(carla_msgs) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(carla_msgs) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(carla_msgs) by extension 'ros'
+[0.509s] DEBUG:colcon.colcon_core.package_identification:Package 'carla_msgs' with type 'ros.ament_cmake' and name 'carla_msgs'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.537s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/tasl/autoware.universe-carla-ros-bridge/install
+[0.539s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/galactic
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_control_msgs' build argument 'cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_control_msgs' build argument 'cmake_target' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_control_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_control_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_control_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_control_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_control_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_control_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_control_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.627s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_auto_control_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs', 'merge_install': False, 'path': '/home/tasl/autoware.universe-carla-ros-bridge/autoware_auto_control_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_vehicle_msgs' build argument 'cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_vehicle_msgs' build argument 'cmake_target' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_vehicle_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_vehicle_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_vehicle_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_vehicle_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_vehicle_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_vehicle_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'autoware_auto_vehicle_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.628s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_auto_vehicle_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs', 'merge_install': False, 'path': '/home/tasl/autoware.universe-carla-ros-bridge/autoware_auto_vehicle_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'carla_msgs' build argument 'cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'carla_msgs' build argument 'cmake_target' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'carla_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'carla_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'carla_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'carla_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'carla_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'carla_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'carla_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.630s] DEBUG:colcon.colcon_core.verb:Building package 'carla_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tasl/autoware.universe-carla-ros-bridge/build/carla_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs', 'merge_install': False, 'path': '/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'autoware_ros_bridge_carla' build argument 'cmake_args' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'autoware_ros_bridge_carla' build argument 'cmake_target' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'autoware_ros_bridge_carla' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'autoware_ros_bridge_carla' build argument 'cmake_clean_cache' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'autoware_ros_bridge_carla' build argument 'cmake_clean_first' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'autoware_ros_bridge_carla' build argument 'cmake_force_configure' from command line to 'False'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'autoware_ros_bridge_carla' build argument 'ament_cmake_args' from command line to 'None'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'autoware_ros_bridge_carla' build argument 'catkin_cmake_args' from command line to 'None'
+[0.633s] Level 5:colcon.colcon_core.verb:set package 'autoware_ros_bridge_carla' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.633s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_ros_bridge_carla' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla', 'merge_install': False, 'path': '/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla', 'symlink_install': False, 'test_result_base': None}
+[0.635s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.643s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tasl/autoware.universe-carla-ros-bridge/autoware_auto_control_msgs' with build type 'ament_cmake'
+[0.643s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tasl/autoware.universe-carla-ros-bridge/autoware_auto_control_msgs'
+[0.650s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.651s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.651s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.660s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tasl/autoware.universe-carla-ros-bridge/autoware_auto_vehicle_msgs' with build type 'ament_cmake'
+[0.660s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tasl/autoware.universe-carla-ros-bridge/autoware_auto_vehicle_msgs'
+[0.663s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.663s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.670s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs' with build type 'ament_cmake'
+[0.671s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs'
+[0.673s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs -- -j16 -l16
+[0.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs -- -j16 -l16
+[0.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/carla_msgs': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/carla_msgs -- -j16 -l16
+[0.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs -- -j16 -l16
+[0.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs -- -j16 -l16
+[0.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/carla_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/carla_msgs -- -j16 -l16
+[0.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs
+[0.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs
+[1.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_auto_vehicle_msgs)
+[1.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs
+[1.034s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs' for CMake module files
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs' for CMake config files
+[1.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_vehicle_msgs', 'cmake_prefix_path')
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/cmake_prefix_path.ps1'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/cmake_prefix_path.dsv'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/cmake_prefix_path.sh'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib'
+[1.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_vehicle_msgs', 'ld_library_path_lib')
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/ld_library_path_lib.ps1'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/ld_library_path_lib.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/ld_library_path_lib.sh'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/bin'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/pkgconfig/autoware_auto_vehicle_msgs.pc'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages'
+[1.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_vehicle_msgs', 'pythonpath')
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/pythonpath.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/pythonpath.dsv'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/pythonpath.sh'
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/bin'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/package.ps1'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/package.dsv'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/package.sh'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/package.bash'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/package.zsh'
+[1.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/colcon-core/packages/autoware_auto_vehicle_msgs)
+[1.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_auto_control_msgs)
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs' for CMake module files
+[1.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_control_msgs
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs' for CMake config files
+[1.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_control_msgs', 'cmake_prefix_path')
+[1.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/cmake_prefix_path.ps1'
+[1.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/cmake_prefix_path.dsv'
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/cmake_prefix_path.sh'
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib'
+[1.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_control_msgs', 'ld_library_path_lib')
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/ld_library_path_lib.ps1'
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/ld_library_path_lib.dsv'
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/ld_library_path_lib.sh'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/bin'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/pkgconfig/autoware_auto_control_msgs.pc'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages'
+[1.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_control_msgs', 'pythonpath')
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/pythonpath.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/pythonpath.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/pythonpath.sh'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/bin'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.ps1'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.dsv'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.sh'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.bash'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.zsh'
+[1.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/colcon-core/packages/autoware_auto_control_msgs)
+[1.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_auto_vehicle_msgs)
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs' for CMake module files
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs' for CMake config files
+[1.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_vehicle_msgs', 'cmake_prefix_path')
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/cmake_prefix_path.ps1'
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/cmake_prefix_path.dsv'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/cmake_prefix_path.sh'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib'
+[1.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_vehicle_msgs', 'ld_library_path_lib')
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/ld_library_path_lib.ps1'
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/ld_library_path_lib.dsv'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/ld_library_path_lib.sh'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/bin'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/pkgconfig/autoware_auto_vehicle_msgs.pc'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages'
+[1.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_vehicle_msgs', 'pythonpath')
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/pythonpath.ps1'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/pythonpath.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/hook/pythonpath.sh'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/bin'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/package.ps1'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/package.dsv'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/package.sh'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/package.bash'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/package.zsh'
+[1.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/colcon-core/packages/autoware_auto_vehicle_msgs)
+[1.168s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_auto_control_msgs)
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs' for CMake module files
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs' for CMake config files
+[1.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_control_msgs', 'cmake_prefix_path')
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/cmake_prefix_path.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/cmake_prefix_path.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/cmake_prefix_path.sh'
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib'
+[1.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_control_msgs', 'ld_library_path_lib')
+[1.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/ld_library_path_lib.ps1'
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/ld_library_path_lib.dsv'
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/ld_library_path_lib.sh'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/bin'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/pkgconfig/autoware_auto_control_msgs.pc'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages'
+[1.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_auto_control_msgs', 'pythonpath')
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/pythonpath.ps1'
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/pythonpath.dsv'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/hook/pythonpath.sh'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/bin'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.ps1'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.sh'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.bash'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.zsh'
+[1.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/colcon-core/packages/autoware_auto_control_msgs)
+[1.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/carla_msgs': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/carla_msgs
+[1.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carla_msgs)
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs' for CMake module files
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs' for CMake config files
+[1.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/carla_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/carla_msgs
+[1.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('carla_msgs', 'cmake_prefix_path')
+[1.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/cmake_prefix_path.ps1'
+[1.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/cmake_prefix_path.dsv'
+[1.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/cmake_prefix_path.sh'
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/lib'
+[1.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('carla_msgs', 'ld_library_path_lib')
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/ld_library_path_lib.ps1'
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/ld_library_path_lib.dsv'
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/ld_library_path_lib.sh'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/bin'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/lib/pkgconfig/carla_msgs.pc'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/lib/python3.8/site-packages'
+[1.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('carla_msgs', 'pythonpath')
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/pythonpath.ps1'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/pythonpath.dsv'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/pythonpath.sh'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/bin'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/package.ps1'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/package.dsv'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/package.sh'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/package.bash'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/package.zsh'
+[1.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/colcon-core/packages/carla_msgs)
+[1.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carla_msgs)
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs' for CMake module files
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs' for CMake config files
+[1.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('carla_msgs', 'cmake_prefix_path')
+[1.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/cmake_prefix_path.ps1'
+[1.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/cmake_prefix_path.dsv'
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/cmake_prefix_path.sh'
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/lib'
+[1.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('carla_msgs', 'ld_library_path_lib')
+[1.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/ld_library_path_lib.ps1'
+[1.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/ld_library_path_lib.dsv'
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/ld_library_path_lib.sh'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/bin'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/lib/pkgconfig/carla_msgs.pc'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/lib/python3.8/site-packages'
+[1.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('carla_msgs', 'pythonpath')
+[1.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/pythonpath.ps1'
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/pythonpath.dsv'
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/hook/pythonpath.sh'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/bin'
+[1.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/package.ps1'
+[1.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/package.dsv'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/package.sh'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/package.bash'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/package.zsh'
+[1.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/colcon-core/packages/carla_msgs)
+[1.580s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla' with build type 'ament_cmake'
+[1.580s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla'
+[1.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.584s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[10.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[10.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla
+[10.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_ros_bridge_carla)
+[10.559s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla' for CMake module files
+[10.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla
+[10.560s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla' for CMake config files
+[10.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_ros_bridge_carla', 'cmake_prefix_path')
+[10.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/hook/cmake_prefix_path.ps1'
+[10.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/hook/cmake_prefix_path.dsv'
+[10.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/hook/cmake_prefix_path.sh'
+[10.564s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib'
+[10.564s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/bin'
+[10.564s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/pkgconfig/autoware_ros_bridge_carla.pc'
+[10.564s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/python3.8/site-packages'
+[10.564s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/bin'
+[10.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.ps1'
+[10.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.dsv'
+[10.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.sh'
+[10.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.bash'
+[10.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.zsh'
+[10.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/colcon-core/packages/autoware_ros_bridge_carla)
+[10.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_ros_bridge_carla)
+[10.608s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla' for CMake module files
+[10.608s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla' for CMake config files
+[10.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_ros_bridge_carla', 'cmake_prefix_path')
+[10.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/hook/cmake_prefix_path.ps1'
+[10.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/hook/cmake_prefix_path.dsv'
+[10.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/hook/cmake_prefix_path.sh'
+[10.613s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib'
+[10.613s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/bin'
+[10.613s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/pkgconfig/autoware_ros_bridge_carla.pc'
+[10.614s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/python3.8/site-packages'
+[10.614s] Level 1:colcon.colcon_core.environment:checking '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/bin'
+[10.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.ps1'
+[10.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.dsv'
+[10.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.sh'
+[10.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.bash'
+[10.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.zsh'
+[10.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/colcon-core/packages/autoware_ros_bridge_carla)
+[10.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.620s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.627s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.627s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.627s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.639s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.641s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tasl/autoware.universe-carla-ros-bridge/install/local_setup.ps1'
+[10.642s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tasl/autoware.universe-carla-ros-bridge/install/_local_setup_util_ps1.py'
+[10.643s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tasl/autoware.universe-carla-ros-bridge/install/setup.ps1'
+[10.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tasl/autoware.universe-carla-ros-bridge/install/local_setup.sh'
+[10.645s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tasl/autoware.universe-carla-ros-bridge/install/_local_setup_util_sh.py'
+[10.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tasl/autoware.universe-carla-ros-bridge/install/setup.sh'
+[10.648s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tasl/autoware.universe-carla-ros-bridge/install/local_setup.bash'
+[10.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tasl/autoware.universe-carla-ros-bridge/install/setup.bash'
+[10.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tasl/autoware.universe-carla-ros-bridge/install/local_setup.zsh'
+[10.650s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tasl/autoware.universe-carla-ros-bridge/install/setup.zsh'

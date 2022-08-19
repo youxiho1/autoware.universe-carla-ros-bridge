@@ -1,0 +1,1455 @@
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:68:30:[m[K [01;31m[Kerror: [m[K‘[01m[KCarlaEgoVehcileInfo[m[K’ was not declared in this scope
+   68 |         rclcpp::Subscription<[01;31m[KCarlaEgoVehcileInfo[m[K>::SharedPtr subscription_info;
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:68:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |         rclcpp::Subscription<CarlaEgoVehcileInfo[01;31m[K>[m[K::SharedPtr subscription_info;
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:68:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:68:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   68 |         rclcpp::Subscription<CarlaEgoVehcileInfo>::[01;31m[KSharedPtr[m[K subscription_info;
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[K;[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:68:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_info[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_init[m[K’?
+   68 |         rclcpp::Subscription<CarlaEgoVehcileInfo>::SharedPtr [01;31m[Ksubscription_info[m[K;
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                              [32m[Krcl_subscription_init[m[K
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:[m[K In constructor ‘[01m[KSteeringReporter::SteeringReporter()[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:21:23:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} and ‘[01m[Klong int[m[K’)
+   21 |         vehicleInfo = [01;31m[KNULL[m[K;
+      |                       [01;31m[K^~~~[m[K
+In file included from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/include/carla_msgs/msg/carla_ego_vehicle_info.hpp:7[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:8[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/include/carla_msgs/msg/detail/carla_ego_vehicle_info__struct.hpp:37:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >& carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >::operator=(const carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >&)[m[K’
+   37 | struct [01;36m[KCarlaEgoVehicleInfo_[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/include/carla_msgs/msg/detail/carla_ego_vehicle_info__struct.hpp:37:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klong int[m[K’ to ‘[01m[Kconst carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >&[m[K’
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/include/carla_msgs/msg/detail/carla_ego_vehicle_info__struct.hpp:37:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >& carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >::operator=(carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >&&)[m[K’
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/include/carla_msgs/msg/detail/carla_ego_vehicle_info__struct.hpp:37:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klong int[m[K’ to ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >&&[m[K’
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:24:117:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void> > > >[m[K’)
+   24 |             "/carla/ego_vehicle/vehicle_status", 10, std::bind(&SteeringReporter::vehicle_status_callback, this, _1)[01;31m[K)[m[K;
+      |                                                                                                                     [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:309:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > >][m[K’
+  309 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+      |                   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:309:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void> > > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > > >&[m[K’
+  309 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+      |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > >][m[K’
+  313 |  [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+      |  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void> > > >&; _Tp = rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:24:117:[m[K   required from here
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > > >&>[m[K’
+  111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+      |        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > >][m[K’
+  324 |  [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+      |  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:24:117:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void> > > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+   24 |             "/carla/ego_vehicle/vehicle_status", 10, std::bind(&SteeringReporter::vehicle_status_callback, this, _1)[01;36m[K)[m[K;
+      |                                                                                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:333:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > >][m[K’
+  333 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:333:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > > >&&[m[K’
+  333 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+      |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > >][m[K’
+  341 |  [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+      |  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void> > > >; _Tp = rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:24:117:[m[K   required from here
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > > >&>[m[K’
+  111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+      |        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> > >][m[K’
+  349 |  [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+      |  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:24:117:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >, std::allocator<void> > > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+   24 |             "/carla/ego_vehicle/vehicle_status", 10, std::bind(&SteeringReporter::vehicle_status_callback, this, _1)[01;36m[K)[m[K;
+      |                                                                                                                     [01;36m[K^[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_info[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_status[m[K’?
+   25 |         [01;31m[Ksubscription_info[m[K = this->create_subscription<CarlaEgoVehicleInfo>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Ksubscription_status[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:27:45:[m[K [01;31m[Kerror: [m[K‘[01m[KVelocityReport[m[K’ was not declared in this scope
+   27 |         publisher_ = this->create_publisher<[01;31m[KVelocityReport[m[K>("/vehicle/status/steering_status", 10);
+      |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:27:98:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSteeringReporter::create_publisher<<expression error> >(const char [32], int)[m[K’
+   27 |         publisher_ = this->create_publisher<VelocityReport>("/vehicle/status/steering_status", 10[01;31m[K)[m[K;
+      |                                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:200:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  200 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:200:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:27:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |         publisher_ = this->create_publisher<VelocityReport>("/vehicle/status/steering_status", 10[01;31m[K)[m[K;
+      |                                                                                                  [01;31m[K^[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:[m[K In member function ‘[01m[Kvoid SteeringReporter::vehicle_status_callback(carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:28:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} and ‘[01m[Klong int[m[K’)
+   32 |             if(vehicleInfo [01;31m[K=[m[K= NULL) {
+      |                            [01;31m[K^[m[K
+In file included from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/include/carla_msgs/msg/carla_ego_vehicle_info.hpp:7[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:8[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/include/carla_msgs/msg/detail/carla_ego_vehicle_info__struct.hpp:266:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool carla_msgs::msg::CarlaEgoVehicleInfo_<ContainerAllocator>::operator==(const carla_msgs::msg::CarlaEgoVehicleInfo_<ContainerAllocator>&) const [with ContainerAllocator = std::allocator<void>][m[K’
+  266 |   bool [01;36m[Koperator[m[K==(const CarlaEgoVehicleInfo_ & other) const
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/include/carla_msgs/msg/detail/carla_ego_vehicle_info__struct.hpp:266:48:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klong int[m[K’ to ‘[01m[Kconst carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >&[m[K’
+  266 |   bool operator==([01;36m[Kconst CarlaEgoVehicleInfo_ & other[m[K) const
+      |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:64[m[K,
+                 from [01m[K/usr/include/c++/9/memory:62[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_pair.h:448:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)[m[K’
+  448 |     [01;36m[Koperator[m[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_pair.h:448:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/memory:62[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:325:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)[m[K’
+  325 |     [01;36m[Koperator[m[K==(const reverse_iterator<_Iterator>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:325:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/memory:62[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:363:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+  363 |     [01;36m[Koperator[m[K==(const reverse_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/memory:62[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1136:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+ 1136 |     [01;36m[Koperator[m[K==(const move_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1136:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/memory:62[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1142:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)[m[K’
+ 1142 |     [01;36m[Koperator[m[K==(const move_iterator<_Iterator>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1142:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:63[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/allocator.h:167:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_T2>&)[m[K’
+  167 |     [01;36m[Koperator[m[K==(const allocator<_T1>&, const allocator<_T2>&)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/allocator.h:167:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::allocator<_Tp1>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/iosfwd:40[m[K,
+                 from [01m[K/usr/include/c++/9/memory:72[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)[m[K’
+  222 |     [01;36m[Koperator[m[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/basic_string.h:48[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/string_view:471:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)[m[K’
+  471 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/string_view:471:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/basic_string.h:48[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/string_view:477:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::__detail::__idt<std::basic_string_view<_CharT, _Traits> >)[m[K’
+  477 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/string_view:477:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/basic_string.h:48[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/string_view:483:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::__detail::__idt<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)[m[K’
+  483 |     [01;36m[Koperator[m[K==(__detail::__idt<basic_string_view<_CharT, _Traits>> __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/string_view:483:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’ and ‘[01m[Klong int[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6144:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6144 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6144:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6152:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)[m[K’
+ 6152 |     [01;36m[Koperator[m[K==(const basic_string<_CharT>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6152:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6166 |     [01;36m[Koperator[m[K==(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6178:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+ 6178 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/array:252:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)[m[K’
+  252 |     [01;36m[Koperator[m[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/array:252:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1419:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_Elements ...>&)[m[K’
+ 1419 |     [01;36m[Koperator[m[K==(const tuple<_TElements...>& __t,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1419:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::tuple<_Tps ...>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:715:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)[m[K’
+  715 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:715:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:721:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)[m[K’
+  721 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:721:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:726:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)[m[K’
+  726 |     [01;36m[Koperator[m[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:726:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Klong int[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1412:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+ 1412 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp1, _Lp>& __a,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1412:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1418:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)[m[K’
+ 1418 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1418:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1423:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+ 1423 |     [01;36m[Koperator[m[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1423:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[Klong int[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:383:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)[m[K’
+  383 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:383:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:388:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)[m[K’
+  388 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:388:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:393:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)[m[K’
+  393 |     [01;36m[Koperator[m[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:393:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/ios_base.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/9/iostream:39[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:2[m[K:
+[01m[K/usr/include/c++/9/system_error:292:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_code&)[m[K’
+  292 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_code& __rhs) noexcept
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:292:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+  292 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:297:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_condition&)[m[K’
+  297 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_condition& __rhs) noexcept
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:297:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+  297 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_condition& __rhs) noexcept
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:304:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_code&)[m[K’
+  304 |   [01;36m[Koperator[m[K==(const error_condition& __lhs, const error_code& __rhs) noexcept
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:304:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+  304 |   operator==([01;36m[Kconst error_condition& __lhs[m[K, const error_code& __rhs) noexcept
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:311:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_condition&)[m[K’
+  311 |   [01;36m[Koperator[m[K==(const error_condition& __lhs,
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:311:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+  311 |   operator==([01;36m[Kconst error_condition& __lhs[m[K,
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/locale_facets.h:48[m[K,
+                 from [01m[K/usr/include/c++/9/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/ios:44[m[K,
+                 from [01m[K/usr/include/c++/9/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/9/iostream:39[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/streambuf_iterator.h:208:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)[m[K’
+  208 |     [01;36m[Koperator[m[K==(const istreambuf_iterator<_CharT, _Traits>& __a,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/streambuf_iterator.h:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/future:39[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/thread:276:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(std::thread::id, std::thread::id)[m[K’
+  276 |   [01;36m[Koperator[m[K==(thread::id __x, thread::id __y) noexcept
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/thread:276:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::thread::id[m[K’
+  276 |   operator==([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+      |              [01;36m[K~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/9/future:48[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/std_function.h:746:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)[m[K’
+  746 |     [01;36m[Koperator[m[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:746:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/future:48[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/std_function.h:752:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)[m[K’
+  752 |     [01;36m[Koperator[m[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:752:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’ and ‘[01m[Klong int[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/stl_tree.h:72[m[K,
+                 from [01m[K/usr/include/c++/9/set:60[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/optional:983:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_relop_t<decltype ((declval<_Tp>() == declval<_Up>()))> std::operator==(const std::optional<_Tp>&, const std::optional<_Up>&)[m[K’
+  983 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:983:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/stl_tree.h:72[m[K,
+                 from [01m[K/usr/include/c++/9/set:60[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/optional:1034:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const std::optional<_Tp>&, std::nullopt_t)[m[K’
+ 1034 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:1034:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/stl_tree.h:72[m[K,
+                 from [01m[K/usr/include/c++/9/set:60[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/optional:1039:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(std::nullopt_t, const std::optional<_Tp>&)[m[K’
+ 1039 |     [01;36m[Koperator[m[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:1039:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/stl_tree.h:72[m[K,
+                 from [01m[K/usr/include/c++/9/set:60[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/optional:1095:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_relop_t<decltype ((declval<_Tp>() == declval<_Up>()))> std::operator==(const std::optional<_Tp>&, const _Up&)[m[K’
+ 1095 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const _Up& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:1095:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/stl_tree.h:72[m[K,
+                 from [01m[K/usr/include/c++/9/set:60[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/optional:1101:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_relop_t<decltype ((declval<_Up>() == declval<_Tp>()))> std::operator==(const _Up&, const std::optional<_Tp>&)[m[K’
+ 1101 |     [01;36m[Koperator[m[K==(const _Up& __lhs, const optional<_Tp>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:1101:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/set:61[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/stl_set.h:979:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)[m[K’
+  979 |     [01;36m[Koperator[m[K==(const set<_Key, _Compare, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_set.h:979:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Allocator>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/set:62[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/stl_multiset.h:964:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)[m[K’
+  964 |     [01;36m[Koperator[m[K==(const multiset<_Key, _Compare, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_multiset.h:964:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Allocator>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/unordered_map:47[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/unordered_map.h:2093:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+ 2093 |     [01;36m[Koperator[m[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unordered_map.h:2093:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/unordered_map:47[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/unordered_map.h:2105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+ 2105 |     [01;36m[Koperator[m[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unordered_map.h:2105:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+                 from [01m[K/usr/include/c++/9/functional:62[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1888:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)[m[K’
+ 1888 |     [01;36m[Koperator[m[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1888:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/list:63[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/stl_list.h:1991:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+ 1991 |     [01;36m[Koperator[m[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_list.h:1991:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/stl_map.h:1455:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+ 1455 |     [01;36m[Koperator[m[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_map.h:1455:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/map:62[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/stl_multimap.h:1119:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+ 1119 |     [01;36m[Koperator[m[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_multimap.h:1119:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/unordered_set:47[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/context.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/unordered_set.h:1705:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+ 1705 |     [01;36m[Koperator[m[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unordered_set.h:1705:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/unordered_set:47[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/context.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/unordered_set.h:1717:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+ 1717 |     [01;36m[Koperator[m[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unordered_set.h:1717:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/9/iterator:66[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcpputils/join.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/exceptions/exceptions.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/exceptions.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/bits/stream_iterator.h:134:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator==(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)[m[K’
+  134 |     [01;36m[Koperator[m[K==(const istream_iterator<_Tp, _CharT, _Traits, _Dist>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stream_iterator.h:134:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::istream_iterator<_Tp, _CharT, _Traits, _Dist>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/any_subscription_callback.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/subscription_base.hpp:29[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/variant:1186:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Types> constexpr bool std::operator==(const std::variant<_Types ...>&, const std::variant<_Types ...>&)[m[K’
+ 1186 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/variant:1186:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/strings.h:23[m[K,
+                 from [01m[K/usr/include/string.h:432[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:32:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::variant<_Types ...>[m[K’
+   32 |             if(vehicleInfo == [01;36m[KNULL[m[K) {
+      |                               [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/any_subscription_callback.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/subscription_base.hpp:29[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/usr/include/c++/9/variant:1186:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr bool std::operator==(std::monostate, std::monostate)[m[K’
+ 1186 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/variant:1186:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::monostate[m[K’
+ 1186 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:42:37:[m[K [01;31m[Kerror: [m[Kstructured binding declaration cannot have type ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfoWheel[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfoWheel_<std::allocator<void> >[m[K’}
+   42 |             CarlaEgoVehicleInfoWheel[01;31m[K[][m[K arr = msg->wheels;
+      |                                     [01;31m[K^~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:42:37:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:42:37:[m[K [01;31m[Kerror: [m[Kempty structured binding declaration
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:42:40:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Karr[m[K’
+   42 |             CarlaEgoVehicleInfoWheel[] [01;31m[Karr[m[K = msg->wheels;
+      |                                        [01;31m[K^~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:43:35:[m[K [01;31m[Kerror: [m[K‘[01m[Karr[m[K’ was not declared in this scope
+   43 |             int arr_size = sizeof([01;31m[Karr[m[K) / sizeof(CarlaEgoVehicleInfoWheel);
+      |                                   [01;31m[K^~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:49:38:[m[K [01;31m[Kerror: [m[K‘[01m[KMath[m[K’ was not declared in this scope
+   49 |                 max_steering_angle = [01;31m[KMath[m[K.min(max_steering_angle, wheel_angle);
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:52:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcontrol[m[K’
+   52 |             message.steering_tire_angle = msg->[01;31m[Kcontrol[m[K.steer * max_steering_angle;
+      |                                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:57:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksteer[m[K’
+   57 |             printf("Steering Angle: %f\n", msg->[01;31m[Ksteer[m[K);
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:42:37:[m[K [01;35m[Kwarning: [m[Kunused structured binding declaration [[01;35m[K-Wunused-variable[m[K]
+   42 |             CarlaEgoVehicleInfoWheel[01;35m[K[][m[K arr = msg->wheels;
+      |                                     [01;35m[K^~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:77:33:[m[K [01;31m[Kerror: [m[K‘[01m[KVelocityReporter[m[K’ was not declared in this scope
+   77 |   rclcpp::spin(std::make_shared<[01;31m[KVelocityReporter[m[K>());
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:77:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   77 |   rclcpp::spin(std::make_shared<VelocityReporter>([01;31m[K)[m[K);
+      |                                                   [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:77:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   77 |   rclcpp::spin(std::make_shared<VelocityReporter>([01;31m[K)[m[K);
+      |                                                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/steering_reporter.dir/build.make:63: CMakeFiles/steering_reporter.dir/src/steering_reporter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:252: CMakeFiles/steering_reporter.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

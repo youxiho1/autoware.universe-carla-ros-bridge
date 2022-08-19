@@ -1,0 +1,26 @@
+{
+  "package_name": "carla_msgs",
+  "non_idl_tuples": [
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaBoundingBox.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaEgoVehicleControl.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaEgoVehicleStatus.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaEgoVehicleInfoWheel.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaEgoVehicleInfo.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaCollisionEvent.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaLaneInvasionEvent.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaWorldInfo.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaActorInfo.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaActorList.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaControl.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaStatus.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaTrafficLightInfo.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaTrafficLightInfoList.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaTrafficLightStatus.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaTrafficLightStatusList.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaWalkerControl.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:msg/CarlaWeatherParameters.msg",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:srv/SpawnObject.srv",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:srv/DestroyObject.srv",
+    "/home/tasl/autoware.universe-carla-ros-bridge/carla_msgs:srv/GetBlueprints.srv"
+  ]
+}

@@ -1,0 +1,38 @@
+[0.016s] Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla': AMENT_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs LD_LIBRARY_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/lib/python3.8/site-packages:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16
+[0.041s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.120s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.161s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.323s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.324s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.344s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.492s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[0.609s] -- Found tf2_msgs: 0.17.3 (/opt/ros/galactic/share/tf2_msgs/cmake)
+[0.799s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/galactic/share/ackermann_msgs/cmake)
+[0.832s] -- Found autoware_auto_control_msgs: 1.0.0 (/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/cmake)
+[0.850s] -- Found autoware_auto_vehicle_msgs: 1.0.0 (/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake)
+[0.888s] -- Found carla_msgs: 1.3.0 (/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/cmake)
+[1.066s] CMake Error at CMakeLists.txt:60 (find_package):
+[1.066s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.066s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.066s]   CMake did not find one.
+[1.066s] 
+[1.066s]   Could not find a package configuration file provided by "catkin" with any
+[1.066s]   of the following names:
+[1.066s] 
+[1.067s]     catkinConfig.cmake
+[1.067s]     catkin-config.cmake
+[1.067s] 
+[1.067s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.067s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.067s]   provides a separate development package or SDK, be sure it has been
+[1.067s]   installed.
+[1.067s] 
+[1.067s] 
+[1.068s] -- Configuring incomplete, errors occurred!
+[1.068s] See also "/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles/CMakeOutput.log".
+[1.068s] See also "/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla/CMakeFiles/CMakeError.log".
+[1.073s] make: *** [Makefile:486: cmake_check_build_system] Error 1
+[1.075s] Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla' returned '2': AMENT_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/galactic:/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs LD_LIBRARY_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/lib/python3.8/site-packages:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla -- -j16 -l16

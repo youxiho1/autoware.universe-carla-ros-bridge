@@ -1,0 +1,42 @@
+-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+-- Found tf2_msgs: 0.17.3 (/opt/ros/galactic/share/tf2_msgs/cmake)
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/galactic/share/ackermann_msgs/cmake)
+-- Found autoware_auto_control_msgs: 1.0.0 (/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/cmake)
+-- Found autoware_auto_vehicle_msgs: 1.0.0 (/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake)
+-- Found carla_msgs: 1.3.0 (/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla
+[35m[1mScanning dependencies of target steering_reporter[0m
+[35m[1mScanning dependencies of target velocity_reporter[0m
+[ 14%] Built target jsontest
+[ 71%] Built target sender
+[ 71%] Built target odometry_remapper
+[ 71%] Built target control_command_converter
+[ 71%] Built target listener
+[ 78%] [32mBuilding CXX object CMakeFiles/velocity_reporter.dir/src/velocity_reporter.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/steering_reporter.dir/src/steering_reporter.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable velocity_reporter[0m
+[ 92%] Built target velocity_reporter

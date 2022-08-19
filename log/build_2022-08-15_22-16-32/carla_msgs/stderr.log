@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:4 (find_package):
+  By not providing "Findros_environment.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ros_environment", but CMake did not find one.
+
+  Could not find a package configuration file provided by "ros_environment"
+  with any of the following names:
+
+    ros_environmentConfig.cmake
+    ros_environment-config.cmake
+
+  Add the installation prefix of "ros_environment" to CMAKE_PREFIX_PATH or
+  set "ros_environment_DIR" to a directory containing one of the above files.
+  If "ros_environment" provides a separate development package or SDK, be
+  sure it has been installed.
+
+

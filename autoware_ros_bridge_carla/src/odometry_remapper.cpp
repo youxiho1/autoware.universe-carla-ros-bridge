@@ -61,7 +61,19 @@ class OdometryRemapper : public rclcpp::Node
       //Todo: Maybe we can use remap to replace this parrot like node
       // msg->header.frame_id = "map";
       Odometry message = *msg;
-      message.child_frame_id = "base_link";
+      message.pose.covariance[0 * 6 + 0] = 0.0001;
+      message.pose.covariance[1 * 6 + 1] = 0.0001;
+      // message.child_frame_id = "base_link";
+      message.header.stamp = get_clock()->now();
+      message.pose.pose.position.z = 0;
+      message.pose.pose.orientation.x = 0;
+      message.pose.pose.orientation.y = 0;
+      message.twist.twist.linear.x = 0;
+      message.twist.twist.linear.y = 0;
+      message.twist.twist.linear.z = 0;
+      message.twist.twist.angular.x = 0;
+      message.twist.twist.angular.y = 0;
+      message.twist.twist.angular.z = 0;
       publisher_->publish(message);
       publish_tf(message);
     }

@@ -1,0 +1,9 @@
+[  1%] Built target autoware_auto_control_msgs__cpp
+[ 12%] Built target autoware_auto_control_msgs__rosidl_generator_c
+[ 30%] Built target autoware_auto_control_msgs__rosidl_typesupport_c
+[ 34%] Built target autoware_auto_control_msgs__rosidl_typesupport_fastrtps_cpp
+[ 45%] Built target autoware_auto_control_msgs__rosidl_typesupport_cpp
+[ 56%] Built target autoware_auto_control_msgs__rosidl_typesupport_introspection_c
+[ 67%] Built target autoware_auto_control_msgs__rosidl_typesupport_introspection_cpp
+[ 78%] Built target autoware_auto_control_msgs__rosidl_typesupport_fastrtps_c
+[ 78%] Built target autoware_auto_control_msgs

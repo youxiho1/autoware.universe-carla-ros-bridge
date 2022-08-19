@@ -1,0 +1,78 @@
+[35m[1mScanning dependencies of target steering_reporter[0m
+[ 14%] Built target jsontest
+[ 71%] Built target sender
+[ 71%] Built target velocity_reporter
+[ 71%] Built target listener
+[ 71%] Built target control_command_converter
+[ 85%] Built target odometry_remapper
+[ 92%] [32mBuilding CXX object CMakeFiles/steering_reporter.dir/src/steering_reporter.cpp.o[0m
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:68:30:[m[K [01;31m[Kerror: [m[K‘[01m[KCarlaEgoVehcileInfo[m[K’ was not declared in this scope
+   68 |         rclcpp::Subscription<[01;31m[KCarlaEgoVehcileInfo[m[K>::SharedPtr subscription_info;
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:68:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |         rclcpp::Subscription<CarlaEgoVehcileInfo[01;31m[K>[m[K::SharedPtr subscription_info;
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:68:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:68:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   68 |         rclcpp::Subscription<CarlaEgoVehcileInfo>::[01;31m[KSharedPtr[m[K subscription_info;
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[K;[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:68:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_info[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_init[m[K’?
+   68 |         rclcpp::Subscription<CarlaEgoVehcileInfo>::SharedPtr [01;31m[Ksubscription_info[m[K;
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                              [32m[Krcl_subscription_init[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:[m[K In constructor ‘[01m[KSteeringReporter::SteeringReporter()[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_info[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_status[m[K’?
+   25 |         [01;31m[Ksubscription_info[m[K = this->create_subscription<CarlaEgoVehicleInfo>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Ksubscription_status[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:27:45:[m[K [01;31m[Kerror: [m[K‘[01m[KVelocityReport[m[K’ was not declared in this scope
+   27 |         publisher_ = this->create_publisher<[01;31m[KVelocityReport[m[K>("/vehicle/status/steering_status", 10);
+      |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:27:98:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSteeringReporter::create_publisher<<expression error> >(const char [32], int)[m[K’
+   27 |         publisher_ = this->create_publisher<VelocityReport>("/vehicle/status/steering_status", 10[01;31m[K)[m[K;
+      |                                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:5[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:200:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  200 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:200:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:27:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |         publisher_ = this->create_publisher<VelocityReport>("/vehicle/status/steering_status", 10[01;31m[K)[m[K;
+      |                                                                                                  [01;31m[K^[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:[m[K In member function ‘[01m[Kvoid SteeringReporter::vehicle_status_callback(carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:42:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kwheels[m[K’
+   42 |             CarlaEgoVehicleInfoWheel arr[] = msg->[01;31m[Kwheels[m[K;
+      |                                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:45:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing CarlaEgoVehicleInfoWheel = struct carla_msgs::msg::CarlaEgoVehicleInfoWheel_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct carla_msgs::msg::CarlaEgoVehicleInfoWheel_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmax_steering_angle[m[K’; did you mean ‘[01m[Kmax_steer_angle[m[K’?
+   45 |                 float wheel_angle = arr[i].[01;31m[Kmax_steering_angle[m[K;
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                            [32m[Kmax_steer_angle[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:49:38:[m[K [01;31m[Kerror: [m[K‘[01m[KMath[m[K’ was not declared in this scope
+   49 |                 max_steering_angle = [01;31m[KMath[m[K.min(max_steering_angle, wheel_angle);
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:57:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksteer[m[K’
+   57 |             printf("Steering Angle: %f\n", msg->[01;31m[Ksteer[m[K);
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:77:33:[m[K [01;31m[Kerror: [m[K‘[01m[KVelocityReporter[m[K’ was not declared in this scope
+   77 |   rclcpp::spin(std::make_shared<[01;31m[KVelocityReporter[m[K>());
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:77:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   77 |   rclcpp::spin(std::make_shared<VelocityReporter>([01;31m[K)[m[K);
+      |                                                   [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:77:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   77 |   rclcpp::spin(std::make_shared<VelocityReporter>([01;31m[K)[m[K);
+      |                                                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/steering_reporter.dir/build.make:63: CMakeFiles/steering_reporter.dir/src/steering_reporter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:252: CMakeFiles/steering_reporter.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

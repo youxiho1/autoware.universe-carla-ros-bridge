@@ -1,0 +1,22 @@
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:[m[K In member function ‘[01m[Kvoid SteeringReporter::vehicle_status_callback(carla_msgs::msg::CarlaEgoVehicleStatus_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:45:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kwheels[m[K’ in ‘[01m[K((SteeringReporter*)this)->SteeringReporter::vehicleInfo[m[K’, which is of pointer type ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo*[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >*[m[K’} (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   45 |             arr[0] = vehicleInfo.[01;31m[Kwheels[m[K[0];
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:46:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kwheels[m[K’ in ‘[01m[K((SteeringReporter*)this)->SteeringReporter::vehicleInfo[m[K’, which is of pointer type ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo*[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >*[m[K’} (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   46 |             arr[1] = vehicleInfo.[01;31m[Kwheels[m[K[1];
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:47:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kwheels[m[K’ in ‘[01m[K((SteeringReporter*)this)->SteeringReporter::vehicleInfo[m[K’, which is of pointer type ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo*[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >*[m[K’} (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   47 |             arr[2] = vehicleInfo.[01;31m[Kwheels[m[K[2];
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:48:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kwheels[m[K’ in ‘[01m[K((SteeringReporter*)this)->SteeringReporter::vehicleInfo[m[K’, which is of pointer type ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo*[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >*[m[K’} (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   48 |             arr[3] = vehicleInfo.[01;31m[Kwheels[m[K[3];
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:[m[K In member function ‘[01m[Kvoid SteeringReporter::vehicle_info_callback(carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/steering_reporter.cpp:68:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >::ConstSharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<const carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> > >[m[K’} to ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo*[m[K’ {aka ‘[01m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >*[m[K’} in assignment
+   68 |             vehicleInfo = [01;31m[Kmsg[m[K;
+      |                           [01;31m[K^~~[m[K
+      |                           [01;31m[K|[m[K
+      |                           [01;31m[Kcarla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> >::ConstSharedPtr {aka std::shared_ptr<const carla_msgs::msg::CarlaEgoVehicleInfo_<std::allocator<void> > >}[m[K
+make[2]: *** [CMakeFiles/steering_reporter.dir/build.make:63: CMakeFiles/steering_reporter.dir/src/steering_reporter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:252: CMakeFiles/steering_reporter.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

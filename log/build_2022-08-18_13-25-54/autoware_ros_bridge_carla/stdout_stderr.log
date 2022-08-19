@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target odometry_remapper[0m
+[ 14%] Built target jsontest
+[ 28%] Built target listener
+[ 42%] Built target sender
+[ 57%] Built target velocity_reporter
+[ 71%] Built target steering_reporter
+[ 85%] Built target control_command_converter
+[ 92%] [32mBuilding CXX object CMakeFiles/odometry_remapper.dir/src/odometry_remapper.cpp.o[0m
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:[m[K In member function ‘[01m[Kvoid OdometryRemapper::topic_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:64:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_stddev_[m[K’ was not declared in this scope
+   64 |       message.pose.covariance[0 * 6 + 0] = [01;31m[Kx_stddev_[m[K;
+      |                                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:65:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_stddev_[m[K’ was not declared in this scope
+   65 |       message.pose.covariance[1 * 6 + 1] = [01;31m[Ky_stddev_[m[K;
+      |                                            [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/odometry_remapper.dir/build.make:63: CMakeFiles/odometry_remapper.dir/src/odometry_remapper.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/odometry_remapper.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

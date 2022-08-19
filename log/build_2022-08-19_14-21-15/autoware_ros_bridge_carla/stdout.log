@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target odometry_remapper[0m
+[ 14%] Built target jsontest
+[ 28%] Built target control_command_converter
+[ 42%] Built target sender
+[ 57%] Built target steering_reporter
+[ 71%] Built target velocity_reporter
+[ 85%] Built target listener
+[ 92%] [32mBuilding CXX object CMakeFiles/odometry_remapper.dir/src/odometry_remapper.cpp.o[0m
+[100%] [32m[1mLinking CXX executable odometry_remapper[0m
+[100%] Built target odometry_remapper
+-- Install configuration: ""
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/listener
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/jsontest
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/sender
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/control_command_converter
+-- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/odometry_remapper
+-- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/odometry_remapper" to ""
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/velocity_reporter
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/steering_reporter
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/package_run_dependencies/autoware_ros_bridge_carla
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/parent_prefix_path/autoware_ros_bridge_carla
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/path.sh
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/path.dsv
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.bash
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.sh
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.zsh
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.dsv
+-- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.dsv
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/packages/autoware_ros_bridge_carla
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/cmake/autoware_ros_bridge_carlaConfig.cmake
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/cmake/autoware_ros_bridge_carlaConfig-version.cmake
+-- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.xml
