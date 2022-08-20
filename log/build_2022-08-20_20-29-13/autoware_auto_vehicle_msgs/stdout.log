@@ -1,0 +1,14 @@
+[  5%] Built target autoware_auto_vehicle_msgs__cpp
+[ 12%] Built target autoware_auto_vehicle_msgs__rosidl_generator_c
+[ 23%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_cpp
+[ 33%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp
+[ 43%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_c
+[ 53%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_c
+[ 64%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c
+[ 74%] Built target autoware_auto_vehicle_msgs
+[ 76%] Built target autoware_auto_vehicle_msgs__py
+[ 84%] Built target autoware_auto_vehicle_msgs__python
+[ 94%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_c__pyext
+[ 94%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext

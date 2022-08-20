@@ -1,7 +1,0 @@
-[  0%] Built target carla_msgs__cpp
-[ 12%] Built target carla_msgs__rosidl_generator_c
-[ 24%] Built target carla_msgs__rosidl_typesupport_cpp
-[ 37%] Built target carla_msgs__rosidl_typesupport_introspection_cpp
-[ 49%] Built target carla_msgs__rosidl_typesupport_fastrtps_cpp
-[ 61%] Built target carla_msgs__rosidl_typesupport_c
-[ 73%] Built target carla_msgs__rosidl_typesupport_introspection_c

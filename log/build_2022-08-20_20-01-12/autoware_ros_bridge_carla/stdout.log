@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target odometry_remapper[0m
+[ 11%] Built target jsontest
+[ 22%] Built target velocity_reporter
+[ 33%] Built target control_command_converter
+[ 44%] Built target listener
+[ 55%] Built target steering_reporter
+[ 66%] Built target sensor_converter
+[ 77%] Built target gnss_converter
+[ 88%] Built target sender
+[ 94%] [32mBuilding CXX object CMakeFiles/odometry_remapper.dir/src/odometry_remapper.cpp.o[0m

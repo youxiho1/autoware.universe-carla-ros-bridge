@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target sensor_converter[0m
+[ 11%] Built target jsontest
+[ 22%] Built target gnss_converter
+[ 44%] Built target odometry_remapper
+[ 44%] Built target steering_reporter
+[ 55%] Built target velocity_reporter
+[ 66%] Built target control_command_converter
+[ 77%] Built target listener
+[ 88%] Built target sender
+[ 94%] [32mBuilding CXX object CMakeFiles/sensor_converter.dir/src/sensor_message_converter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sensor_converter[0m

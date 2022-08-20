@@ -1,0 +1,8 @@
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:[m[K In member function ‘[01m[Kvoid OdometryRemapper::topic_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:66:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessaage[m[K’ was not declared in this scope; did you mean ‘[01m[Kmessage[m[K’?
+   66 |       [01;31m[Kmessaage[m[K.header.frame_id = "odom";
+      |       [01;31m[K^~~~~~~~[m[K
+      |       [32m[Kmessage[m[K
+make[2]: *** [CMakeFiles/odometry_remapper.dir/build.make:63: CMakeFiles/odometry_remapper.dir/src/odometry_remapper.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/odometry_remapper.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

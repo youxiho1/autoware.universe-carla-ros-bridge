@@ -1,0 +1,107 @@
+[0.019s] Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic /usr/bin/cmake /home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla -DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla
+[0.037s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.060s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.129s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.171s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.360s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.361s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.381s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.538s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[0.668s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.747s] -- Found tf2_msgs: 0.17.3 (/opt/ros/galactic/share/tf2_msgs/cmake)
+[0.951s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/galactic/share/ackermann_msgs/cmake)
+[0.988s] -- Found autoware_auto_control_msgs: 1.0.0 (/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/cmake)
+[1.014s] -- Found autoware_auto_vehicle_msgs: 1.0.0 (/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake)
+[1.056s] -- Found carla_msgs: 1.3.0 (/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/cmake)
+[1.240s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.307s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.309s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.310s] -- Configured cppcheck include dirs: /home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/include
+[1.310s] -- Configured cppcheck exclude dirs and/or files: 
+[1.311s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.311s] -- Configured cpplint exclude dirs and/or files: 
+[1.312s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.312s] -- Added test 'lint_cmake' to check CMake code style
+[1.313s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.314s] -- Added test 'uncrustify' to check C / C++ code style
+[1.314s] -- Configured uncrustify additional arguments: 
+[1.315s] -- Added test 'xmllint' to check XML markup files
+[1.317s] -- Configuring done
+[1.364s] -- Generating done
+[1.366s] -- Build files have been written to: /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla
+[1.374s] Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla' returned '0': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic /usr/bin/cmake /home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla -DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla
+[1.378s] Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla --clean-first -- -j16 -l16
+[1.530s] [35m[1mScanning dependencies of target sensor_converter[0m
+[1.530s] [35m[1mScanning dependencies of target odometry_remapper[0m
+[1.530s] [35m[1mScanning dependencies of target sender[0m
+[1.530s] [35m[1mScanning dependencies of target jsontest[0m
+[1.531s] [35m[1mScanning dependencies of target gnss_converter[0m
+[1.531s] [35m[1mScanning dependencies of target velocity_reporter[0m
+[1.531s] [35m[1mScanning dependencies of target listener[0m
+[1.531s] [35m[1mScanning dependencies of target steering_reporter[0m
+[1.532s] [35m[1mScanning dependencies of target control_command_converter[0m
+[1.564s] [  5%] [32mBuilding CXX object CMakeFiles/jsontest.dir/src/simpledom.cpp.o[0m
+[1.585s] [ 11%] [32mBuilding CXX object CMakeFiles/sensor_converter.dir/src/sensor_message_converter.cpp.o[0m
+[1.585s] [ 22%] [32mBuilding CXX object CMakeFiles/gnss_converter.dir/src/gnss_converter.cpp.o[0m
+[1.585s] [ 22%] [32mBuilding CXX object CMakeFiles/odometry_remapper.dir/src/odometry_remapper.cpp.o[0m
+[1.595s] [ 27%] [32mBuilding CXX object CMakeFiles/steering_reporter.dir/src/steering_reporter.cpp.o[0m
+[1.601s] [ 33%] [32mBuilding CXX object CMakeFiles/velocity_reporter.dir/src/velocity_reporter.cpp.o[0m
+[1.610s] [ 38%] [32mBuilding CXX object CMakeFiles/sender.dir/src/controlCommandForwarding.cpp.o[0m
+[1.612s] [ 44%] [32mBuilding CXX object CMakeFiles/control_command_converter.dir/src/control_command_converter.cpp.o[0m
+[1.617s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/testControlCommand.cpp.o[0m
+[2.552s] [ 55%] [32m[1mLinking CXX executable jsontest[0m
+[2.695s] [ 55%] Built target jsontest
+[8.144s] [ 61%] [32m[1mLinking CXX executable sender[0m
+[8.406s] [ 61%] Built target sender
+[12.070s] [ 66%] [32m[1mLinking CXX executable gnss_converter[0m
+[12.179s] [ 72%] [32m[1mLinking CXX executable listener[0m
+[12.364s] [ 77%] [32m[1mLinking CXX executable velocity_reporter[0m
+[12.462s] [ 77%] Built target gnss_converter
+[12.574s] [ 77%] Built target listener
+[12.615s] [ 83%] [32m[1mLinking CXX executable control_command_converter[0m
+[12.785s] [ 83%] Built target velocity_reporter
+[12.814s] [ 88%] [32m[1mLinking CXX executable odometry_remapper[0m
+[12.980s] [ 88%] Built target control_command_converter
+[13.162s] [ 94%] [32m[1mLinking CXX executable sensor_converter[0m
+[13.206s] [ 94%] Built target odometry_remapper
+[13.507s] [ 94%] Built target sensor_converter
+[15.277s] [100%] [32m[1mLinking CXX executable steering_reporter[0m
+[15.677s] [100%] Built target steering_reporter
+[15.689s] Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla' returned '0': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla --clean-first -- -j16 -l16
+[15.731s] Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla
+[15.741s] -- Install configuration: ""
+[15.741s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/listener
+[15.745s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/listener" to ""
+[15.745s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/jsontest
+[15.745s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/sender
+[15.746s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/sender" to ""
+[15.746s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/control_command_converter
+[15.748s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/control_command_converter" to ""
+[15.749s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/odometry_remapper
+[15.751s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/odometry_remapper" to ""
+[15.751s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/velocity_reporter
+[15.754s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/velocity_reporter" to ""
+[15.754s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/steering_reporter
+[15.758s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/steering_reporter" to ""
+[15.758s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/gnss_converter
+[15.761s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/gnss_converter" to ""
+[15.761s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/sensor_converter
+[15.764s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/lib/autoware_ros_bridge_carla/sensor_converter" to ""
+[15.765s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/package_run_dependencies/autoware_ros_bridge_carla
+[15.765s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/parent_prefix_path/autoware_ros_bridge_carla
+[15.765s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/ament_prefix_path.sh
+[15.765s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/ament_prefix_path.dsv
+[15.765s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/path.sh
+[15.765s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/environment/path.dsv
+[15.766s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.bash
+[15.766s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.sh
+[15.766s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.zsh
+[15.766s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/local_setup.dsv
+[15.766s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.dsv
+[15.766s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/ament_index/resource_index/packages/autoware_ros_bridge_carla
+[15.767s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/cmake/autoware_ros_bridge_carlaConfig.cmake
+[15.767s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/cmake/autoware_ros_bridge_carlaConfig-version.cmake
+[15.767s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla/share/autoware_ros_bridge_carla/package.xml
+[15.774s] Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla' returned '0': CMAKE_PREFIX_PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs:/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_ros_bridge_carla:/opt/ros/galactic /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_ros_bridge_carla

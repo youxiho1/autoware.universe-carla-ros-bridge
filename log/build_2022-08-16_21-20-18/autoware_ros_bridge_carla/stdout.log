@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target steering_reporter[0m
-[ 14%] Built target jsontest
-[ 71%] Built target sender
-[ 71%] Built target listener
-[ 71%] Built target control_command_converter
-[ 71%] Built target velocity_reporter
-[ 85%] Built target odometry_remapper
-[ 92%] [32mBuilding CXX object CMakeFiles/steering_reporter.dir/src/steering_reporter.cpp.o[0m

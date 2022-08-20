@@ -1,0 +1,4 @@
+CMake Error at CMakeLists.txt:55 (install):
+  install TARGETS given target "jsontest" which does not exist.
+
+

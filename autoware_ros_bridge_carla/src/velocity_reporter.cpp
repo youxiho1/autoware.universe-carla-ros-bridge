@@ -22,13 +22,16 @@ class VelocityReporter : public rclcpp::Node {
     private:
         void topic_callback(Float32::ConstSharedPtr msg) {
             VelocityReport message;
-            //message.child_frame_id = "base_link";
+            // message.child_frame_id = "base_link";
             message.header.frame_id = "base_link";
             message.header.stamp = get_clock()->now();
             message.longitudinal_velocity = msg->data;
+            if(message.longitudinal_velocity < 0.0) {
+                message.longitudinal_velocity = 0.0;
+            }
             message.lateral_velocity = 0.0f;
             message.heading_rate = 0.0f;
-            printf("Speed: %f\n", msg->data);
+            printf("Speed: %f\n", message.longitudinal_velocity);
             publisher_->publish(message);
         }
 

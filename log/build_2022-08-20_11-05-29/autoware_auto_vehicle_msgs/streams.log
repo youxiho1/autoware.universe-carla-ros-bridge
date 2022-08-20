@@ -1,0 +1,241 @@
+[0.037s] Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/tasl/autoware.universe-carla-ros-bridge/autoware_auto_vehicle_msgs -DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs
+[0.136s] -- The C compiler identification is GNU 7.5.0
+[0.198s] -- The CXX compiler identification is GNU 9.4.0
+[0.203s] -- Check for working C compiler: /usr/bin/cc
+[0.269s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.271s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.355s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.443s] -- Detecting CXX compiler ABI info
+[0.524s] -- Detecting CXX compiler ABI info - done
+[0.538s] -- Detecting CXX compile features
+[0.538s] -- Detecting CXX compile features - done
+[0.540s] -- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.573s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.573s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.868s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.903s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.990s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.131s] -- Found ament_cmake_cppcheck: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cppcheck/cmake)
+[1.134s] -- Found ament_cmake_cpplint: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cpplint/cmake)
+[1.137s] -- Found ament_cmake_uncrustify: 0.10.7 (/opt/ros/galactic/share/ament_cmake_uncrustify/cmake)
+[1.139s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[1.350s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.465s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.466s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[1.496s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.496s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.496s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.497s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.520s] -- Found PythonExtra: .so  
+[1.915s] -- Found ament_cmake_flake8: 0.10.7 (/opt/ros/galactic/share/ament_cmake_flake8/cmake)
+[1.917s] -- Found ament_cmake_pep257: 0.10.7 (/opt/ros/galactic/share/ament_cmake_pep257/cmake)
+[1.920s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.936s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.936s] -- Added test 'lint_cmake' to check CMake code style
+[1.937s] -- Added test 'xmllint' to check XML markup files
+[1.944s] -- Configuring done
+[2.001s] -- Generating done
+[2.004s] -- Build files have been written to: /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs
+[2.015s] Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/tasl/autoware.universe-carla-ros-bridge/autoware_auto_vehicle_msgs -DCMAKE_INSTALL_PREFIX=/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs
+[2.017s] Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs -- -j16 -l16
+[2.064s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.065s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__cpp[0m
+[2.077s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.472s] [  5%] Built target autoware_auto_vehicle_msgs__cpp
+[2.492s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.492s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.492s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.561s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__rosidl_generator_c[0m
+[2.582s] [ 15%] [32mBuilding C object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_auto_vehicle_msgs/msg/detail/velocity_report__functions.c.o[0m
+[2.582s] [ 17%] [32mBuilding C object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_auto_vehicle_msgs/msg/detail/steering_report__functions.c.o[0m
+[2.662s] [ 20%] [32m[1mLinking C shared library libautoware_auto_vehicle_msgs__rosidl_generator_c.so[0m
+[2.716s] [ 20%] Built target autoware_auto_vehicle_msgs__rosidl_generator_c
+[2.730s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.731s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.966s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.985s] [ 30%] [32mBuilding CXX object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_auto_vehicle_msgs/msg/detail/steering_report__type_support.cpp.o[0m
+[2.986s] [ 30%] [32mBuilding CXX object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_auto_vehicle_msgs/msg/detail/velocity_report__type_support.cpp.o[0m
+[3.001s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__rosidl_typesupport_cpp[0m
+[3.021s] [ 33%] [32mBuilding CXX object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_auto_vehicle_msgs/msg/steering_report__type_support.cpp.o[0m
+[3.022s] [ 35%] [32mBuilding CXX object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_auto_vehicle_msgs/msg/velocity_report__type_support.cpp.o[0m
+[3.111s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.160s] [ 38%] [32mBuilding CXX object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_auto_vehicle_msgs/msg/detail/dds_fastrtps/velocity_report__type_support.cpp.o[0m
+[3.171s] [ 41%] [32mBuilding CXX object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_auto_vehicle_msgs/msg/detail/dds_fastrtps/steering_report__type_support.cpp.o[0m
+[3.241s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__rosidl_typesupport_c[0m
+[3.284s] [ 43%] [32mBuilding CXX object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_auto_vehicle_msgs/msg/steering_report__type_support.cpp.o[0m
+[3.292s] [ 46%] [32mBuilding CXX object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_auto_vehicle_msgs/msg/velocity_report__type_support.cpp.o[0m
+[3.294s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_c[0m
+[3.374s] [ 48%] [32mBuilding C object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_auto_vehicle_msgs/msg/detail/steering_report__type_support.c.o[0m
+[3.378s] [ 51%] [32mBuilding C object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_auto_vehicle_msgs/msg/detail/velocity_report__type_support.c.o[0m
+[3.407s] [ 53%] [32m[1mLinking CXX shared library libautoware_auto_vehicle_msgs__rosidl_typesupport_c.so[0m
+[3.488s] [ 56%] [32m[1mLinking C shared library libautoware_auto_vehicle_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.590s] [ 58%] [32m[1mLinking CXX shared library libautoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.600s] [ 58%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_c
+[3.648s] [ 58%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_c
+[3.771s] [ 61%] [32m[1mLinking CXX shared library libautoware_auto_vehicle_msgs__rosidl_typesupport_cpp.so[0m
+[3.835s] [ 61%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp
+[3.972s] [ 61%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_cpp
+[4.214s] [ 64%] [32m[1mLinking CXX shared library libautoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.352s] [ 64%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp
+[4.365s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.750s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c[0m
+[4.778s] [ 71%] [32mBuilding CXX object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_auto_vehicle_msgs/msg/detail/velocity_report__type_support_c.cpp.o[0m
+[4.778s] [ 71%] [32mBuilding CXX object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_auto_vehicle_msgs/msg/detail/steering_report__type_support_c.cpp.o[0m
+[5.242s] [ 74%] [32m[1mLinking CXX shared library libautoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.356s] [ 74%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c
+[5.367s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs[0m
+[5.381s] [ 74%] Built target autoware_auto_vehicle_msgs
+[5.394s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__py[0m
+[5.408s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.279s] [ 76%] Built target autoware_auto_vehicle_msgs__py
+[6.292s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__python[0m
+[6.338s] [ 82%] [32mBuilding C object CMakeFiles/autoware_auto_vehicle_msgs__python.dir/rosidl_generator_py/autoware_auto_vehicle_msgs/msg/_steering_report_s.c.o[0m
+[6.338s] [ 82%] [32mBuilding C object CMakeFiles/autoware_auto_vehicle_msgs__python.dir/rosidl_generator_py/autoware_auto_vehicle_msgs/msg/_velocity_report_s.c.o[0m
+[6.448s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/autoware_auto_vehicle_msgs/libautoware_auto_vehicle_msgs__python.so[0m
+[6.503s] [ 84%] Built target autoware_auto_vehicle_msgs__python
+[6.517s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[6.518s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__rosidl_typesupport_c__pyext[0m
+[6.519s] [35m[1mScanning dependencies of target autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.545s] [ 87%] [32mBuilding C object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autoware_auto_vehicle_msgs/_autoware_auto_vehicle_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.547s] [ 89%] [32mBuilding C object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autoware_auto_vehicle_msgs/_autoware_auto_vehicle_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.552s] [ 92%] [32mBuilding C object CMakeFiles/autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autoware_auto_vehicle_msgs/_autoware_auto_vehicle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.653s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/autoware_auto_vehicle_msgs/autoware_auto_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.660s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/autoware_auto_vehicle_msgs/autoware_auto_vehicle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.676s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/autoware_auto_vehicle_msgs/autoware_auto_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.705s] [100%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_c__pyext
+[6.716s] [100%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_c__pyext
+[6.768s] [100%] Built target autoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.781s] Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs -- -j16 -l16
+[6.869s] Invoking command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs
+[6.882s] -- Install configuration: ""
+[6.882s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/ament_index/resource_index/rosidl_interfaces/autoware_auto_vehicle_msgs
+[6.882s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs
+[6.882s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg
+[6.883s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/velocity_report.h
+[6.883s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/steering_report.h
+[6.883s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail
+[6.883s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__functions.h
+[6.883s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__type_support.h
+[6.883s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__functions.c
+[6.884s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__struct.h
+[6.884s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__functions.c
+[6.884s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__type_support.h
+[6.884s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__struct.h
+[6.884s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__functions.h
+[6.884s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.884s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/environment/library_path.sh
+[6.885s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/environment/library_path.dsv
+[6.885s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_generator_c.so
+[6.885s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_generator_c.so" to ""
+[6.885s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs
+[6.885s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg
+[6.885s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail
+[6.885s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__rosidl_typesupport_fastrtps_c.h
+[6.886s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__rosidl_typesupport_fastrtps_c.h
+[6.886s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.886s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c.so
+[6.886s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.886s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs
+[6.886s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg
+[6.887s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail
+[6.887s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__rosidl_typesupport_fastrtps_cpp.hpp
+[6.887s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/dds_fastrtps
+[6.887s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__rosidl_typesupport_fastrtps_cpp.hpp
+[6.887s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.888s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.888s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.888s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs
+[6.888s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg
+[6.888s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.888s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail
+[6.889s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__type_support.c
+[6.889s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__rosidl_typesupport_introspection_c.h
+[6.889s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__rosidl_typesupport_introspection_c.h
+[6.889s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__type_support.c
+[6.889s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_introspection_c.so
+[6.890s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.890s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_c.so
+[6.890s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_c.so" to ""
+[6.890s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs
+[6.890s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg
+[6.890s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/steering_report.hpp
+[6.890s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/velocity_report.hpp
+[6.891s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail
+[6.891s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__struct.hpp
+[6.891s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__struct.hpp
+[6.891s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__traits.hpp
+[6.891s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__builder.hpp
+[6.891s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__traits.hpp
+[6.891s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__builder.hpp
+[6.891s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs
+[6.892s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg
+[6.892s] -- Up-to-date: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail
+[6.892s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__rosidl_typesupport_introspection_cpp.hpp
+[6.892s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/velocity_report__type_support.cpp
+[6.892s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__rosidl_typesupport_introspection_cpp.hpp
+[6.892s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include/autoware_auto_vehicle_msgs/msg/detail/steering_report__type_support.cpp
+[6.892s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp.so
+[6.892s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.892s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_cpp.so
+[6.893s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_cpp.so" to ""
+[6.893s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/environment/pythonpath.sh
+[6.893s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/environment/pythonpath.dsv
+[6.893s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/__init__.py
+[6.929s] Compiling '/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/__init__.py'...
+[6.935s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/msg
+[6.935s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/msg/_steering_report_s.c
+[6.935s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/msg/_velocity_report_s.c
+[6.935s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/msg/__init__.py
+[6.936s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/msg/_steering_report.py
+[6.936s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/msg/_velocity_report.py
+[6.936s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/autoware_auto_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.937s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/autoware_auto_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.937s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/autoware_auto_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.938s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/autoware_auto_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.938s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/autoware_auto_vehicle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[6.939s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/python3.8/site-packages/autoware_auto_vehicle_msgs/autoware_auto_vehicle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.939s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__python.so
+[6.940s] -- Set runtime path of "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__python.so" to ""
+[6.940s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/msg/SteeringReport.idl
+[6.940s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/msg/VelocityReport.idl
+[6.940s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_auto_vehicle_msgs
+[6.940s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_auto_vehicle_msgs
+[6.941s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/environment/ament_prefix_path.sh
+[6.941s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/environment/ament_prefix_path.dsv
+[6.941s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/environment/path.sh
+[6.941s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/environment/path.dsv
+[6.941s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/local_setup.bash
+[6.941s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/local_setup.sh
+[6.942s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/local_setup.zsh
+[6.942s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/local_setup.dsv
+[6.942s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/package.dsv
+[6.942s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/ament_index/resource_index/packages/autoware_auto_vehicle_msgs
+[6.942s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgs__rosidl_generator_cExport.cmake
+[6.942s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.943s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.943s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.943s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgs__rosidl_typesupport_cExport.cmake
+[6.943s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.943s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgs__rosidl_generator_cppExport.cmake
+[6.943s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.944s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.944s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgs__rosidl_typesupport_cppExport.cmake
+[6.944s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.944s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/rosidl_cmake-extras.cmake
+[6.944s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.945s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.945s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.945s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.945s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.946s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.946s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgsConfig.cmake
+[6.946s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/cmake/autoware_auto_vehicle_msgsConfig-version.cmake
+[6.946s] -- Installing: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/share/autoware_auto_vehicle_msgs/package.xml
+[6.951s] Invoked command in '/home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/tasl/autoware.universe-carla-ros-bridge/build/autoware_auto_vehicle_msgs

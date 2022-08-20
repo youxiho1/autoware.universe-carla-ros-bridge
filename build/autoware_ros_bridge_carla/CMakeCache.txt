@@ -403,9 +403,6 @@ builtin_interfaces_DIR:PATH=/opt/ros/galactic/share/builtin_interfaces/cmake
 //The directory containing a CMake configuration file for carla_msgs.
 carla_msgs_DIR:PATH=/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/share/carla_msgs/cmake
 
-//The directory containing a CMake configuration file for catkin.
-catkin_DIR:PATH=catkin_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for diagnostic_msgs.
 diagnostic_msgs_DIR:PATH=/opt/ros/galactic/share/diagnostic_msgs/cmake
 
@@ -522,6 +519,9 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/galactic/share/rosidl_types
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/galactic/share/rosidl_typesupport_introspection_cpp/cmake
+
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/galactic/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for statistics_msgs.
 statistics_msgs_DIR:PATH=/opt/ros/galactic/share/statistics_msgs/cmake

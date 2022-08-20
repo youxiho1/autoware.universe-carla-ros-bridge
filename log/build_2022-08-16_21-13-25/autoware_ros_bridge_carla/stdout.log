@@ -1,7 +1,0 @@
-[ 14%] Built target jsontest
-[ 64%] Built target velocity_reporter
-[ 64%] Built target sender
-[ 64%] [32mBuilding CXX object CMakeFiles/steering_reporter.dir/src/steering_reporter.cpp.o[0m
-[ 64%] Built target listener
-[ 78%] Built target odometry_remapper
-[ 92%] Built target control_command_converter

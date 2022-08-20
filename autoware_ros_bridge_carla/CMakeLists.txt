@@ -17,6 +17,8 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 find_package(tf2_msgs REQUIRED)
 find_package(ackermann_msgs REQUIRED)
 find_package(autoware_auto_control_msgs REQUIRED)
@@ -30,6 +32,8 @@ add_executable(control_command_converter src/control_command_converter.cpp)
 add_executable(odometry_remapper src/odometry_remapper.cpp)
 add_executable(velocity_reporter src/velocity_reporter.cpp)
 add_executable(steering_reporter src/steering_reporter.cpp)
+add_executable(gnss_converter src/gnss_converter.cpp)
+add_executable(sensor_converter src/sensor_message_converter.cpp)
 
 ament_target_dependencies(
   listener rclcpp std_msgs autoware_auto_control_msgs)
@@ -38,11 +42,16 @@ ament_target_dependencies(
 ament_target_dependencies(
   control_command_converter rclcpp ackermann_msgs autoware_auto_control_msgs)
 ament_target_dependencies(
-  odometry_remapper rclcpp nav_msgs geometry_msgs tf2_msgs)
+  odometry_remapper rclcpp nav_msgs geometry_msgs tf2_msgs std_msgs)
 ament_target_dependencies(
   velocity_reporter rclcpp std_msgs autoware_auto_vehicle_msgs)
 ament_target_dependencies(
   steering_reporter rclcpp carla_msgs autoware_auto_vehicle_msgs)
+ament_target_dependencies(
+  gnss_converter rclcpp sensor_msgs)
+  
+ament_target_dependencies(
+  sensor_converter rclcpp geometry_msgs nav_msgs sensor_msgs)
 
 install(TARGETS
   listener
@@ -52,6 +61,8 @@ install(TARGETS
   odometry_remapper
   velocity_reporter
   steering_reporter
+  gnss_converter
+  sensor_converter
   DESTINATION lib/${PROJECT_NAME})
         
         

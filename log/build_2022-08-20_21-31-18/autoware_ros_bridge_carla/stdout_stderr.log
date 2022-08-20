@@ -1,0 +1,43 @@
+[35m[1mScanning dependencies of target odometry_remapper[0m
+[ 11%] Built target jsontest
+[ 22%] Built target gnss_converter
+[ 33%] Built target sensor_converter
+[ 44%] Built target velocity_reporter
+[ 55%] Built target listener
+[ 66%] Built target sender
+[ 77%] Built target steering_reporter
+[ 88%] Built target control_command_converter
+[ 94%] [32mBuilding CXX object CMakeFiles/odometry_remapper.dir/src/odometry_remapper.cpp.o[0m
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:[m[K In constructor ‘[01m[KOdometryRemapper::OdometryRemapper()[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:30:15:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Float32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Float32_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   30 |       speed = [01;31m[K0[m[K;   //init
+      |               [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/std_msgs/msg/float32.hpp:7[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:9[m[K:
+[01m[K/opt/ros/galactic/include/std_msgs/msg/detail/float32__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Float32_<std::allocator<void> >& std_msgs::msg::Float32_<std::allocator<void> >::operator=(const std_msgs::msg::Float32_<std::allocator<void> >&)[m[K’
+   31 | struct [01;36m[KFloat32_[m[K
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/std_msgs/msg/detail/float32__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Float32_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/galactic/include/std_msgs/msg/detail/float32__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Float32_<std::allocator<void> >& std_msgs::msg::Float32_<std::allocator<void> >::operator=(std_msgs::msg::Float32_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/galactic/include/std_msgs/msg/detail/float32__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Float32_<std::allocator<void> >&&[m[K’
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:[m[K In member function ‘[01m[Kvoid OdometryRemapper::topic_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:80:38:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msgs::msg::Float32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Float32_<std::allocator<void> >[m[K’} to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+   80 |       message.twist.twist.linear.x = [01;31m[Kspeed[m[K;
+      |                                      [01;31m[K^~~~~[m[K
+      |                                      [01;31m[K|[m[K
+      |                                      [01;31m[Kstd_msgs::msg::Float32 {aka std_msgs::msg::Float32_<std::allocator<void> >}[m[K
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:[m[K In member function ‘[01m[Kvoid OdometryRemapper::velocity_callback(std_msgs::msg::Float32_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:91:20:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Float32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Float32_<std::allocator<void> >[m[K’} and ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst float[m[K’})
+   91 |       speed = msg->[01;31m[Kdata[m[K;
+      |                    [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/std_msgs/msg/float32.hpp:7[m[K,
+                 from [01m[K/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/src/odometry_remapper.cpp:9[m[K:
+[01m[K/opt/ros/galactic/include/std_msgs/msg/detail/float32__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Float32_<std::allocator<void> >& std_msgs::msg::Float32_<std::allocator<void> >::operator=(const std_msgs::msg::Float32_<std::allocator<void> >&)[m[K’
+   31 | struct [01;36m[KFloat32_[m[K
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/std_msgs/msg/detail/float32__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst float[m[K’} to ‘[01m[Kconst std_msgs::msg::Float32_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/galactic/include/std_msgs/msg/detail/float32__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Float32_<std::allocator<void> >& std_msgs::msg::Float32_<std::allocator<void> >::operator=(std_msgs::msg::Float32_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/galactic/include/std_msgs/msg/detail/float32__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst float[m[K’} to ‘[01m[Kstd_msgs::msg::Float32_<std::allocator<void> >&&[m[K’
+make[2]: *** [CMakeFiles/odometry_remapper.dir/build.make:63: CMakeFiles/odometry_remapper.dir/src/odometry_remapper.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/odometry_remapper.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

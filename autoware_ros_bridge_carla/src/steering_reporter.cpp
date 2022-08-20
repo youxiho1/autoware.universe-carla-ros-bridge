@@ -55,8 +55,8 @@ class SteeringReporter : public rclcpp::Node {
                 max_steering_angle = std::min(max_steering_angle, wheel_angle);
             }
 
-            message.steering_tire_angle = msg->control.steer * max_steering_angle;
-            //message.steering_tire_angle = msg->control.steer;
+            //message.steering_tire_angle = msg->control.steer * max_steering_angle;
+            message.steering_tire_angle = msg->control.steer;
 
             //VelocityReport velocityReport;
             //status.speed = data.velocity;

@@ -6,6 +6,7 @@
 #include "nav_msgs/msg/odometry.hpp"
 #include "geometry_msgs/msg/transform_stamped.hpp"
 #include "tf2_msgs/msg/tf_message.hpp"
+#include "std_msgs/msg/float32.hpp"
 
 // #include <tf2/LinearMath/Quaternion.h>
 // #include <tf2_ros/transform_broadcaster.h>
@@ -17,15 +18,21 @@ using std::placeholders::_1;
 using rclcpp::QoS;
 using nav_msgs::msg::Odometry;
 using geometry_msgs::msg::TransformStamped;
+using std_msgs::msg::Float32;
 
 class OdometryRemapper : public rclcpp::Node
 {
   public:
+    std_msgs::msg::Float32 speed;
+
     OdometryRemapper() : Node("odometry_remapper")
     {
+
       //Subscribe autoware's control command topic: /control/command/control_cmd
       subscription_ = this->create_subscription<Odometry>(
         "/carla/ego_vehicle/odometry", 10, std::bind(&OdometryRemapper::topic_callback, this, _1));
+      subscription_speed = this->create_subscription<Float32>(
+        "/carla/ego_vehicle/speedometer", 10, std::bind(&OdometryRemapper::velocity_callback, this, _1));
       publisher_ = this->create_publisher<Odometry>("/localization/kinematic_state", 10);
       pub_tf_ = this->create_publisher<tf2_msgs::msg::TFMessage>("/tf", QoS{1});
     }
@@ -63,12 +70,16 @@ class OdometryRemapper : public rclcpp::Node
       Odometry message = *msg;
       message.pose.covariance[0 * 6 + 0] = 0.0001;
       message.pose.covariance[1 * 6 + 1] = 0.0001;
+      message.header.frame_id = "map";
       // message.child_frame_id = "base_link";
       message.header.stamp = get_clock()->now();
       message.pose.pose.position.z = 0;
       message.pose.pose.orientation.x = 0;
       message.pose.pose.orientation.y = 0;
-      message.twist.twist.linear.x = 0;
+      if(speed.data < 0) {
+        speed.data = 0;
+      }
+      message.twist.twist.linear.x = speed.data;
       message.twist.twist.linear.y = 0;
       message.twist.twist.linear.z = 0;
       message.twist.twist.angular.x = 0;
@@ -78,9 +89,13 @@ class OdometryRemapper : public rclcpp::Node
       publish_tf(message);
     }
   
+    void velocity_callback(Float32::ConstSharedPtr msg) {
+      speed = *msg;
+    }
 
   protected:
     rclcpp::Subscription<Odometry>::SharedPtr subscription_; 
+    rclcpp::Subscription<Float32>::SharedPtr subscription_speed;
     rclcpp::Publisher<Odometry>::SharedPtr publisher_;
     rclcpp::Publisher<tf2_msgs::msg::TFMessage>::SharedPtr pub_tf_;
 
