@@ -88,6 +88,10 @@ steering_reporter: /home/tasl/autoware.universe-carla-ros-bridge/install/autowar
 steering_reporter: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_c.so
 steering_reporter: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_introspection_cpp.so
 steering_reporter: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/lib/libautoware_auto_vehicle_msgs__rosidl_typesupport_cpp.so
+steering_reporter: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/libautoware_auto_control_msgs__rosidl_typesupport_introspection_c.so
+steering_reporter: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/libautoware_auto_control_msgs__rosidl_typesupport_c.so
+steering_reporter: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/libautoware_auto_control_msgs__rosidl_typesupport_introspection_cpp.so
+steering_reporter: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/libautoware_auto_control_msgs__rosidl_typesupport_cpp.so
 steering_reporter: /opt/ros/galactic/lib/libament_index_cpp.so
 steering_reporter: /opt/ros/galactic/lib/liblibstatistics_collector.so
 steering_reporter: /opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
@@ -135,6 +139,7 @@ steering_reporter: /opt/ros/galactic/lib/libstd_msgs__rosidl_generator_c.so
 steering_reporter: /opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_c.so
 steering_reporter: /opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 steering_reporter: /opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_cpp.so
+steering_reporter: /home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/lib/libautoware_auto_control_msgs__rosidl_generator_c.so
 steering_reporter: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 steering_reporter: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_generator_c.so
 steering_reporter: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_c.so

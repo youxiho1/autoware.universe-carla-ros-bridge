@@ -18,8 +18,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/tasl/autoware.universe-carla-ros-bridge/autoware_ros_bridge_carla/include"
   "/home/tasl/autoware.universe-carla-ros-bridge/install/carla_msgs/include"
-  "/opt/ros/galactic/include"
   "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_vehicle_msgs/include"
+  "/home/tasl/autoware.universe-carla-ros-bridge/install/autoware_auto_control_msgs/include"
+  "/opt/ros/galactic/include"
   )
 
 # Targets to which this target links.

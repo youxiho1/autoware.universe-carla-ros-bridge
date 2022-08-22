@@ -38,9 +38,14 @@ class ControlCommandConverter : public rclcpp::Node
       message.steering_angle = msg->lateral.steering_tire_angle;
       message.steering_angle_velocity = msg->lateral.steering_tire_rotation_rate;
       message.speed = msg->longitudinal.speed;
+      
       message.acceleration = msg->longitudinal.acceleration;
+      // if(message.speed > 0 && message.speed < 1 && msg->longitudinal.acceleration > 0) {
+      //   //message.acceleration = 0;
+      //   message.speed = 1;
+      // }
       message.jerk = msg->longitudinal.jerk;
-      printf("speed=%lf, acceleration=%lf\n", msg->longitudinal.speed, msg->longitudinal.acceleration);
+      //printf("speed=%lf, acceleration=%lf\n", msg->longitudinal.speed, msg->longitudinal.acceleration);
       publisher_->publish(message);
     }
   

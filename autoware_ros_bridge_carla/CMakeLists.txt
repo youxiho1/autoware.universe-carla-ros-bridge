@@ -46,7 +46,7 @@ ament_target_dependencies(
 ament_target_dependencies(
   velocity_reporter rclcpp std_msgs autoware_auto_vehicle_msgs)
 ament_target_dependencies(
-  steering_reporter rclcpp carla_msgs autoware_auto_vehicle_msgs)
+  steering_reporter rclcpp carla_msgs autoware_auto_vehicle_msgs autoware_auto_control_msgs)
 ament_target_dependencies(
   gnss_converter rclcpp sensor_msgs)
   

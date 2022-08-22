@@ -2,31 +2,44 @@
 #include <iostream>
 #include <cmath>
 #include <algorithm>
-
+#include <chrono>
+#include <functional>
+#include <string>
 
 #include "rclcpp/rclcpp.hpp"
 #include "autoware_auto_vehicle_msgs/msg/steering_report.hpp"
 #include "carla_msgs/msg/carla_ego_vehicle_status.hpp"
 #include "carla_msgs/msg/carla_ego_vehicle_info.hpp"
 #include "carla_msgs/msg/carla_ego_vehicle_info_wheel.hpp"
+#include "autoware_auto_control_msgs/msg/ackermann_control_command.hpp"
 
+using namespace std::chrono_literals;
 using std::placeholders::_1;
 using carla_msgs::msg::CarlaEgoVehicleStatus;
 using carla_msgs::msg::CarlaEgoVehicleInfo;
 using carla_msgs::msg::CarlaEgoVehicleInfoWheel;
 using autoware_auto_vehicle_msgs::msg::SteeringReport;
+using autoware_auto_control_msgs::msg::AckermannControlCommand;
 
 class SteeringReporter : public rclcpp::Node {
     public:
+
+        SteeringReport message;
+
+
         SteeringReporter() : Node("steering_reporter")
         {
             isInit = false;
             //Subscribe carla's vehicle status and vehicle info
-            subscription_status = this->create_subscription<CarlaEgoVehicleStatus>(
-                "/carla/ego_vehicle/vehicle_status", 10, std::bind(&SteeringReporter::vehicle_status_callback, this, _1));
-            subscription_info = this->create_subscription<CarlaEgoVehicleInfo>(
-                "/carla/ego_vehicle/vehicle_info", 10, std::bind(&SteeringReporter::vehicle_info_callback, this, _1));
+            // subscription_status = this->create_subscription<CarlaEgoVehicleStatus>(
+            //     "/carla/ego_vehicle/vehicle_status", 10, std::bind(&SteeringReporter::vehicle_status_callback, this, _1));
+            subscription_command = this->create_subscription<AckermannControlCommand>(
+                "/control/command/control_cmd", 10, std::bind(&SteeringReporter::topic_callback, this, _1)
+            );
+            // subscription_info = this->create_subscription<CarlaEgoVehicleInfo>(
+            //     "/carla/ego_vehicle/vehicle_info", 10, std::bind(&SteeringReporter::vehicle_info_callback, this, _1));
             publisher_ = this->create_publisher<SteeringReport>("/vehicle/status/steering_status", 10);
+            timer_ = this->create_wall_timer(20ms, std::bind(&SteeringReporter::timer_callback, this));
         }
 
     private:
@@ -55,13 +68,17 @@ class SteeringReporter : public rclcpp::Node {
                 max_steering_angle = std::min(max_steering_angle, wheel_angle);
             }
 
-            //message.steering_tire_angle = msg->control.steer * max_steering_angle;
             message.steering_tire_angle = msg->control.steer;
+            std::cout << "Before Calculation: " << message.steering_tire_angle << std::endl;
+
+            message.steering_tire_angle = msg->control.steer * max_steering_angle;
+            std::cout << "After Calculation: " << message.steering_tire_angle << "    ";
+            
 
             //VelocityReport velocityReport;
             //status.speed = data.velocity;
             //message.child_frame_id = "base_link";
-            printf("Steering Angle: %f\n", message.steering_tire_angle);
+            //printf("Steering Angle: %f\n", message.steering_tire_angle);
             publisher_->publish(message);
         }
 
@@ -71,13 +88,24 @@ class SteeringReporter : public rclcpp::Node {
             printf("Received VehicleInfo");
         }
 
+        void timer_callback() {
+            message.stamp = get_clock()->now();
+            publisher_->publish(message);
+        }
+
+        void topic_callback(AckermannControlCommand::ConstSharedPtr msg) {
+            message.steering_tire_angle = msg->lateral.steering_tire_angle;
+        }
+
 
     protected:
         rclcpp::Subscription<CarlaEgoVehicleStatus>::SharedPtr subscription_status; 
         rclcpp::Subscription<CarlaEgoVehicleInfo>::SharedPtr subscription_info;
+        rclcpp::Subscription<AckermannControlCommand>::SharedPtr subscription_command;
         rclcpp::Publisher<SteeringReport>::SharedPtr publisher_;
         CarlaEgoVehicleInfo vehicleInfo;
-        bool isInit;
+        bool isInit;    
+        rclcpp::TimerBase::SharedPtr timer_;
 
 };
 
