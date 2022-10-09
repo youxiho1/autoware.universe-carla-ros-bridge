@@ -79,7 +79,7 @@ class OdometryRemapper : public rclcpp::Node
       if(speed.data < 0) {
         speed.data = 0;
       }
-      message.twist.twist.linear.x = speed.data;
+      // message.twist.twist.linear.x = speed.data;
       message.twist.twist.linear.y = 0;
       message.twist.twist.linear.z = 0.0;
       message.twist.twist.angular.x = 0.0;

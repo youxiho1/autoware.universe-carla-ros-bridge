@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="autoware_ros_bridge_carla" exec="control_command_converter"/>
+  <node pkg="autoware_ros_bridge_carla" exec="steering_reporter"/>
+  <node pkg="autoware_ros_bridge_carla" exec="velocity_reporter"/>
+</launch>

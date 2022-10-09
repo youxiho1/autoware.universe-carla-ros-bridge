@@ -11,6 +11,10 @@ ament_auto_find_build_dependencies()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SteeringReport.idl"
   "msg/VelocityReport.idl"
+  "msg/ControlModeReport.idl"
+  "msg/HazardLightsReport.idl"
+  "msg/TurnIndicatorsReport.idl"
+  "msg/GearReport.idl"
   DEPENDENCIES
     "builtin_interfaces"
     "std_msgs"
