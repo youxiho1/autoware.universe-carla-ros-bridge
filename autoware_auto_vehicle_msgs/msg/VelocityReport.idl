@@ -1,1 +1,20 @@
-/home/tasl/autoware/src/core/external/autoware_auto_msgs/autoware_auto_vehicle_msgs/msg/VelocityReport.idl
+#include "std_msgs/msg/Header.idl"
+
+module autoware_auto_vehicle_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " VelocityReport.msg")
+    struct VelocityReport {
+      std_msgs::msg::Header header;
+
+      @default (value=0.0)
+      float longitudinal_velocity;
+
+      @default (value=0.0)
+      float lateral_velocity;
+
+      @default (value=0.0)
+      float heading_rate;
+    };
+  };
+};
